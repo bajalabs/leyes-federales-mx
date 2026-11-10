@@ -1,0 +1,38 @@
+{
+  "slug": "153-lfpa",
+  "numero": "153",
+  "nombre": "LEY Federal de Procedimiento Administrativo",
+  "nombre_corto": "lfpa",
+  "codigo_archivo": "LFPA",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 04/08/1994",
+  "ultima_reforma": "DOF 14/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfpa.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPA.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPA.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 525559,
+      "sha256": "a8b8019ba04a815ff0b146856625b2342e4366067e763ae5140dee7245212861",
+      "path": "leyes/153-lfpa/source/LFPA.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFPA.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFPA.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 212992,
+      "sha256": "4800aa4f5e67d50a353acf4ee9a2813b485c1b58bb4ecf0ad637b0ca1dea3995",
+      "path": "leyes/153-lfpa/source/LFPA.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:24Z"
+}

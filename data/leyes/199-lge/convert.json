@@ -1,0 +1,22 @@
+{
+  "title": "Ley General de Educación",
+  "blocks": 1149,
+  "kinds": {
+    "note": 2,
+    "heading": 99,
+    "body": 742,
+    "article_ordinal": 6,
+    "article": 183,
+    "annotation": 57,
+    "transitorio_heading": 7,
+    "ordinal_lead": 47,
+    "table": 6
+  },
+  "md_chars": 251887,
+  "slug": "199-lge",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.14
+}

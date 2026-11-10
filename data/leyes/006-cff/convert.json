@@ -1,0 +1,22 @@
+{
+  "title": "Código Fiscal de la Federación",
+  "blocks": 4690,
+  "kinds": {
+    "note": 2,
+    "heading": 103,
+    "body": 3300,
+    "article": 427,
+    "annotation": 462,
+    "table": 83,
+    "transitorio_heading": 70,
+    "article_ordinal": 83,
+    "ordinal_lead": 160
+  },
+  "md_chars": 1157161,
+  "slug": "006-cff",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.44
+}

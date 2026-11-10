@@ -1,0 +1,22 @@
+{
+  "title": "Código Penal Federal",
+  "blocks": 4998,
+  "kinds": {
+    "note": 2,
+    "heading": 394,
+    "table": 24,
+    "body": 2206,
+    "annotation": 1011,
+    "article": 585,
+    "transitorio_heading": 168,
+    "article_ordinal": 261,
+    "ordinal_lead": 347
+  },
+  "md_chars": 798795,
+  "slug": "010-cpf",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.39
+}

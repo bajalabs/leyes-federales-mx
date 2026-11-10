@@ -1,0 +1,38 @@
+{
+  "slug": "043-ldefam",
+  "numero": "043",
+  "nombre": "LEY de Disciplina del Ejército, Fuerza Aérea y Guardia Nacional",
+  "nombre_corto": "ldefam",
+  "codigo_archivo": "LDEFAGN",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 15/03/1926",
+  "ultima_reforma": "DOF 16/07/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/ldefam.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LDEFAGN.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LDEFAGN.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 480849,
+      "sha256": "3fe9742a4b38b3270a7f873cd839755785ee83b7ee2217d00af68bd9d76c0e38",
+      "path": "leyes/043-ldefam/source/LDEFAGN.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LDEFAGN.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LDEFAGN.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 107008,
+      "sha256": "fe642a2a7b2ef02a056895628aca01657acbbf4488554ad29d5495782c8abecf",
+      "path": "leyes/043-ldefam/source/LDEFAGN.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:05Z"
+}

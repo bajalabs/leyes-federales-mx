@@ -1,0 +1,38 @@
+{
+  "slug": "023-larefam",
+  "numero": "023",
+  "nombre": "LEY de Ascensos y Recompensas del Ejército, Fuerza Aérea y Guardia Nacional",
+  "nombre_corto": "larefam",
+  "codigo_archivo": "LAREFAGN",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 30/10/2003",
+  "ultima_reforma": "DOF 16/07/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/larefam.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LAREFAGN.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LAREFAGN.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 825457,
+      "sha256": "9361fe806edd4f3ba0cea975e050eddbc77ff769e9bd8aa70876cb58a31e2975",
+      "path": "leyes/023-larefam/source/LAREFAGN.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LAREFAGN.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LAREFAGN.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 235008,
+      "sha256": "5c2dc8d1bb74530196a55a8bed503d792cc427efb74050cbd73b6f392bb46c07",
+      "path": "leyes/023-larefam/source/LAREFAGN.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:01Z"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "164-lfrm",
+  "numero": "164",
+  "nombre": "LEY Federal de Revocación de Mandato",
+  "nombre_corto": "lfrm",
+  "codigo_archivo": "LFRM",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 14/09/2021",
+  "ultima_reforma": "DOF 26/09/2022 Sentencia SCJN",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfrm.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFRM.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFRM.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 608253,
+      "sha256": "eddfcf458c46cacee55392a138412b0d014bcc306c455d92ed94250efce4904c",
+      "path": "leyes/164-lfrm/source/LFRM.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFRM.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFRM.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 142848,
+      "sha256": "1af688134ffeaa78ba11ea7998122e010047b4b29f2cba62b3d3c9b5a612eec6",
+      "path": "leyes/164-lfrm/source/LFRM.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:26Z"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "060a-lif_2025",
+  "numero": "060 A",
+  "nombre": "LEY de Ingresos de la Federación para el Ejercicio Fiscal de 2025",
+  "nombre_corto": "lif_2025",
+  "codigo_archivo": "LIF_2025_abro",
+  "estado_vigencia": "abrogada",
+  "dof_original": "DOF 19/12/2024",
+  "ultima_reforma": "DOF 07/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/abro/lif_2025.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/abro/lif_2025/LIF_2025_abro.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/abro/lif_2025/LIF_2025_abro.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 775417,
+      "sha256": "0203d955a66bb650e3874fa18fbfd8ff1c926bae519a55bd85c9b941b61bc599",
+      "path": "leyes/060a-lif_2025/source/LIF_2025_abro.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/abro/lif_2025/LIF_2025_abro.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/abro/lif_2025/LIF_2025_abro.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 471552,
+      "sha256": "afdc046da824e977541d1ea14751577f575899b69140ab9aa3eb1ca5802e576c",
+      "path": "leyes/060a-lif_2025/source/LIF_2025_abro.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:29:04Z"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley del Instituto de Seguridad Social para las Fuerzas Armadas Mexicanas",
+  "blocks": 1710,
+  "kinds": {
+    "note": 2,
+    "heading": 24,
+    "body": 914,
+    "article": 232,
+    "annotation": 179,
+    "table": 300,
+    "transitorio_heading": 13,
+    "ordinal_lead": 36,
+    "article_ordinal": 10
+  },
+  "md_chars": 233451,
+  "slug": "115-lissfam",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.16
+}

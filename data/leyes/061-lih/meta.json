@@ -1,0 +1,38 @@
+{
+  "slug": "061-lih",
+  "numero": "061",
+  "nombre": "LEY de Ingresos sobre Hidrocarburos",
+  "nombre_corto": "lih",
+  "codigo_archivo": "LIH",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 11/08/2014",
+  "ultima_reforma": "DOF 28/12/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lih.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIH.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIH.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 614236,
+      "sha256": "8262a75eac7bfb608d4f48657ffb2714fe115d0b9694c42ac81624fd275bf5f6",
+      "path": "leyes/061-lih/source/LIH.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LIH.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LIH.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 260608,
+      "sha256": "c4ce45962c6cf2fd10b1784c94ec88cf6a4494c3c4b403e3858bcc00286f8ec4",
+      "path": "leyes/061-lih/source/LIH.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:08Z"
+}

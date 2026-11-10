@@ -1,0 +1,38 @@
+{
+  "slug": "261-lobnce",
+  "numero": "261",
+  "nombre": "LEY Orgánica del Banco Nacional de Comercio Exterior",
+  "nombre_corto": "lobnce",
+  "codigo_archivo": "LOBNCE",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 20/01/1986",
+  "ultima_reforma": "DOF 01/04/2024",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lobnce.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LOBNCE.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LOBNCE.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 446349,
+      "sha256": "8ab677987a58aad0d0ed9b1e299b375fd382aeec47b9536547ec7debb2d24a2c",
+      "path": "leyes/261-lobnce/source/LOBNCE.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LOBNCE.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LOBNCE.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 122880,
+      "sha256": "f1aff9b53ce00feb200a3e0839bac1428e68d03e27de6ed39c33e6591c5e29d4",
+      "path": "leyes/261-lobnce/source/LOBNCE.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:48Z"
+}

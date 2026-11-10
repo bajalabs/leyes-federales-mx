@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Expropiación",
+  "blocks": 187,
+  "kinds": {
+    "note": 2,
+    "heading": 3,
+    "body": 94,
+    "article": 25,
+    "annotation": 24,
+    "transitorio_heading": 8,
+    "article_ordinal": 6,
+    "ordinal_lead": 19,
+    "table": 6
+  },
+  "md_chars": 33194,
+  "slug": "049-lexp",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

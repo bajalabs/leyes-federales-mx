@@ -1,0 +1,21 @@
+{
+  "title": "Ley Federal del Mar",
+  "blocks": 162,
+  "kinds": {
+    "note": 2,
+    "heading": 24,
+    "body": 55,
+    "article": 65,
+    "annotation": 4,
+    "transitorio_heading": 2,
+    "article_ordinal": 4,
+    "table": 6
+  },
+  "md_chars": 30125,
+  "slug": "172-lfm",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.08
+}

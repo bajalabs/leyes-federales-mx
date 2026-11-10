@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Derechos",
+  "blocks": 10425,
+  "kinds": {
+    "note": 3,
+    "heading": 383,
+    "body": 5204,
+    "table": 1331,
+    "article": 787,
+    "annotation": 2258,
+    "transitorio_heading": 83,
+    "article_ordinal": 189,
+    "ordinal_lead": 187
+  },
+  "md_chars": 1613766,
+  "slug": "145-lfd",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.81
+}

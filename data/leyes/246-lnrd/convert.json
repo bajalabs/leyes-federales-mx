@@ -1,0 +1,21 @@
+{
+  "title": "Ley Nacional del Registro de Detenciones",
+  "blocks": 155,
+  "kinds": {
+    "note": 2,
+    "heading": 19,
+    "body": 82,
+    "article_ordinal": 1,
+    "article": 36,
+    "transitorio_heading": 1,
+    "ordinal_lead": 8,
+    "table": 6
+  },
+  "md_chars": 26824,
+  "slug": "246-lnrd",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.08
+}

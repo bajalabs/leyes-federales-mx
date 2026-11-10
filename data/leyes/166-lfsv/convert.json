@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Sanidad Vegetal",
+  "blocks": 675,
+  "kinds": {
+    "note": 2,
+    "heading": 52,
+    "body": 339,
+    "article": 96,
+    "annotation": 151,
+    "transitorio_heading": 6,
+    "ordinal_lead": 15,
+    "article_ordinal": 8,
+    "table": 6
+  },
+  "md_chars": 110230,
+  "slug": "166-lfsv",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.11
+}

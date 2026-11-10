@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Planeación",
+  "blocks": 419,
+  "kinds": {
+    "note": 2,
+    "heading": 17,
+    "body": 172,
+    "article": 48,
+    "annotation": 77,
+    "transitorio_heading": 13,
+    "article_ordinal": 17,
+    "ordinal_lead": 67,
+    "table": 6
+  },
+  "md_chars": 80508,
+  "slug": "087-lplan",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

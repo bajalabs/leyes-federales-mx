@@ -1,0 +1,22 @@
+{
+  "title": "Ley del Servicio Exterior Mexicano",
+  "blocks": 809,
+  "kinds": {
+    "note": 2,
+    "heading": 28,
+    "body": 408,
+    "article": 86,
+    "annotation": 220,
+    "transitorio_heading": 8,
+    "ordinal_lead": 30,
+    "table": 21,
+    "article_ordinal": 6
+  },
+  "md_chars": 128225,
+  "slug": "128-lsem",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

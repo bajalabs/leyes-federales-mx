@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Consulta Popular",
+  "blocks": 377,
+  "kinds": {
+    "note": 2,
+    "heading": 37,
+    "body": 168,
+    "article_ordinal": 2,
+    "article": 65,
+    "annotation": 86,
+    "transitorio_heading": 3,
+    "ordinal_lead": 8,
+    "table": 6
+  },
+  "md_chars": 54554,
+  "slug": "141-lfcpo",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.12
+}

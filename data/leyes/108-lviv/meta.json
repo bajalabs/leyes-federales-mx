@@ -1,0 +1,38 @@
+{
+  "slug": "108-lviv",
+  "numero": "108",
+  "nombre": "LEY de Vivienda",
+  "nombre_corto": "lviv",
+  "codigo_archivo": "LViv",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 27/06/2006",
+  "ultima_reforma": "DOF 15/01/2026",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lviv.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LViv.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LViv.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 553533,
+      "sha256": "f6af373e0f5b95596b4e54f4ccd2e0270fcc85bd4f05fb43da775de2f53c9ff7",
+      "path": "leyes/108-lviv/source/LViv.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LViv.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LViv.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 288256,
+      "sha256": "751a2e1d9ecd63f3aade83e2ed6a31400ace5e97510f1eade2b653d192154233",
+      "path": "leyes/108-lviv/source/LViv.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:17Z"
+}

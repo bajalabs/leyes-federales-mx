@@ -1,0 +1,38 @@
+{
+  "slug": "256-lounam",
+  "numero": "256",
+  "nombre": "LEY Orgánica de la Universidad Nacional Autónoma de México",
+  "nombre_corto": "lounam",
+  "codigo_archivo": "158",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 06/01/1945",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lounam.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/158.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/158.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 284009,
+      "sha256": "06af411aa75ed36bd698842d9c2d7f04c7a72e5797718d3aabbd0f89a1d25f9b",
+      "path": "leyes/256-lounam/source/158.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/158.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/158.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 70656,
+      "sha256": "550de193bec63a03f3018c491b293c1bd53f6a70d4323300f5f4035de8fc1928",
+      "path": "leyes/256-lounam/source/158.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:47Z"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal para Prevenir y Eliminar la Discriminación",
+  "blocks": 890,
+  "kinds": {
+    "note": 2,
+    "heading": 58,
+    "body": 370,
+    "article_ordinal": 25,
+    "article": 112,
+    "annotation": 247,
+    "transitorio_heading": 21,
+    "ordinal_lead": 49,
+    "table": 6
+  },
+  "md_chars": 127233,
+  "slug": "181-lfped",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.17
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Ley Orgánica de la Universidad Autónoma Agraria Antonio Narro",
+  "blocks": 154,
+  "kinds": {
+    "note": 2,
+    "heading": 22,
+    "body": 92,
+    "article_ordinal": 1,
+    "article": 26,
+    "transitorio_heading": 1,
+    "ordinal_lead": 4,
+    "table": 6
+  },
+  "md_chars": 19768,
+  "slug": "254-louaaan",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.09
+}

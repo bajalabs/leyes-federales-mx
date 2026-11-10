@@ -1,0 +1,38 @@
+{
+  "slug": "136-lfcdo",
+  "numero": "136",
+  "nombre": "LEY Federal contra la Delincuencia Organizada",
+  "nombre_corto": "lfcdo",
+  "codigo_archivo": "LFCDO",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 07/11/1996",
+  "ultima_reforma": "DOF 28/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfcdo.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFCDO.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFCDO.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 692224,
+      "sha256": "6f9b44bd6bc8c19aad3747e9198f2c5543b0415afa4a3cd63b4bd995091932ad",
+      "path": "leyes/136-lfcdo/source/LFCDO.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFCDO.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFCDO.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 279040,
+      "sha256": "28dffb634f96fe87aba1ca51da4bf36c70dc89f38847f2d0aeff129f001478c8",
+      "path": "leyes/136-lfcdo/source/LFCDO.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:21Z"
+}

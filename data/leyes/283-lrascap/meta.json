@@ -1,0 +1,38 @@
+{
+  "slug": "283-lrascap",
+  "numero": "283",
+  "nombre": "LEY para Regular las Actividades de las Sociedades Cooperativas de Ahorro y Préstamo",
+  "nombre_corto": "lrascap",
+  "codigo_archivo": "LRASCAP",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 13/08/2009",
+  "ultima_reforma": "DOF 14/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lrascap.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LRASCAP.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LRASCAP.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 1075684,
+      "sha256": "b47aeec8015f6cd2ccbcc51a81b3beb06b2b9b096cd738dae46bc725c8a0d644",
+      "path": "leyes/283-lrascap/source/LRASCAP.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LRASCAP.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LRASCAP.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 497152,
+      "sha256": "d9a0fa1217b95d55111c7c158408a4a269a6e59a10c333fe53992c1db5cd4048",
+      "path": "leyes/283-lrascap/source/LRASCAP.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:53Z"
+}

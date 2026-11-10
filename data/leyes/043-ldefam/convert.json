@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Disciplina del Ejército, Fuerza Aérea y Guardia Nacional",
+  "blocks": 266,
+  "kinds": {
+    "note": 2,
+    "body": 90,
+    "heading": 15,
+    "annotation": 67,
+    "article": 58,
+    "transitorio_heading": 7,
+    "article_ordinal": 6,
+    "ordinal_lead": 15,
+    "table": 6
+  },
+  "md_chars": 35337,
+  "slug": "043-ldefam",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.08
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "282-ltosf",
+  "numero": "282",
+  "nombre": "LEY para la Transparencia y Ordenamiento de los Servicios Financieros",
+  "nombre_corto": "ltosf",
+  "codigo_archivo": "LTOSF",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 15/06/2007",
+  "ultima_reforma": "DOF 14/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/ltosf.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LTOSF.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LTOSF.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 575248,
+      "sha256": "bf9e443e89a5c0ba268e76f20923ae25195ef5c1ffbacecff36693ca228c3667",
+      "path": "leyes/282-ltosf/source/LTOSF.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LTOSF.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LTOSF.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 265216,
+      "sha256": "5c582f5816a05e890301289f3671c851f7c2c9f334527d96fa05f8bf33c2f53e",
+      "path": "leyes/282-ltosf/source/LTOSF.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:52Z"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "070-less",
+  "numero": "070",
+  "nombre": "LEY de la Economía Social y Solidaria",
+  "nombre_corto": "less",
+  "codigo_archivo": "LESS",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 23/05/2012",
+  "ultima_reforma": "DOF 16/04/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/less.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LESS.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LESS.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 502806,
+      "sha256": "74f2c47c7a9282194b2972ec1366352d94f03042c6d0c7f10efde018cb9e3bfb",
+      "path": "leyes/070-less/source/LESS.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LESS.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LESS.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 215040,
+      "sha256": "020f86aa14d118bad72877ed08904a637d8cbcfa1c519827e48680ff731699d8",
+      "path": "leyes/070-less/source/LESS.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:10Z"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "210-lgp",
+  "numero": "210",
+  "nombre": "LEY General de Población",
+  "nombre_corto": "lgp",
+  "codigo_archivo": "LGP",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 07/01/1974",
+  "ultima_reforma": "DOF 16/07/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgp.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGP.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGP.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 518000,
+      "sha256": "15e8cb5ca11592f331fca6a94784cce3dd58837397857f2d764476768d0ca780",
+      "path": "leyes/210-lgp/source/LGP.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGP.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGP.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 232960,
+      "sha256": "cd82baefda1278b1e13e36c7aa2bb0b884de19d6d6a22b68319e3e3efb21e1d6",
+      "path": "leyes/210-lgp/source/LGP.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:37Z"
+}

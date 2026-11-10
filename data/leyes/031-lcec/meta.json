@@ -1,0 +1,38 @@
+{
+  "slug": "031-lcec",
+  "numero": "031",
+  "nombre": "LEY de Cámaras Empresariales y sus Confederaciones",
+  "nombre_corto": "lcec",
+  "codigo_archivo": "LCEC_120419",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 20/01/2005",
+  "ultima_reforma": "DOF 12/04/2019",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lcec.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LCEC_120419.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LCEC_120419.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 350551,
+      "sha256": "e3a4540968fe2bad876658320c71458f4092d3578519e7c73f51d4ff954b537b",
+      "path": "leyes/031-lcec/source/LCEC_120419.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LCEC_120419.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LCEC_120419.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 133632,
+      "sha256": "e4e889b29b2961dfb766e4ff28587e52c1b4a0a412bc4502d168dc53c0f8914a",
+      "path": "leyes/031-lcec/source/LCEC_120419.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:02Z"
+}

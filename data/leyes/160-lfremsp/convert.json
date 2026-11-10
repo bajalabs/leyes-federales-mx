@@ -1,0 +1,21 @@
+{
+  "title": "Ley Federal de Remuneraciones de los Servidores Públicos",
+  "blocks": 181,
+  "kinds": {
+    "note": 2,
+    "heading": 13,
+    "body": 118,
+    "article_ordinal": 2,
+    "article": 34,
+    "transitorio_heading": 1,
+    "ordinal_lead": 5,
+    "table": 6
+  },
+  "md_chars": 41309,
+  "slug": "160-lfremsp",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.08
+}

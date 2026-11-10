@@ -1,0 +1,22 @@
+{
+  "title": "Código Nacional de Procedimientos Civiles y Familiares",
+  "blocks": 3819,
+  "kinds": {
+    "note": 2,
+    "heading": 305,
+    "table": 12,
+    "body": 2242,
+    "article_ordinal": 24,
+    "article": 1191,
+    "annotation": 19,
+    "transitorio_heading": 5,
+    "ordinal_lead": 19
+  },
+  "md_chars": 895985,
+  "slug": "008-cnpcf",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.38
+}

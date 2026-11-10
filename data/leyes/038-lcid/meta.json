@@ -1,0 +1,38 @@
+{
+  "slug": "038-lcid",
+  "numero": "038",
+  "nombre": "LEY de Cooperación Internacional para el Desarrollo",
+  "nombre_corto": "lcid",
+  "codigo_archivo": "LCID_061120",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 06/04/2011",
+  "ultima_reforma": "DOF 06/11/2020",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lcid.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LCID_061120.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LCID_061120.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 385740,
+      "sha256": "1a64991c466c40c7ed0f3d7bffa1b5d5b87dc9df8aa59a97b525a99f98b381a6",
+      "path": "leyes/038-lcid/source/LCID_061120.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LCID_061120.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LCID_061120.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 174592,
+      "sha256": "ac18540e6d94ee42bc790b7eab8c83491b99f8a3546a870ea72d7fbcb1bb0c6a",
+      "path": "leyes/038-lcid/source/LCID_061120.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:04Z"
+}

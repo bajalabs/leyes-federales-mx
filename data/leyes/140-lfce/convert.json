@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Competencia Económica",
+  "blocks": 1393,
+  "kinds": {
+    "note": 2,
+    "heading": 196,
+    "body": 736,
+    "article_ordinal": 6,
+    "article": 153,
+    "annotation": 234,
+    "transitorio_heading": 6,
+    "ordinal_lead": 54,
+    "table": 6
+  },
+  "md_chars": 252801,
+  "slug": "140-lfce",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.19
+}

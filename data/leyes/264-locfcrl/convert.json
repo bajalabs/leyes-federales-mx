@@ -1,0 +1,21 @@
+{
+  "title": "Ley Orgánica del Centro Federal de Conciliación y Registro Laboral",
+  "blocks": 161,
+  "kinds": {
+    "note": 2,
+    "heading": 19,
+    "body": 103,
+    "article_ordinal": 1,
+    "article": 25,
+    "transitorio_heading": 1,
+    "ordinal_lead": 4,
+    "table": 6
+  },
+  "md_chars": 26485,
+  "slug": "264-locfcrl",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.11
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley Orgánica del Tribunal Federal de Justicia Administrativa",
+  "blocks": 591,
+  "kinds": {
+    "note": 2,
+    "heading": 42,
+    "body": 447,
+    "article_ordinal": 5,
+    "article": 70,
+    "annotation": 2,
+    "transitorio_heading": 4,
+    "ordinal_lead": 13,
+    "table": 6
+  },
+  "md_chars": 110851,
+  "slug": "271-lotfja",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.12
+}

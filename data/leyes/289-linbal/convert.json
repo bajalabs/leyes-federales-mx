@@ -1,0 +1,22 @@
+{
+  "title": "Ley que Crea el Instituto Nacional de Bellas Artes y Literatura",
+  "blocks": 91,
+  "kinds": {
+    "note": 2,
+    "heading": 2,
+    "body": 37,
+    "article": 16,
+    "annotation": 9,
+    "transitorio_heading": 3,
+    "ordinal_lead": 13,
+    "article_ordinal": 3,
+    "table": 6
+  },
+  "md_chars": 20974,
+  "slug": "289-linbal",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.09
+}

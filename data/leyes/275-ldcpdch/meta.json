@@ -1,0 +1,38 @@
+{
+  "slug": "275-ldcpdch",
+  "numero": "275",
+  "nombre": "LEY para el Diálogo, la Conciliación y la Paz Digna en Chiapas",
+  "nombre_corto": "ldcpdch",
+  "codigo_archivo": "177",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 11/03/1995",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/ldcpdch.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/177.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/177.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 263054,
+      "sha256": "d36aec42a42e48e3d457225ab337f67df31be47f04fd896068aba67cf669883a",
+      "path": "leyes/275-ldcpdch/source/177.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/177.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/177.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 59392,
+      "sha256": "20ae3e180b0b55d9ee6317a56aa425ec191ccc409a5bb0106a5b0b9f24dd53ed",
+      "path": "leyes/275-ldcpdch/source/177.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:51Z"
+}

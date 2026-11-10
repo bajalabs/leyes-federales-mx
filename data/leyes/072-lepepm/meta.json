@@ -1,0 +1,38 @@
+{
+  "slug": "072-lepepm",
+  "numero": "072",
+  "nombre": "LEY de la Empresa Pública del Estado, Petróleos Mexicanos",
+  "nombre_corto": "lepepm",
+  "codigo_archivo": "LEPEPM",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 18/03/2025",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lepepm.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LEPEPM.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LEPEPM.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 598559,
+      "sha256": "e090d2278f98a33ce43b69070c3bbbec5e3b7177f0ffdbee8d4c9bf29c36c317",
+      "path": "leyes/072-lepepm/source/LEPEPM.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LEPEPM.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LEPEPM.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 256000,
+      "sha256": "e6003c701985c5b785e1ef985e471b1e424d7f58704e2d4338e94796718a0749",
+      "path": "leyes/072-lepepm/source/LEPEPM.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:11Z"
+}

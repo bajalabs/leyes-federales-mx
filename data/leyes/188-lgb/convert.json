@@ -1,0 +1,22 @@
+{
+  "title": "Ley General de Bibliotecas",
+  "blocks": 225,
+  "kinds": {
+    "note": 2,
+    "heading": 24,
+    "body": 133,
+    "article_ordinal": 2,
+    "article": 45,
+    "annotation": 4,
+    "transitorio_heading": 3,
+    "ordinal_lead": 6,
+    "table": 6
+  },
+  "md_chars": 35347,
+  "slug": "188-lgb",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.09
+}

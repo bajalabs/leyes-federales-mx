@@ -1,0 +1,38 @@
+{
+  "slug": "009-cnpp",
+  "numero": "009",
+  "nombre": "CÓDIGO Nacional de Procedimientos Penales",
+  "nombre_corto": "cnpp",
+  "codigo_archivo": "CNPP",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 05/03/2014",
+  "ultima_reforma": "DOF 28/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/cnpp.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CNPP.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CNPP.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 1704798,
+      "sha256": "7ceb0682c948d7d945e7e68b8d8699ceb795fc9a491aa62325db91ccf2309904",
+      "path": "leyes/009-cnpp/source/CNPP.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/CNPP.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/CNPP.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 802304,
+      "sha256": "d9748449446d54f8525f98b569d8f88d751e5a70747824d39983e5df0c5a83b0",
+      "path": "leyes/009-cnpp/source/CNPP.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:26:59Z"
+}

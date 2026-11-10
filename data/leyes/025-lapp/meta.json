@@ -1,0 +1,38 @@
+{
+  "slug": "025-lapp",
+  "numero": "025",
+  "nombre": "LEY de Asociaciones Público Privadas",
+  "nombre_corto": "lapp",
+  "codigo_archivo": "LAPP",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 16/01/2012",
+  "ultima_reforma": "DOF 14/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lapp.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LAPP.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LAPP.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 838399,
+      "sha256": "a4505a7bd41bc835f1def6fb030c42d8e74a2cc050d9c8fa08f91c9519e382bf",
+      "path": "leyes/025-lapp/source/LAPP.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LAPP.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LAPP.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 348160,
+      "sha256": "099ee671f59ef400126490d2110ead57ade0def195634174dbd3c5d3e8165fd7",
+      "path": "leyes/025-lapp/source/LAPP.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:01Z"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "266-loefam",
+  "numero": "266",
+  "nombre": "LEY Orgánica del Ejército y Fuerza Aérea Mexicanos",
+  "nombre_corto": "loefam",
+  "codigo_archivo": "LOEFAM",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 26/12/1986",
+  "ultima_reforma": "DOF 16/07/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/loefam.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LOEFAM.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LOEFAM.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 991498,
+      "sha256": "6edcf3cbe4e1e01dd12e691d672534d0d2e22028f7bf81c46ecf9e6f4c9148c7",
+      "path": "leyes/266-loefam/source/LOEFAM.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LOEFAM.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LOEFAM.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 441344,
+      "sha256": "b3c46493af17abfb883ad2ef8d3b0a74b86b88d0073c3a6c7d13aa4a0242c4e1",
+      "path": "leyes/266-loefam/source/LOEFAM.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:50Z"
+}

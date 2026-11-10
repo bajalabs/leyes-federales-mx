@@ -1,0 +1,38 @@
+{
+  "slug": "232-lgappcea",
+  "numero": "232",
+  "nombre": "LEY General para la Atención y Protección a Personas con la Condición del Espectro Autista",
+  "nombre_corto": "lgappcea",
+  "codigo_archivo": "LGAPPCEA_270516",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 30/04/2015",
+  "ultima_reforma": "DOF 27/05/2016",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgappcea.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGAPPCEA_270516.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGAPPCEA_270516.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 445807,
+      "sha256": "8d3d1a9b2d2dec12c65695cd5b87d60f76e2f3c64356f73ab6011d7dc40fbe37",
+      "path": "leyes/232-lgappcea/source/LGAPPCEA_270516.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGAPPCEA_270516.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGAPPCEA_270516.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 154112,
+      "sha256": "07df076ca72c4c4a370a674a71aef9cc0bc9d423e1e7498c1c45f421589071bf",
+      "path": "leyes/232-lgappcea/source/LGAPPCEA_270516.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:43Z"
+}

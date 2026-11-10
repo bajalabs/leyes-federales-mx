@@ -1,0 +1,22 @@
+{
+  "title": "Ley General de Víctimas",
+  "blocks": 1702,
+  "kinds": {
+    "note": 2,
+    "heading": 108,
+    "body": 837,
+    "article_ordinal": 9,
+    "article": 203,
+    "annotation": 445,
+    "table": 7,
+    "transitorio_heading": 10,
+    "ordinal_lead": 81
+  },
+  "md_chars": 293331,
+  "slug": "221-lgv",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.22
+}

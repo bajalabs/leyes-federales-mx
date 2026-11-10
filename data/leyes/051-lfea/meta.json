@@ -1,0 +1,38 @@
+{
+  "slug": "051-lfea",
+  "numero": "051",
+  "nombre": "LEY de Firma Electrónica Avanzada",
+  "nombre_corto": "lfea",
+  "codigo_archivo": "LFEA",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 11/01/2012",
+  "ultima_reforma": "DOF 14/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfea.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFEA.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFEA.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 409700,
+      "sha256": "102031c59185ac31397dbd722281bc02046fd4f5db4af7fb9348ffeddcbb2842",
+      "path": "leyes/051-lfea/source/LFEA.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFEA.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFEA.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 161280,
+      "sha256": "478b97217371b533b854a31d6a28fe7bc0a05cbb57a34259cc742250c0cc1da1",
+      "path": "leyes/051-lfea/source/LFEA.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:07Z"
+}

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below. Cite the laws themselves by their official names and their publication in the Diario Oficial de la Federación."
+type: dataset
+title: "leyes-federales-mx: the Mexican federal laws as structured data"
+abstract: >-
+  The 319 Mexican federal laws published by the Cámara de Diputados (capture of
+  26 August 2026), converted from the official Word files into Markdown, a
+  SQLite database with full-text search, and CSV: 59,540 articles with their
+  hierarchy, parts, reform annotations with DOF dates, and a citation graph.
+  Every law is pinned by sha256 to the official file it was converted from.
+authors:
+  - name: "Baja Labs"
+version: "1.0.0"
+date-released: "2026-11-10"
+license:
+  - CC0-1.0
+  - MIT
+repository-code: "https://github.com/bajalabs/leyes-federales-mx"
+url: "https://github.com/bajalabs/leyes-federales-mx"
+keywords:
+  - Mexico
+  - law
+  - legislation
+  - open data
+  - leyes federales
+  - Cámara de Diputados
+  - Diario Oficial de la Federación
+  - SQLite
+  - full-text search

@@ -1,0 +1,38 @@
+{
+  "slug": "081-lmigra",
+  "numero": "081",
+  "nombre": "LEY de Migración",
+  "nombre_corto": "lmigra",
+  "codigo_archivo": "LMigra",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 25/05/2011",
+  "ultima_reforma": "DOF 15/01/2026",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lmigra.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LMigra.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LMigra.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 781391,
+      "sha256": "a823b87d27bee29da481750b9893f00024bd80aed8b0713bf8b1ac1e55b9b8de",
+      "path": "leyes/081-lmigra/source/LMigra.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LMigra.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LMigra.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 400384,
+      "sha256": "d81710dc7b2343c90ca70b792fbc7318bbdd782236aa505304d08ba4fceaa9a9",
+      "path": "leyes/081-lmigra/source/LMigra.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:12Z"
+}

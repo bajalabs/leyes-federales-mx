@@ -1,0 +1,22 @@
+{
+  "title": "Ley del Impuesto Especial sobre Producción y Servicios",
+  "blocks": 2625,
+  "kinds": {
+    "note": 2,
+    "heading": 71,
+    "body": 1157,
+    "table": 680,
+    "annotation": 291,
+    "article": 70,
+    "transitorio_heading": 82,
+    "article_ordinal": 178,
+    "ordinal_lead": 94
+  },
+  "md_chars": 409684,
+  "slug": "113-lieps",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.149,
+  "fallback_reason": null,
+  "secs": 0.25
+}

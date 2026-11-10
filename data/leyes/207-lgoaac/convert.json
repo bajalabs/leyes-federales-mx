@@ -1,0 +1,22 @@
+{
+  "title": "Ley General de Organizaciones y Actividades Auxiliares del Crédito",
+  "blocks": 2000,
+  "kinds": {
+    "note": 3,
+    "heading": 52,
+    "body": 1105,
+    "article": 262,
+    "annotation": 396,
+    "transitorio_heading": 26,
+    "ordinal_lead": 108,
+    "article_ordinal": 41,
+    "table": 7
+  },
+  "md_chars": 461881,
+  "slug": "207-lgoaac",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.36
+}

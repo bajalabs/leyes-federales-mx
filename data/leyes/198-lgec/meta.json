@@ -1,0 +1,38 @@
+{
+  "slug": "198-lgec",
+  "numero": "198",
+  "nombre": "LEY General de Economía Circular",
+  "nombre_corto": "lgec",
+  "codigo_archivo": "LGEC",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 19/01/2026",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgec.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGEC.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGEC.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 421913,
+      "sha256": "89220c0c86445a873067e0095b4591c11847dfd11595ca3e11bbfcf09cef6754",
+      "path": "leyes/198-lgec/source/LGEC.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGEC.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGEC.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 123904,
+      "sha256": "c90c4616acf90b3ccb79cdcf3f78801edf66cb27000a55198218c51612f39a18",
+      "path": "leyes/198-lgec/source/LGEC.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:34Z"
+}

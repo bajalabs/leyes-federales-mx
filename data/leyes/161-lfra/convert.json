@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Responsabilidad Ambiental",
+  "blocks": 309,
+  "kinds": {
+    "note": 2,
+    "heading": 28,
+    "body": 175,
+    "article_ordinal": 3,
+    "article": 56,
+    "annotation": 12,
+    "transitorio_heading": 4,
+    "ordinal_lead": 23,
+    "table": 6
+  },
+  "md_chars": 66127,
+  "slug": "161-lfra",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.09
+}

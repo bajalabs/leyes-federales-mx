@@ -1,0 +1,38 @@
+{
+  "slug": "133-lsniimsp",
+  "numero": "133",
+  "nombre": "LEY del Sistema Nacional de Investigación e Inteligencia en Materia de Seguridad Pública",
+  "nombre_corto": "lsniimsp",
+  "codigo_archivo": "LSNIIMSP",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 16/07/2025",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lsniimsp.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSNIIMSP.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSNIIMSP.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 385697,
+      "sha256": "e23e37074b34f32fbf2e9b34648ecf8303d8a16cfbb80ae4253d26463992c28c",
+      "path": "leyes/133-lsniimsp/source/LSNIIMSP.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LSNIIMSP.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LSNIIMSP.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 167936,
+      "sha256": "b2261606a0dc391de5cf06e0662534eedbf74e2fbaea6eddbb95766788f53fd6",
+      "path": "leyes/133-lsniimsp/source/LSNIIMSP.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:21Z"
+}

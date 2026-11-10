@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal del Trabajo",
+  "blocks": 9505,
+  "kinds": {
+    "note": 3,
+    "heading": 329,
+    "body": 3944,
+    "article": 1279,
+    "annotation": 1625,
+    "table": 2128,
+    "transitorio_heading": 34,
+    "article_ordinal": 33,
+    "ordinal_lead": 130
+  },
+  "md_chars": 1319323,
+  "slug": "173-lft",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.7
+}

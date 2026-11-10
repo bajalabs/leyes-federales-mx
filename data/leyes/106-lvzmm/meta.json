@@ -1,0 +1,38 @@
+{
+  "slug": "106-lvzmm",
+  "numero": "106",
+  "nombre": "LEY de Vertimientos en las Zonas Marinas Mexicanas",
+  "nombre_corto": "lvzmm",
+  "codigo_archivo": "LVZMM",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 17/01/2014",
+  "ultima_reforma": "DOF 14/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lvzmm.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LVZMM.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LVZMM.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 458674,
+      "sha256": "d9ffbbf8f19b54a93ff577abb1266e4be1316d935e79fad655242955fd80ff70",
+      "path": "leyes/106-lvzmm/source/LVZMM.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LVZMM.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LVZMM.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 204288,
+      "sha256": "1d032528fd5f5823f088606738c25d878186bfe3b02fcd036be8b9c606d802a1",
+      "path": "leyes/106-lvzmm/source/LVZMM.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:16Z"
+}

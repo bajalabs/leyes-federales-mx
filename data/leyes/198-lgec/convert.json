@@ -1,0 +1,21 @@
+{
+  "title": "Ley General de Economía Circular",
+  "blocks": 389,
+  "kinds": {
+    "note": 2,
+    "heading": 47,
+    "body": 275,
+    "article_ordinal": 2,
+    "article": 49,
+    "transitorio_heading": 1,
+    "ordinal_lead": 7,
+    "table": 6
+  },
+  "md_chars": 71009,
+  "slug": "198-lgec",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.1
+}

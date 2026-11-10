@@ -1,0 +1,21 @@
+{
+  "title": "Ley de Tesorería de la Federación",
+  "blocks": 283,
+  "kinds": {
+    "note": 2,
+    "heading": 41,
+    "body": 161,
+    "article_ordinal": 1,
+    "article": 60,
+    "transitorio_heading": 1,
+    "ordinal_lead": 11,
+    "table": 6
+  },
+  "md_chars": 63050,
+  "slug": "103-ltf",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.1
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley Monetaria de los Estados Unidos Mexicanos",
+  "blocks": 657,
+  "kinds": {
+    "note": 3,
+    "heading": 22,
+    "body": 448,
+    "article": 39,
+    "annotation": 62,
+    "transitorio_heading": 12,
+    "article_ordinal": 13,
+    "ordinal_lead": 52,
+    "table": 6
+  },
+  "md_chars": 93637,
+  "slug": "242-lmeum",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Sistemas de Pagos",
+  "blocks": 179,
+  "kinds": {
+    "note": 2,
+    "heading": 18,
+    "body": 94,
+    "article": 44,
+    "annotation": 3,
+    "transitorio_heading": 3,
+    "ordinal_lead": 8,
+    "article_ordinal": 1,
+    "table": 6
+  },
+  "md_chars": 42661,
+  "slug": "100-lsp",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.1
+}

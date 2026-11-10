@@ -1,0 +1,22 @@
+{
+  "title": "Ley del Diario Oficial de la Federación y Gacetas Gubernamentales",
+  "blocks": 122,
+  "kinds": {
+    "note": 2,
+    "heading": 7,
+    "body": 47,
+    "article": 20,
+    "annotation": 25,
+    "transitorio_heading": 4,
+    "ordinal_lead": 9,
+    "article_ordinal": 2,
+    "table": 6
+  },
+  "md_chars": 16181,
+  "slug": "110-ldofgg",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.07
+}

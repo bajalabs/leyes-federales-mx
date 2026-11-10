@@ -1,0 +1,38 @@
+{
+  "slug": "118-lifnct",
+  "numero": "118",
+  "nombre": "LEY del Instituto del Fondo Nacional para el Consumo de los Trabajadores",
+  "nombre_corto": "lifnct",
+  "codigo_archivo": "LIFNCT",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 24/04/2006",
+  "ultima_reforma": "DOF 03/01/2024",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lifnct.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIFNCT.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIFNCT.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 333202,
+      "sha256": "78fb5069898e5e58096511208e3cfa308922eb1c5c68f68c4ecd80b20c6f422f",
+      "path": "leyes/118-lifnct/source/LIFNCT.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LIFNCT.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LIFNCT.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 105472,
+      "sha256": "9528aff7f7cd8d71f582299acd22d3cef8bad92988f61e0597b91cdb8faaf18c",
+      "path": "leyes/118-lifnct/source/LIFNCT.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:18Z"
+}

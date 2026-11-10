@@ -1,0 +1,19 @@
+{
+  "title": "PRESUPUESTO de Egresos de la Federación para el Ejercicio Fiscal 2025",
+  "blocks": 1088,
+  "kinds": {
+    "body": 1002,
+    "heading": 26,
+    "article": 39,
+    "article_ordinal": 1,
+    "transitorio_heading": 3,
+    "ordinal_lead": 17
+  },
+  "md_chars": 369722,
+  "slug": "314a-pef_2025",
+  "ok": true,
+  "source_kind": "pdf",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": "doc mojibake 6.10/1k > 1.0",
+  "secs": 2.57
+}

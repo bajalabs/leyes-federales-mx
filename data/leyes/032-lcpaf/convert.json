@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Caminos, Puentes y Autotransporte Federal",
+  "blocks": 639,
+  "kinds": {
+    "note": 2,
+    "heading": 53,
+    "body": 323,
+    "article": 93,
+    "annotation": 62,
+    "transitorio_heading": 19,
+    "article_ordinal": 23,
+    "ordinal_lead": 58,
+    "table": 6
+  },
+  "md_chars": 110184,
+  "slug": "032-lcpaf",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.12
+}

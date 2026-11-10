@@ -1,0 +1,21 @@
+{
+  "title": "Ley General de Educación Superior",
+  "blocks": 667,
+  "kinds": {
+    "note": 2,
+    "heading": 53,
+    "body": 506,
+    "article_ordinal": 1,
+    "article": 77,
+    "transitorio_heading": 1,
+    "ordinal_lead": 21,
+    "table": 6
+  },
+  "md_chars": 151314,
+  "slug": "200-lges",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.14
+}

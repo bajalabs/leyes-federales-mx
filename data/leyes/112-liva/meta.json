@@ -1,0 +1,38 @@
+{
+  "slug": "112-liva",
+  "numero": "112",
+  "nombre": "LEY del Impuesto al Valor Agregado",
+  "nombre_corto": "liva",
+  "codigo_archivo": "LIVA",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 29/12/1978",
+  "ultima_reforma": "DOF 12/11/2021",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/liva.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIVA.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIVA.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 1249332,
+      "sha256": "f2b5b1770441a6a4e48f3ade408f9ff7a3e9c81bd5d529e52484f49e4a8e91a6",
+      "path": "leyes/112-liva/source/LIVA.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LIVA.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LIVA.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 540160,
+      "sha256": "8c517be03c6a65d856f95e41f5b0094fe3537a00f65003b9f16d49bea3d12a18",
+      "path": "leyes/112-liva/source/LIVA.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:18Z"
+}

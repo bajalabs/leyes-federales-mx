@@ -1,0 +1,21 @@
+{
+  "title": "Ley del Sector Hidrocarburos",
+  "blocks": 1085,
+  "kinds": {
+    "note": 2,
+    "heading": 55,
+    "body": 826,
+    "article_ordinal": 3,
+    "article": 166,
+    "transitorio_heading": 2,
+    "ordinal_lead": 25,
+    "table": 6
+  },
+  "md_chars": 244378,
+  "slug": "125-lsh",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.18
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Energía para el Campo",
+  "blocks": 80,
+  "kinds": {
+    "note": 2,
+    "heading": 10,
+    "body": 39,
+    "article": 14,
+    "annotation": 1,
+    "transitorio_heading": 3,
+    "ordinal_lead": 4,
+    "article_ordinal": 1,
+    "table": 6
+  },
+  "md_chars": 11283,
+  "slug": "048-lec",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.08
+}

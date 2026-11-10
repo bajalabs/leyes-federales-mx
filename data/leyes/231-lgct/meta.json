@@ -1,0 +1,38 @@
+{
+  "slug": "231-lgct",
+  "numero": "231",
+  "nombre": "LEY General para el Control del Tabaco",
+  "nombre_corto": "lgct",
+  "codigo_archivo": "LGCT",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 30/05/2008",
+  "ultima_reforma": "DOF 17/02/2022",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgct.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGCT.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGCT.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 533796,
+      "sha256": "9f964bc5c075d7cf47e5e9df7c2fbe262eb5bd1794de9b230dbd72026a51ae5e",
+      "path": "leyes/231-lgct/source/LGCT.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGCT.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGCT.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 180736,
+      "sha256": "5f8deac14e415f7bc1ec15d7eb55603b92d5b00edb31395aba5579c650195f5b",
+      "path": "leyes/231-lgct/source/LGCT.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:43Z"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "074-lgn",
+  "numero": "074",
+  "nombre": "LEY de la Guardia Nacional",
+  "nombre_corto": "lgn",
+  "codigo_archivo": "LGN",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 16/07/2025",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgn.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGN.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGN.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 482695,
+      "sha256": "dfe63e9a5dca843a804e5d7878671e2899f2b088534d9ed9813e9878c20b12bd",
+      "path": "leyes/074-lgn/source/LGN.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGN.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGN.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 182784,
+      "sha256": "2ba42249ca494e0e1f094786114f701b383edd6f80b62ce31fd9b510931fe1b9",
+      "path": "leyes/074-lgn/source/LGN.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:10Z"
+}

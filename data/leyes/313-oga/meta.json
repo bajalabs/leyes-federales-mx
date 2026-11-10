@@ -1,0 +1,38 @@
+{
+  "slug": "313-oga",
+  "numero": "313",
+  "nombre": "ORDENANZA General de la Armada",
+  "nombre_corto": "oga",
+  "codigo_archivo": "218",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 01 al 08/01/1912",
+  "ultima_reforma": "DOF 19/10/2000",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/oga.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/218.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/218.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 1882238,
+      "sha256": "25c0da0a39813a4ad1a8189c67a693c131b9df2fc05689881251f15d42b9fdb3",
+      "path": "leyes/313-oga/source/218.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/218.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/218.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 962048,
+      "sha256": "279dccd747d202dfe25058e5a299da2dee68fd93b060ad356202d9c337ae0af8",
+      "path": "leyes/313-oga/source/218.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:59Z"
+}

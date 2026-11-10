@@ -1,0 +1,21 @@
+{
+  "title": "Ley de Biocombustibles",
+  "blocks": 322,
+  "kinds": {
+    "note": 2,
+    "heading": 34,
+    "body": 214,
+    "article_ordinal": 3,
+    "article": 46,
+    "transitorio_heading": 2,
+    "ordinal_lead": 15,
+    "table": 6
+  },
+  "md_chars": 66638,
+  "slug": "029-lbio",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.14
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "163-lfrsp",
+  "numero": "163",
+  "nombre": "LEY Federal de Responsabilidades de los Servidores Públicos",
+  "nombre_corto": "lfrsp",
+  "codigo_archivo": "LFRSP",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 31/12/1982",
+  "ultima_reforma": "DOF 01/04/2024",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfrsp.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFRSP.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFRSP.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 545975,
+      "sha256": "b377014351dbf3e21a9a031fa24fb97658db1d78f6d44d7b20efa1840d49d599",
+      "path": "leyes/163-lfrsp/source/LFRSP.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFRSP.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFRSP.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 233472,
+      "sha256": "ae6a9efdc6212570bd0013b62ca92498ed5cea99ae0c0249d32dbcde1fc3a00e",
+      "path": "leyes/163-lfrsp/source/LFRSP.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:27Z"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Código Civil Federal",
+  "blocks": 6289,
+  "kinds": {
+    "note": 2,
+    "heading": 588,
+    "body": 1563,
+    "annotation": 761,
+    "article": 3128,
+    "table": 18,
+    "transitorio_heading": 58,
+    "article_ordinal": 91,
+    "ordinal_lead": 80
+  },
+  "md_chars": 966827,
+  "slug": "002-ccf",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.49
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Ley Nacional para Eliminar Trámites Burocráticos",
+  "blocks": 609,
+  "kinds": {
+    "note": 2,
+    "heading": 80,
+    "body": 388,
+    "article_ordinal": 1,
+    "article": 114,
+    "transitorio_heading": 1,
+    "ordinal_lead": 17,
+    "table": 6
+  },
+  "md_chars": 107454,
+  "slug": "248-lnetb",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.12
+}

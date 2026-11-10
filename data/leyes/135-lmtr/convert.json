@@ -1,0 +1,20 @@
+{
+  "title": "Ley en Materia de Telecomunicaciones y Radiodifusión",
+  "blocks": 1771,
+  "kinds": {
+    "note": 2,
+    "heading": 200,
+    "body": 1234,
+    "article": 299,
+    "transitorio_heading": 1,
+    "ordinal_lead": 29,
+    "table": 6
+  },
+  "md_chars": 391634,
+  "slug": "135-lmtr",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.2
+}

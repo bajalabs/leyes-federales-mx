@@ -1,0 +1,38 @@
+{
+  "slug": "212-lgpc",
+  "numero": "212",
+  "nombre": "LEY General de Protección Civil",
+  "nombre_corto": "lgpc",
+  "codigo_archivo": "LGPC",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 06/06/2012",
+  "ultima_reforma": "DOF 21/12/2023",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgpc.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGPC.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGPC.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 626875,
+      "sha256": "d8dd1de3627b899bb4faf31c2812c3d5f14f7108be153d5aa8dd549b9136184a",
+      "path": "leyes/212-lgpc/source/LGPC.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGPC.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGPC.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 306176,
+      "sha256": "eb7d98ddcaefea003f8bbb8af91cd3f2544f81fbbac4cf4c0d38bde0ab3c53b0",
+      "path": "leyes/212-lgpc/source/LGPC.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:38Z"
+}

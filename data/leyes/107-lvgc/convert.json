@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Vías Generales de Comunicación",
+  "blocks": 2372,
+  "kinds": {
+    "note": 2,
+    "heading": 217,
+    "body": 638,
+    "article": 628,
+    "annotation": 648,
+    "transitorio_heading": 43,
+    "article_ordinal": 61,
+    "ordinal_lead": 127,
+    "table": 8
+  },
+  "md_chars": 321632,
+  "slug": "107-lvgc",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.21
+}

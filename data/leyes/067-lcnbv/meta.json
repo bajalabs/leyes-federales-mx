@@ -1,0 +1,38 @@
+{
+  "slug": "067-lcnbv",
+  "numero": "067",
+  "nombre": "LEY de la Comisión Nacional Bancaria y de Valores",
+  "nombre_corto": "lcnbv",
+  "codigo_archivo": "LCNBV",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 28/04/1995",
+  "ultima_reforma": "DOF 11/05/2022",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lcnbv.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LCNBV.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LCNBV.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 505030,
+      "sha256": "b3b4605f2abb4d33a705c6f5569ba5eaa45a41158305ac588ad4e275705798d8",
+      "path": "leyes/067-lcnbv/source/LCNBV.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LCNBV.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LCNBV.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 183296,
+      "sha256": "217b67d20299082bdd889263b995c8dda95ec6018169bd9044b9ee8d6217a675",
+      "path": "leyes/067-lcnbv/source/LCNBV.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:09Z"
+}

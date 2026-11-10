@@ -1,0 +1,22 @@
+{
+  "title": "Reglamento del Senado de la República",
+  "blocks": 2034,
+  "kinds": {
+    "note": 2,
+    "heading": 165,
+    "body": 1333,
+    "article": 317,
+    "annotation": 105,
+    "transitorio_heading": 32,
+    "ordinal_lead": 41,
+    "article_ordinal": 32,
+    "table": 7
+  },
+  "md_chars": 254539,
+  "slug": "316-reg_senado",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.2
+}

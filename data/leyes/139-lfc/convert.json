@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Cinematografía",
+  "blocks": 451,
+  "kinds": {
+    "note": 2,
+    "heading": 30,
+    "body": 210,
+    "annotation": 76,
+    "article": 58,
+    "transitorio_heading": 10,
+    "ordinal_lead": 49,
+    "article_ordinal": 10,
+    "table": 6
+  },
+  "md_chars": 82517,
+  "slug": "139-lfc",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.09
+}

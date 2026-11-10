@@ -1,0 +1,38 @@
+{
+  "slug": "151-lftse",
+  "numero": "151",
+  "nombre": "LEY Federal de los Trabajadores al Servicio del Estado, Reglamentaria del Apartado B) del Artículo 123 Constitucional",
+  "nombre_corto": "lftse",
+  "codigo_archivo": "LFTSE",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 28/12/1963",
+  "ultima_reforma": "DOF 15/01/2026",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lftse.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFTSE.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFTSE.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 802859,
+      "sha256": "2055ea67ac6fb6642ef90d1970e8ebf9870a0cb40c71930aa99d12dd446870fe",
+      "path": "leyes/151-lftse/source/LFTSE.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFTSE.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFTSE.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 329728,
+      "sha256": "0c4ed52c8f515935128272b911efe59f518739d0e2bbd36c116c24fa8c50a17b",
+      "path": "leyes/151-lftse/source/LFTSE.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:24Z"
+}

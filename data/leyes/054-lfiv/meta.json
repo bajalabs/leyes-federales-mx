@@ -1,0 +1,38 @@
+{
+  "slug": "054-lfiv",
+  "numero": "054",
+  "nombre": "LEY de Fomento a la Industria Vitivinícola",
+  "nombre_corto": "lfiv",
+  "codigo_archivo": "LFIV_230518",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 23/05/2018",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfiv.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFIV_230518.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFIV_230518.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 246385,
+      "sha256": "db115e165edc517f5ad816da7be01e11727838a59b9e68906fe686685f4c5087",
+      "path": "leyes/054-lfiv/source/LFIV_230518.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFIV_230518.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFIV_230518.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 88576,
+      "sha256": "c9c65d2e48269dc35456dbeb2f8a47164f201f463428e95a1cc2081755c219bf",
+      "path": "leyes/054-lfiv/source/LFIV_230518.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:07Z"
+}

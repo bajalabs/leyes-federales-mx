@@ -1,0 +1,38 @@
+{
+  "slug": "179-lfpiorpi",
+  "numero": "179",
+  "nombre": "LEY Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita",
+  "nombre_corto": "lfpiorpi",
+  "codigo_archivo": "LFPIORPI",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 17/10/2012",
+  "ultima_reforma": "DOF 16/07/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfpiorpi.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPIORPI.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPIORPI.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 570526,
+      "sha256": "2e35228bd3100a3a137f313359833c4836f2b4b6d4e52e1ce4fe58a970cd768f",
+      "path": "leyes/179-lfpiorpi/source/LFPIORPI.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFPIORPI.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFPIORPI.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 222208,
+      "sha256": "49f53d224796a12125d23d350a7f5521e1d7d78693fcea7722c81d6298319a2e",
+      "path": "leyes/179-lfpiorpi/source/LFPIORPI.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:30Z"
+}

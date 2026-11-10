@@ -1,0 +1,38 @@
+{
+  "slug": "140-lfce",
+  "numero": "140",
+  "nombre": "LEY Federal de Competencia Económica",
+  "nombre_corto": "lfce",
+  "codigo_archivo": "LFCE",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 23/05/2014",
+  "ultima_reforma": "DOF 14/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfce.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFCE.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFCE.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 894149,
+      "sha256": "d0021bbef2e0c3251d6efdea2c1efd9959ff3f02df4bcd1fc37c1ee7826a72ba",
+      "path": "leyes/140-lfce/source/LFCE.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFCE.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFCE.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 437248,
+      "sha256": "a767982cc1e6588085ed08d258498430e8ec4a70fa5f144029327ecfacd2cbbb",
+      "path": "leyes/140-lfce/source/LFCE.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:22Z"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Ley para Conservar la Neutralidad del País",
+  "blocks": 34,
+  "kinds": {
+    "note": 2,
+    "heading": 3,
+    "body": 14,
+    "article_ordinal": 5,
+    "annotation": 1,
+    "transitorio_heading": 2,
+    "ordinal_lead": 1,
+    "table": 6
+  },
+  "md_chars": 4011,
+  "slug": "272-lcnp",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

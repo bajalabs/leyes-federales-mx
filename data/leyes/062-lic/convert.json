@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Instituciones de Crédito",
+  "blocks": 4160,
+  "kinds": {
+    "note": 2,
+    "heading": 95,
+    "body": 2318,
+    "article": 495,
+    "annotation": 834,
+    "table": 9,
+    "transitorio_heading": 57,
+    "article_ordinal": 136,
+    "ordinal_lead": 214
+  },
+  "md_chars": 1039879,
+  "slug": "062-lic",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.49
+}

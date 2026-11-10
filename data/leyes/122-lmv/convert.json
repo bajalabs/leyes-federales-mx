@@ -1,0 +1,22 @@
+{
+  "title": "Ley del Mercado de Valores",
+  "blocks": 3237,
+  "kinds": {
+    "note": 2,
+    "heading": 191,
+    "body": 2121,
+    "article": 463,
+    "annotation": 383,
+    "transitorio_heading": 14,
+    "ordinal_lead": 44,
+    "article_ordinal": 13,
+    "table": 6
+  },
+  "md_chars": 756736,
+  "slug": "122-lmv",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.36
+}

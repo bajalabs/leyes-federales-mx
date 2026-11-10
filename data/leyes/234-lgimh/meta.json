@@ -1,0 +1,38 @@
+{
+  "slug": "234-lgimh",
+  "numero": "234",
+  "nombre": "LEY General para la Igualdad Sustantiva entre Mujeres y Hombres",
+  "nombre_corto": "lgimh",
+  "codigo_archivo": "LGISMH",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 02/08/2006",
+  "ultima_reforma": "DOF 15/01/2026",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgimh.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGISMH.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGISMH.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 614121,
+      "sha256": "51f28ed8bbe83b9f62cf9a88705a4c40b1b9a18d2036e2381ee97933881f3a44",
+      "path": "leyes/234-lgimh/source/LGISMH.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGISMH.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGISMH.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 244224,
+      "sha256": "bd8816e24fd0c0a0b9256014ce83886370d5e8d0181013f3fe7906b4b12447b1",
+      "path": "leyes/234-lgimh/source/LGISMH.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:43Z"
+}

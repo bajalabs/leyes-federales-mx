@@ -1,0 +1,38 @@
+{
+  "slug": "258-lonf",
+  "numero": "258",
+  "nombre": "LEY Orgánica de Nacional Financiera",
+  "nombre_corto": "lonf",
+  "codigo_archivo": "162",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 26/12/1986",
+  "ultima_reforma": "DOF 10/01/2014",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lonf.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/162.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/162.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 414415,
+      "sha256": "99d3d61b8abaa6f0c20427466c41a7f236feda5772e49a6aec7f677b29e14880",
+      "path": "leyes/258-lonf/source/162.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/162.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/162.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 129024,
+      "sha256": "6311754f5945142991c141a65e7b517bdfa935283d72eb0a1b54888d88ddadca",
+      "path": "leyes/258-lonf/source/162.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:48Z"
+}

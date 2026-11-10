@@ -1,0 +1,38 @@
+{
+  "slug": "301-lrart27_mn",
+  "numero": "301",
+  "nombre": "LEY Reglamentaria del Artículo 27 Constitucional en Materia Nuclear",
+  "nombre_corto": "lrart27_mn",
+  "codigo_archivo": "207",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 04/02/1985",
+  "ultima_reforma": "DOF 09/04/2012",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lrart27_mn.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/207.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/207.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 438722,
+      "sha256": "547158ef75d8c668bfe91b1f6673f265d17dd89d807b9cbba3b37a1313835ce8",
+      "path": "leyes/301-lrart27_mn/source/207.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/207.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/207.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 122880,
+      "sha256": "392486a44383dc68e3b8eae8c8d644cd71081cacfa29aca81fe97fa665554a81",
+      "path": "leyes/301-lrart27_mn/source/207.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:55Z"
+}

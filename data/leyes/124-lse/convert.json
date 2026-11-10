@@ -1,0 +1,21 @@
+{
+  "title": "Ley del Sector Eléctrico",
+  "blocks": 1009,
+  "kinds": {
+    "note": 2,
+    "heading": 83,
+    "body": 709,
+    "article_ordinal": 3,
+    "article": 188,
+    "transitorio_heading": 2,
+    "ordinal_lead": 16,
+    "table": 6
+  },
+  "md_chars": 225569,
+  "slug": "124-lse",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.2
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "029-lbio",
+  "numero": "029",
+  "nombre": "LEY de Biocombustibles",
+  "nombre_corto": "lbio",
+  "codigo_archivo": "LBio",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 18/03/2025",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lbio.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LBio.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LBio.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 441184,
+      "sha256": "c1870db657a6564bbeb692a1778472db811a920626822de553ff5ca5194f95b4",
+      "path": "leyes/029-lbio/source/LBio.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LBio.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LBio.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 153088,
+      "sha256": "a46ffa5904cba7935e8f80c1be1bbe3663f76b7e4115d70f3accf8dd282191a0",
+      "path": "leyes/029-lbio/source/LBio.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:02Z"
+}

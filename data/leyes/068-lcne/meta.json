@@ -1,0 +1,38 @@
+{
+  "slug": "068-lcne",
+  "numero": "068",
+  "nombre": "LEY de la Comisión Nacional de Energía",
+  "nombre_corto": "lcne",
+  "codigo_archivo": "LCNE",
+  "estado_vigencia": "invalidada",
+  "dof_original": "DOF 18/03/2025",
+  "ultima_reforma": "DOF 26/12/2025 Sentencia SCJN",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lcne.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LCNE.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LCNE.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 508412,
+      "sha256": "7c13fd20564f1e7230268a0943cc226368b24c44886d6738c479f4c42cbe77de",
+      "path": "leyes/068-lcne/source/LCNE.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LCNE.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LCNE.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 133632,
+      "sha256": "401dfa459fdbfb6b6e37ca61fb4872772af7ec0c8afc6c7414d211f10b43cc6b",
+      "path": "leyes/068-lcne/source/LCNE.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:09Z"
+}

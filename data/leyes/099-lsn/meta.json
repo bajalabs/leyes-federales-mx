@@ -1,0 +1,38 @@
+{
+  "slug": "099-lsn",
+  "numero": "099",
+  "nombre": "LEY de Seguridad Nacional",
+  "nombre_corto": "lsn",
+  "codigo_archivo": "LSN",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 31/01/2005",
+  "ultima_reforma": "DOF 14/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lsn.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSN.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSN.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 666346,
+      "sha256": "7b3cf7a0ff59f76503a97a535457c4a7dd3b1305e7a36f4fca82bd661eab1168",
+      "path": "leyes/099-lsn/source/LSN.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LSN.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LSN.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 167936,
+      "sha256": "f246049b4cc3fd9380378a53f463edf54df0951a8b373df2e4b1b340e6598274",
+      "path": "leyes/099-lsn/source/LSN.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:15Z"
+}

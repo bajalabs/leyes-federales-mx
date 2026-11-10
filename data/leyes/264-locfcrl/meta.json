@@ -1,0 +1,38 @@
+{
+  "slug": "264-locfcrl",
+  "numero": "264",
+  "nombre": "LEY Orgánica del Centro Federal de Conciliación y Registro Laboral",
+  "nombre_corto": "locfcrl",
+  "codigo_archivo": "LOCFCRL_060120",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 06/01/2020",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/locfcrl.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LOCFCRL_060120.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LOCFCRL_060120.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 249075,
+      "sha256": "1b50289dd80607f83a22c917a3ead722edbf30ee45e8756b3d764f000e1ffc48",
+      "path": "leyes/264-locfcrl/source/LOCFCRL_060120.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LOCFCRL_060120.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LOCFCRL_060120.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 91136,
+      "sha256": "985dba6b9508d348fd9fa195d3f9a58aadd6c05adc941e427987847ad3a57068",
+      "path": "leyes/264-locfcrl/source/LOCFCRL_060120.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:49Z"
+}

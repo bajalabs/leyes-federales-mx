@@ -1,0 +1,38 @@
+{
+  "slug": "217-lgsm",
+  "numero": "217",
+  "nombre": "LEY General de Sociedades Mercantiles",
+  "nombre_corto": "lgsm",
+  "codigo_archivo": "LGSM",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 04/08/1934",
+  "ultima_reforma": "DOF 26/12/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgsm.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGSM.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGSM.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 835947,
+      "sha256": "72b051296792cad896ac90e814ff8949e4ac140bf5ca5cc08f2f03e5e95aeac3",
+      "path": "leyes/217-lgsm/source/LGSM.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGSM.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGSM.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 356352,
+      "sha256": "c3486886a618e2b5717f1e84fd04c7fd9717a8ef7e848c694fffa0d6b86fca6d",
+      "path": "leyes/217-lgsm/source/LGSM.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:40Z"
+}

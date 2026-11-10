@@ -1,0 +1,21 @@
+{
+  "title": "Ley Orgánica del Instituto Politécnico Nacional",
+  "blocks": 237,
+  "kinds": {
+    "note": 2,
+    "heading": 10,
+    "body": 151,
+    "article": 34,
+    "annotation": 27,
+    "transitorio_heading": 2,
+    "ordinal_lead": 4,
+    "table": 7
+  },
+  "md_chars": 31280,
+  "slug": "268-loipn",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.14
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Procedimiento Administrativo",
+  "blocks": 523,
+  "kinds": {
+    "note": 2,
+    "heading": 60,
+    "body": 238,
+    "article": 119,
+    "annotation": 57,
+    "transitorio_heading": 10,
+    "ordinal_lead": 24,
+    "article_ordinal": 7,
+    "table": 6
+  },
+  "md_chars": 86255,
+  "slug": "153-lfpa",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.11
+}

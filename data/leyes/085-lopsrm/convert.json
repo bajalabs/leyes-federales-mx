@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Obras Públicas y Servicios Relacionados con las Mismas",
+  "blocks": 1337,
+  "kinds": {
+    "note": 2,
+    "heading": 27,
+    "body": 775,
+    "article": 133,
+    "annotation": 297,
+    "transitorio_heading": 14,
+    "ordinal_lead": 69,
+    "article_ordinal": 14,
+    "table": 6
+  },
+  "md_chars": 288131,
+  "slug": "085-lopsrm",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.22
+}

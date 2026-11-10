@@ -1,0 +1,21 @@
+{
+  "title": "Ley de Infraestructura de la Calidad",
+  "blocks": 894,
+  "kinds": {
+    "note": 2,
+    "heading": 114,
+    "body": 590,
+    "article_ordinal": 1,
+    "article": 165,
+    "transitorio_heading": 1,
+    "ordinal_lead": 15,
+    "table": 6
+  },
+  "md_chars": 194419,
+  "slug": "059-lical",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.21
+}

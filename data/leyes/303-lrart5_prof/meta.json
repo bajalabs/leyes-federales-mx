@@ -1,0 +1,38 @@
+{
+  "slug": "303-lrart5_prof",
+  "numero": "303",
+  "nombre": "LEY Reglamentaria del Artículo 5o. Constitucional, relativo al ejercicio de las profesiones en la Ciudad de México",
+  "nombre_corto": "lrart5_prof",
+  "codigo_archivo": "208_190118",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 26/05/1945",
+  "ultima_reforma": "DOF 19/01/2018",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lrart5_prof.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/208_190118.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/208_190118.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 395007,
+      "sha256": "db0e747c99548991239635e331e95369b627315c81889db03aa2e96f6d3debe6",
+      "path": "leyes/303-lrart5_prof/source/208_190118.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/208_190118.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/208_190118.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 121856,
+      "sha256": "907be66c7a09909e5bf775d0c7f90348d14a5eae18ac09e37f6c1ff0eaa9afa1",
+      "path": "leyes/303-lrart5_prof/source/208_190118.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:55Z"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Estatuto de Gobierno del Distrito Federal",
+  "blocks": 1128,
+  "kinds": {
+    "note": 2,
+    "heading": 65,
+    "table": 10,
+    "body": 568,
+    "article": 145,
+    "annotation": 251,
+    "transitorio_heading": 12,
+    "ordinal_lead": 64,
+    "article_ordinal": 11
+  },
+  "md_chars": 193216,
+  "slug": "011-egdf",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.17
+}

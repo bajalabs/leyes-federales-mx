@@ -1,0 +1,22 @@
+{
+  "title": "Ley del Servicio Militar",
+  "blocks": 208,
+  "kinds": {
+    "note": 2,
+    "heading": 4,
+    "body": 79,
+    "article": 77,
+    "annotation": 12,
+    "transitorio_heading": 11,
+    "ordinal_lead": 10,
+    "article_ordinal": 7,
+    "table": 6
+  },
+  "md_chars": 41906,
+  "slug": "129-lsm",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

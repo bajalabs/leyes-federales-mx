@@ -1,0 +1,22 @@
+{
+  "title": "Ley General para el Control del Tabaco",
+  "blocks": 333,
+  "kinds": {
+    "note": 2,
+    "heading": 41,
+    "body": 163,
+    "article_ordinal": 7,
+    "article": 57,
+    "annotation": 19,
+    "transitorio_heading": 7,
+    "ordinal_lead": 31,
+    "table": 6
+  },
+  "md_chars": 56521,
+  "slug": "231-lgct",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.19
+}

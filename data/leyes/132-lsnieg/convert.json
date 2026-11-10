@@ -1,0 +1,22 @@
+{
+  "title": "Ley del Sistema Nacional de Información Estadística y Geográfica",
+  "blocks": 950,
+  "kinds": {
+    "note": 2,
+    "heading": 66,
+    "body": 587,
+    "article_ordinal": 10,
+    "article": 134,
+    "annotation": 49,
+    "transitorio_heading": 11,
+    "ordinal_lead": 85,
+    "table": 6
+  },
+  "md_chars": 200629,
+  "slug": "132-lsnieg",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.16
+}

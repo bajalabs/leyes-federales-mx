@@ -1,0 +1,19 @@
+{
+  "title": "Ley Federal de Juegos y Sorteos",
+  "blocks": 55,
+  "kinds": {
+    "note": 2,
+    "heading": 2,
+    "body": 27,
+    "article": 17,
+    "transitorio_heading": 1,
+    "table": 6
+  },
+  "md_chars": 9715,
+  "slug": "148-lfjs",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.1
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Protección al Ahorro Bancario",
+  "blocks": 490,
+  "kinds": {
+    "note": 2,
+    "heading": 23,
+    "body": 249,
+    "article_ordinal": 12,
+    "article": 95,
+    "annotation": 55,
+    "transitorio_heading": 11,
+    "ordinal_lead": 37,
+    "table": 6
+  },
+  "md_chars": 90206,
+  "slug": "091-lpab",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.15
+}

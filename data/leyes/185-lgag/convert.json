@@ -1,0 +1,21 @@
+{
+  "title": "Ley General de Aguas",
+  "blocks": 243,
+  "kinds": {
+    "note": 2,
+    "heading": 52,
+    "body": 129,
+    "article_ordinal": 2,
+    "article": 45,
+    "transitorio_heading": 2,
+    "ordinal_lead": 5,
+    "table": 6
+  },
+  "md_chars": 42117,
+  "slug": "185-lgag",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.15
+}

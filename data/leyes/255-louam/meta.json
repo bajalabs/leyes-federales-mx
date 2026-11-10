@@ -1,0 +1,38 @@
+{
+  "slug": "255-louam",
+  "numero": "255",
+  "nombre": "LEY Orgánica de la Universidad Autónoma Metropolitana",
+  "nombre_corto": "louam",
+  "codigo_archivo": "157",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 17/12/1973",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/louam.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/157.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/157.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 297818,
+      "sha256": "8ed0956913d72410d20164fbb17b641a0b3bde532788035b8f0898d18481ac40",
+      "path": "leyes/255-louam/source/157.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/157.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/157.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 77312,
+      "sha256": "e1e7d57bae679d264541b0685b79c225440c3cce7082bad3a30fafce9fc0090a",
+      "path": "leyes/255-louam/source/157.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:47Z"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley General de Salud",
+  "blocks": 5848,
+  "kinds": {
+    "note": 3,
+    "heading": 220,
+    "body": 2827,
+    "article": 733,
+    "annotation": 1267,
+    "table": 114,
+    "transitorio_heading": 141,
+    "ordinal_lead": 380,
+    "article_ordinal": 163
+  },
+  "md_chars": 917416,
+  "slug": "215-lgs",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.52
+}

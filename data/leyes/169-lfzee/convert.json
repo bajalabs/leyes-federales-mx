@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Zonas Económicas Especiales",
+  "blocks": 451,
+  "kinds": {
+    "note": 2,
+    "heading": 32,
+    "body": 349,
+    "article_ordinal": 3,
+    "article": 50,
+    "annotation": 1,
+    "transitorio_heading": 3,
+    "ordinal_lead": 5,
+    "table": 6
+  },
+  "md_chars": 89676,
+  "slug": "169-lfzee",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.09
+}

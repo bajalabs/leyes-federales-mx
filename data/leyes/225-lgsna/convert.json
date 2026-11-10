@@ -1,0 +1,22 @@
+{
+  "title": "Ley General del Sistema Nacional Anticorrupción",
+  "blocks": 410,
+  "kinds": {
+    "note": 2,
+    "heading": 40,
+    "body": 273,
+    "article_ordinal": 2,
+    "article": 60,
+    "annotation": 3,
+    "transitorio_heading": 3,
+    "ordinal_lead": 21,
+    "table": 6
+  },
+  "md_chars": 77478,
+  "slug": "225-lgsna",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.15
+}

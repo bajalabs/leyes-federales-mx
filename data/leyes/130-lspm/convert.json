@@ -1,0 +1,22 @@
+{
+  "title": "Ley del Servicio Postal Mexicano",
+  "blocks": 301,
+  "kinds": {
+    "note": 2,
+    "heading": 52,
+    "body": 126,
+    "article": 72,
+    "annotation": 8,
+    "table": 25,
+    "transitorio_heading": 6,
+    "ordinal_lead": 6,
+    "article_ordinal": 4
+  },
+  "md_chars": 33191,
+  "slug": "130-lspm",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.12
+}

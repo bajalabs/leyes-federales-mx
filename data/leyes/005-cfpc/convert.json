@@ -1,0 +1,22 @@
+{
+  "title": "Código Federal de Procedimientos Civiles",
+  "blocks": 2073,
+  "kinds": {
+    "note": 2,
+    "heading": 195,
+    "body": 780,
+    "table": 13,
+    "article": 634,
+    "annotation": 328,
+    "transitorio_heading": 16,
+    "article_ordinal": 35,
+    "ordinal_lead": 70
+  },
+  "md_chars": 370720,
+  "slug": "005-cfpc",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.21
+}

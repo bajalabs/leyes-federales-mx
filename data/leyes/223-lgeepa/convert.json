@@ -1,0 +1,22 @@
+{
+  "title": "Ley General del Equilibrio Ecológico y la Protección al Ambiente",
+  "blocks": 2260,
+  "kinds": {
+    "note": 2,
+    "heading": 101,
+    "body": 1107,
+    "article": 270,
+    "annotation": 535,
+    "transitorio_heading": 55,
+    "ordinal_lead": 104,
+    "article_ordinal": 80,
+    "table": 6
+  },
+  "md_chars": 408196,
+  "slug": "223-lgeepa",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.25
+}

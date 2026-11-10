@@ -1,0 +1,22 @@
+{
+  "title": "Reglamento de la Cámara de Diputados",
+  "blocks": 2654,
+  "kinds": {
+    "note": 2,
+    "heading": 228,
+    "body": 1530,
+    "article_ordinal": 41,
+    "article": 323,
+    "annotation": 404,
+    "transitorio_heading": 41,
+    "ordinal_lead": 79,
+    "table": 6
+  },
+  "md_chars": 319325,
+  "slug": "315-reg_diputados",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.24
+}

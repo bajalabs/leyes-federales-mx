@@ -1,0 +1,20 @@
+{
+  "title": "Ley que Crea la Universidad del Ejército y Fuerza Aérea",
+  "blocks": 35,
+  "kinds": {
+    "note": 2,
+    "heading": 2,
+    "body": 14,
+    "article": 7,
+    "transitorio_heading": 1,
+    "article_ordinal": 3,
+    "table": 6
+  },
+  "md_chars": 5217,
+  "slug": "292-luefa",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.06
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Ascensos de la Armada de México",
+  "blocks": 319,
+  "kinds": {
+    "note": 2,
+    "heading": 40,
+    "body": 129,
+    "article": 57,
+    "annotation": 56,
+    "transitorio_heading": 8,
+    "article_ordinal": 11,
+    "ordinal_lead": 10,
+    "table": 6
+  },
+  "md_chars": 37675,
+  "slug": "022-laam",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.1
+}

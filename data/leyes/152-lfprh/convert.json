@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Presupuesto y Responsabilidad Hacendaria",
+  "blocks": 1619,
+  "kinds": {
+    "note": 2,
+    "heading": 61,
+    "body": 1029,
+    "article_ordinal": 25,
+    "article": 124,
+    "annotation": 172,
+    "table": 32,
+    "transitorio_heading": 25,
+    "ordinal_lead": 149
+  },
+  "md_chars": 375003,
+  "slug": "152-lfprh",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.24
+}

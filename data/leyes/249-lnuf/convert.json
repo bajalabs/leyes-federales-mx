@@ -1,0 +1,22 @@
+{
+  "title": "Ley Nacional sobre el Uso de la Fuerza",
+  "blocks": 291,
+  "kinds": {
+    "note": 2,
+    "heading": 28,
+    "body": 181,
+    "article_ordinal": 2,
+    "article": 44,
+    "annotation": 7,
+    "transitorio_heading": 3,
+    "ordinal_lead": 18,
+    "table": 6
+  },
+  "md_chars": 46091,
+  "slug": "249-lnuf",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.09
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley de los Derechos de las Personas Adultas Mayores",
+  "blocks": 608,
+  "kinds": {
+    "note": 2,
+    "heading": 42,
+    "body": 345,
+    "article": 52,
+    "annotation": 76,
+    "transitorio_heading": 19,
+    "ordinal_lead": 50,
+    "article_ordinal": 16,
+    "table": 6
+  },
+  "md_chars": 100806,
+  "slug": "076-ldpam",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

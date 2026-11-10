@@ -1,0 +1,20 @@
+{
+  "title": "Ley que crea la Agencia Espacial Mexicana",
+  "blocks": 155,
+  "kinds": {
+    "note": 2,
+    "heading": 8,
+    "body": 115,
+    "article_ordinal": 6,
+    "article": 17,
+    "transitorio_heading": 1,
+    "table": 6
+  },
+  "md_chars": 22368,
+  "slug": "290-laem",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.09
+}

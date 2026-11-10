@@ -1,0 +1,19 @@
+{
+  "title": "PRESUPUESTO de Egresos de la Federación para el Ejercicio Fiscal 2026",
+  "blocks": 1281,
+  "kinds": {
+    "body": 1217,
+    "heading": 22,
+    "article": 39,
+    "article_ordinal": 1,
+    "transitorio_heading": 1,
+    "ordinal_lead": 1
+  },
+  "md_chars": 331504,
+  "slug": "314-pef_2026",
+  "ok": true,
+  "source_kind": "pdf",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": "doc mojibake 6.00/1k > 1.0",
+  "secs": 2.51
+}

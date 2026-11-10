@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Recompensas de la Armada de México",
+  "blocks": 213,
+  "kinds": {
+    "note": 2,
+    "heading": 43,
+    "body": 75,
+    "article": 71,
+    "annotation": 7,
+    "transitorio_heading": 3,
+    "article_ordinal": 4,
+    "ordinal_lead": 2,
+    "table": 6
+  },
+  "md_chars": 49393,
+  "slug": "096-lram",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.09
+}

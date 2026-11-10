@@ -1,0 +1,22 @@
+{
+  "title": "Ley Orgánica del Banco Nacional del Ejército, Fuerza Aérea y Armada",
+  "blocks": 297,
+  "kinds": {
+    "note": 2,
+    "heading": 21,
+    "body": 137,
+    "article": 59,
+    "annotation": 43,
+    "transitorio_heading": 6,
+    "article_ordinal": 20,
+    "ordinal_lead": 3,
+    "table": 6
+  },
+  "md_chars": 54980,
+  "slug": "263-lobnefaa",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.12
+}

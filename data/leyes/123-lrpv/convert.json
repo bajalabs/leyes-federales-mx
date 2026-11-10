@@ -1,0 +1,22 @@
+{
+  "title": "Ley del Registro Público Vehicular",
+  "blocks": 195,
+  "kinds": {
+    "note": 2,
+    "heading": 17,
+    "body": 106,
+    "article_ordinal": 8,
+    "article": 27,
+    "annotation": 4,
+    "transitorio_heading": 5,
+    "ordinal_lead": 20,
+    "table": 6
+  },
+  "md_chars": 35421,
+  "slug": "123-lrpv",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.08
+}

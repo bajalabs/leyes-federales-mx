@@ -1,0 +1,38 @@
+{
+  "slug": "162-lfrpe",
+  "numero": "162",
+  "nombre": "LEY Federal de Responsabilidad Patrimonial del Estado",
+  "nombre_corto": "lfrpe",
+  "codigo_archivo": "LFRPE",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 31/12/2004",
+  "ultima_reforma": "DOF 29/12/2023",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfrpe.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFRPE.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFRPE.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 391126,
+      "sha256": "05390b6c1389b13c8004675b51e5da49bbdbba01c352e844ec1ccaf9b5abf1da",
+      "path": "leyes/162-lfrpe/source/LFRPE.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFRPE.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFRPE.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 109056,
+      "sha256": "d154e6c8d42ba2b0c6856dac7ef746aad559338fea37e5fdd47122238470ff1d",
+      "path": "leyes/162-lfrpe/source/LFRPE.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:26Z"
+}

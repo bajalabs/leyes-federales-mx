@@ -1,0 +1,21 @@
+{
+  "title": "Ley Orgánica de la Armada de México",
+  "blocks": 511,
+  "kinds": {
+    "note": 2,
+    "heading": 43,
+    "body": 291,
+    "article_ordinal": 1,
+    "article": 101,
+    "table": 67,
+    "transitorio_heading": 1,
+    "ordinal_lead": 5
+  },
+  "md_chars": 70020,
+  "slug": "251-loam",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.1
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Ley para Determinar el Valor de la Unidad de Medida y Actualización",
+  "blocks": 36,
+  "kinds": {
+    "note": 2,
+    "heading": 3,
+    "body": 15,
+    "article_ordinal": 1,
+    "article": 5,
+    "transitorio_heading": 1,
+    "ordinal_lead": 3,
+    "table": 6
+  },
+  "md_chars": 5189,
+  "slug": "273-ldvuma",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.12
+}

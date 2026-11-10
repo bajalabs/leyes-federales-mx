@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Ascensos y Recompensas del Ejército, Fuerza Aérea y Guardia Nacional",
+  "blocks": 678,
+  "kinds": {
+    "note": 2,
+    "body": 369,
+    "heading": 29,
+    "annotation": 116,
+    "article": 78,
+    "table": 7,
+    "transitorio_heading": 12,
+    "article_ordinal": 16,
+    "ordinal_lead": 49
+  },
+  "md_chars": 103323,
+  "slug": "023-larefam",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.15
+}

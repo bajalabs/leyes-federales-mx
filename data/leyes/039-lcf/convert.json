@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Coordinación Fiscal",
+  "blocks": 1243,
+  "kinds": {
+    "note": 3,
+    "heading": 22,
+    "body": 740,
+    "article": 65,
+    "annotation": 197,
+    "transitorio_heading": 35,
+    "article_ordinal": 43,
+    "ordinal_lead": 110,
+    "table": 28
+  },
+  "md_chars": 267791,
+  "slug": "039-lcf",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.19
+}

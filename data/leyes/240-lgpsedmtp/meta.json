@@ -1,0 +1,38 @@
+{
+  "slug": "240-lgpsedmtp",
+  "numero": "240",
+  "nombre": "LEY General para Prevenir, Sancionar y Erradicar los Delitos en Materia de Trata de Personas y para la Protección y Asistencia a las Víctimas de estos Delitos",
+  "nombre_corto": "lgpsedmtp",
+  "codigo_archivo": "LGPSEDMTP",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 14/06/2012",
+  "ultima_reforma": "DOF 14/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgpsedmtp.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGPSEDMTP.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGPSEDMTP.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 668029,
+      "sha256": "390299a89715d602b3ef07af9ef85aa09d456a2e1b6c7229da52e68434a1ed32",
+      "path": "leyes/240-lgpsedmtp/source/LGPSEDMTP.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGPSEDMTP.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGPSEDMTP.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 350208,
+      "sha256": "f73c5b75655cfce73a9f5d8ec6008971dde584376b7f12f3c654c40618bfe713",
+      "path": "leyes/240-lgpsedmtp/source/LGPSEDMTP.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:44Z"
+}

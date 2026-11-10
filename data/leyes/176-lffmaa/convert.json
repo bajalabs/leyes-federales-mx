@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal para el Fomento de la Microindustria y la Actividad Artesanal",
+  "blocks": 237,
+  "kinds": {
+    "note": 2,
+    "heading": 17,
+    "body": 109,
+    "annotation": 29,
+    "article": 47,
+    "transitorio_heading": 8,
+    "ordinal_lead": 13,
+    "article_ordinal": 6,
+    "table": 6
+  },
+  "md_chars": 43971,
+  "slug": "176-lffmaa",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.07
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "134-lsprem",
+  "numero": "134",
+  "nombre": "LEY del Sistema Público de Radiodifusión del Estado Mexicano",
+  "nombre_corto": "lsprem",
+  "codigo_archivo": "LSPREM",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 14/07/2014",
+  "ultima_reforma": "DOF 14/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lsprem.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSPREM.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSPREM.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 646502,
+      "sha256": "bcc21844355854fe331c842c21436d721d6c2856b5c5986715fe39f4a845b317",
+      "path": "leyes/134-lsprem/source/LSPREM.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LSPREM.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LSPREM.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 202240,
+      "sha256": "abc60410e1df564aea912ff447c001459417a051ad73043401da3d5ed8bcde54",
+      "path": "leyes/134-lsprem/source/LSPREM.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:21Z"
+}

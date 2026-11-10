@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal para el Control de Sustancias Químicas Susceptibles de Desvío para la Fabricación de Armas Químicas",
+  "blocks": 1106,
+  "kinds": {
+    "note": 2,
+    "heading": 43,
+    "body": 335,
+    "article_ordinal": 5,
+    "article": 75,
+    "annotation": 16,
+    "table": 591,
+    "transitorio_heading": 5,
+    "ordinal_lead": 34
+  },
+  "md_chars": 125403,
+  "slug": "175-lfcsq",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

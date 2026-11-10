@@ -1,0 +1,48 @@
+name: Data error
+description: A law, article, annotation or citation that does not match the official text.
+title: "[data] "
+labels: [data]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Please point at the exact place so it can be checked against the official file.
+        Corrections are made in the pipeline (usually the grammar in `scripts/patterns.py`), never by editing the Markdown by hand.
+  - type: input
+    id: law
+    attributes:
+      label: Law
+      description: The folder name under data/leyes/, e.g. `001-cpeum`.
+    validations:
+      required: true
+  - type: input
+    id: article
+    attributes:
+      label: Article
+      description: The label or article_key, e.g. `Artículo 27` or `15-bis`.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong
+      options:
+        - Text differs from the official text
+        - Article missing, merged or split
+        - Wrong hierarchy (título / capítulo / sección)
+        - Reform annotation missing or misparsed
+        - Citation wrong or missing
+        - Metadata (dates, status, name)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What the data says, what the official text says, and where you saw it.
+    validations:
+      required: true
+  - type: input
+    id: official
+    attributes:
+      label: Official source
+      description: Link to the Cámara de Diputados page or the DOF publication, if you have it.

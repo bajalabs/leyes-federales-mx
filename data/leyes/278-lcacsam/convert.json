@@ -1,0 +1,22 @@
+{
+  "title": "Ley para la Comprobación, Ajuste y Cómputo de Servicios de la Armada de México",
+  "blocks": 125,
+  "kinds": {
+    "note": 2,
+    "heading": 10,
+    "body": 74,
+    "article": 25,
+    "annotation": 1,
+    "transitorio_heading": 3,
+    "ordinal_lead": 1,
+    "article_ordinal": 3,
+    "table": 6
+  },
+  "md_chars": 16256,
+  "slug": "278-lcacsam",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

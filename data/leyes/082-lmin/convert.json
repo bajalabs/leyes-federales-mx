@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Minería",
+  "blocks": 860,
+  "kinds": {
+    "note": 2,
+    "body": 415,
+    "heading": 23,
+    "annotation": 277,
+    "article": 79,
+    "transitorio_heading": 8,
+    "ordinal_lead": 38,
+    "article_ordinal": 12,
+    "table": 6
+  },
+  "md_chars": 137847,
+  "slug": "082-lmin",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.14
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley General de Cambio Climático",
+  "blocks": 1049,
+  "kinds": {
+    "note": 2,
+    "heading": 69,
+    "body": 660,
+    "article_ordinal": 24,
+    "article": 116,
+    "annotation": 122,
+    "transitorio_heading": 14,
+    "ordinal_lead": 36,
+    "table": 6
+  },
+  "md_chars": 181672,
+  "slug": "190-lgcc",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.039,
+  "fallback_reason": null,
+  "secs": 0.17
+}

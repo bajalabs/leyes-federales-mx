@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Correduría Pública",
+  "blocks": 206,
+  "kinds": {
+    "note": 2,
+    "heading": 4,
+    "body": 132,
+    "article": 23,
+    "annotation": 18,
+    "transitorio_heading": 6,
+    "ordinal_lead": 10,
+    "article_ordinal": 5,
+    "table": 6
+  },
+  "md_chars": 32610,
+  "slug": "142-lfcp",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.11
+}

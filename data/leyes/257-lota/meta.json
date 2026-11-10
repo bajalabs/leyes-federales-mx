@@ -1,0 +1,38 @@
+{
+  "slug": "257-lota",
+  "numero": "257",
+  "nombre": "LEY Orgánica de los Tribunales Agrarios",
+  "nombre_corto": "lota",
+  "codigo_archivo": "159",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 26/02/1992",
+  "ultima_reforma": "DOF 23/01/1998",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lota.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/159.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/159.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 317149,
+      "sha256": "dd4e6e24f201a4e6b37919dc0461523bdb4f74e7c4852815f51bfd576c990296",
+      "path": "leyes/257-lota/source/159.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/159.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/159.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 89600,
+      "sha256": "9adf2912086eda5c9e69b0c56d23f05d29e4876bd6e887d3687a020a177759c4",
+      "path": "leyes/257-lota/source/159.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:48Z"
+}

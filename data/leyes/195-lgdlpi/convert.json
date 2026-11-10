@@ -1,0 +1,22 @@
+{
+  "title": "Ley General de Derechos Lingüísticos de los Pueblos Indígenas",
+  "blocks": 231,
+  "kinds": {
+    "note": 2,
+    "heading": 10,
+    "body": 115,
+    "article_ordinal": 13,
+    "article": 25,
+    "annotation": 15,
+    "transitorio_heading": 13,
+    "ordinal_lead": 32,
+    "table": 6
+  },
+  "md_chars": 45428,
+  "slug": "195-lgdlpi",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.1
+}

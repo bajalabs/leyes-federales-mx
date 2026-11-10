@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Sanidad Animal",
+  "blocks": 1087,
+  "kinds": {
+    "note": 2,
+    "heading": 95,
+    "body": 584,
+    "article_ordinal": 5,
+    "article": 177,
+    "annotation": 32,
+    "table": 165,
+    "transitorio_heading": 6,
+    "ordinal_lead": 21
+  },
+  "md_chars": 189212,
+  "slug": "165-lfsa",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.14
+}

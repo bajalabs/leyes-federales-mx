@@ -1,0 +1,38 @@
+{
+  "slug": "087-lplan",
+  "numero": "087",
+  "nombre": "LEY de Planeación",
+  "nombre_corto": "lplan",
+  "codigo_archivo": "LPlan",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 05/01/1983",
+  "ultima_reforma": "DOF 15/01/2026",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lplan.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LPlan.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LPlan.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 496203,
+      "sha256": "5a909996d6ef791fa377611c040a212dcf838cbf54ba16a7d7d0baaa57ac9962",
+      "path": "leyes/087-lplan/source/LPlan.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LPlan.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LPlan.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 212992,
+      "sha256": "4ac906a43098f3379a6e7de6f3ddc450fab97e8abff43732c02dae3f3b8f64b3",
+      "path": "leyes/087-lplan/source/LPlan.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:14Z"
+}

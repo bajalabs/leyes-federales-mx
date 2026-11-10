@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Seguridad Interior",
+  "blocks": 193,
+  "kinds": {
+    "note": 4,
+    "heading": 19,
+    "body": 110,
+    "article_ordinal": 6,
+    "annotation": 1,
+    "article": 34,
+    "transitorio_heading": 1,
+    "ordinal_lead": 11,
+    "table": 7
+  },
+  "md_chars": 40406,
+  "slug": "098-lsint",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.08
+}

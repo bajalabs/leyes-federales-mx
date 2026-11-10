@@ -1,0 +1,22 @@
+{
+  "title": "Ley Reglamentaria del Servicio Ferroviario",
+  "blocks": 650,
+  "kinds": {
+    "note": 2,
+    "heading": 32,
+    "body": 305,
+    "article": 69,
+    "annotation": 164,
+    "transitorio_heading": 10,
+    "ordinal_lead": 54,
+    "article_ordinal": 8,
+    "table": 6
+  },
+  "md_chars": 116437,
+  "slug": "305-lrsf",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.15
+}

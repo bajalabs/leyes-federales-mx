@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Variedades Vegetales",
+  "blocks": 234,
+  "kinds": {
+    "note": 2,
+    "heading": 29,
+    "body": 130,
+    "article": 48,
+    "annotation": 3,
+    "transitorio_heading": 4,
+    "article_ordinal": 7,
+    "ordinal_lead": 5,
+    "table": 6
+  },
+  "md_chars": 41415,
+  "slug": "168-lfvv",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.08
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "065-lansi",
+  "numero": "065",
+  "nombre": "LEY de la Agencia Nacional de Seguridad Industrial y de Protección al Medio Ambiente del Sector Hidrocarburos",
+  "nombre_corto": "lansi",
+  "codigo_archivo": "LANSI",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 11/08/2014",
+  "ultima_reforma": "DOF 11/05/2022",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lansi.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LANSI.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LANSI.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 463396,
+      "sha256": "0e34f329befed4474eb7bc1bc195ba13bbe188edfbbabc914a44723e62eb9e44",
+      "path": "leyes/065-lansi/source/LANSI.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LANSI.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LANSI.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 150528,
+      "sha256": "c99d7d06ad68ad781718a1fb78849f3ae129c34b6df11a1ee0e5777aebaf14e1",
+      "path": "leyes/065-lansi/source/LANSI.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:09Z"
+}

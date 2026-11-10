@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Educación Militar del Ejército, Fuerza Aérea y Guardia Nacional",
+  "blocks": 227,
+  "kinds": {
+    "note": 2,
+    "body": 80,
+    "heading": 30,
+    "article_ordinal": 5,
+    "annotation": 32,
+    "article": 52,
+    "transitorio_heading": 6,
+    "ordinal_lead": 14,
+    "table": 6
+  },
+  "md_chars": 29388,
+  "slug": "046-lemefam",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.11
+}

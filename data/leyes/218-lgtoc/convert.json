@@ -1,0 +1,22 @@
+{
+  "title": "Ley General de Títulos y Operaciones de Crédito",
+  "blocks": 1846,
+  "kinds": {
+    "note": 3,
+    "heading": 93,
+    "body": 817,
+    "article": 462,
+    "annotation": 359,
+    "transitorio_heading": 17,
+    "article_ordinal": 39,
+    "ordinal_lead": 50,
+    "table": 6
+  },
+  "md_chars": 373012,
+  "slug": "218-lgtoc",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.22
+}

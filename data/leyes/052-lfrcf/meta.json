@@ -1,0 +1,38 @@
+{
+  "slug": "052-lfrcf",
+  "numero": "052",
+  "nombre": "LEY de Fiscalización y Rendición de Cuentas de la Federación",
+  "nombre_corto": "lfrcf",
+  "codigo_archivo": "LFRCF_200521",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 18/07/2016",
+  "ultima_reforma": "DOF 20/05/2021",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfrcf.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFRCF_200521.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFRCF.pdf",
+      "http_code": 200,
+      "fallback_rank": 1,
+      "content_type": "application/pdf",
+      "bytes": 657518,
+      "sha256": "cc687a4d8d9de93d2d3ec9b40b26d0273e108bb002a6f611806dc36ebce5ba2c",
+      "path": "leyes/052-lfrcf/source/LFRCF_200521.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFRCF_200521.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFRCF.doc",
+      "http_code": 200,
+      "fallback_rank": 1,
+      "content_type": "application/msword",
+      "bytes": 291840,
+      "sha256": "a30f45e2feb98329e37ae9848238bfede9f3e5f9479e50fdef348da300c11a9f",
+      "path": "leyes/052-lfrcf/source/LFRCF_200521.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:29:04Z"
+}

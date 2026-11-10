@@ -1,0 +1,22 @@
+{
+  "title": "Ley Nacional de Extinción de Dominio",
+  "blocks": 962,
+  "kinds": {
+    "note": 2,
+    "heading": 86,
+    "body": 551,
+    "article_ordinal": 5,
+    "article": 251,
+    "annotation": 24,
+    "transitorio_heading": 5,
+    "ordinal_lead": 32,
+    "table": 6
+  },
+  "md_chars": 198398,
+  "slug": "244-lned",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.14
+}

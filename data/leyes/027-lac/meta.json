@@ -1,0 +1,38 @@
+{
+  "slug": "027-lac",
+  "numero": "027",
+  "nombre": "LEY de Aviación Civil",
+  "nombre_corto": "lac",
+  "codigo_archivo": "LAC",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 12/05/1995",
+  "ultima_reforma": "DOF 14/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lac.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LAC.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LAC.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 983109,
+      "sha256": "07199878c4f94748c983998437198eb7c645ad76967c444dfe26d50a535d23ae",
+      "path": "leyes/027-lac/source/LAC.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LAC.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LAC.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 510464,
+      "sha256": "ceef754f672ed101f960c75f7209f9fed4f0d4592e55c933d34c32fa2569945f",
+      "path": "leyes/027-lac/source/LAC.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:02Z"
+}

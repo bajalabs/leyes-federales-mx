@@ -1,0 +1,38 @@
+{
+  "slug": "058-lgeo",
+  "numero": "058",
+  "nombre": "LEY de Geotermia",
+  "nombre_corto": "lgeo",
+  "codigo_archivo": "LGeo",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 18/03/2025",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgeo.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGeo.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGeo.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 443402,
+      "sha256": "67309bf186af42de0f9e98010d38c89598676faea7f2b558ac9c9e6736d64d35",
+      "path": "leyes/058-lgeo/source/LGeo.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGeo.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGeo.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 157184,
+      "sha256": "ff1be6ac187e2ea49b9aa7f889e30d93e409c88048ed56a4ebc659ed16b04ae5",
+      "path": "leyes/058-lgeo/source/LGeo.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:07Z"
+}

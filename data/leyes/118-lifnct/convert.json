@@ -1,0 +1,22 @@
+{
+  "title": "Ley del Instituto del Fondo Nacional para el Consumo de los Trabajadores",
+  "blocks": 227,
+  "kinds": {
+    "note": 2,
+    "heading": 21,
+    "body": 141,
+    "ordinal_lead": 13,
+    "article": 33,
+    "annotation": 3,
+    "transitorio_heading": 5,
+    "article_ordinal": 3,
+    "table": 6
+  },
+  "md_chars": 41478,
+  "slug": "118-lifnct",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.1
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley General de Cultura Física y Deporte",
+  "blocks": 1059,
+  "kinds": {
+    "note": 2,
+    "heading": 48,
+    "body": 623,
+    "article_ordinal": 16,
+    "article": 157,
+    "annotation": 120,
+    "transitorio_heading": 17,
+    "ordinal_lead": 70,
+    "table": 6
+  },
+  "md_chars": 211433,
+  "slug": "193-lgcfd",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.15
+}

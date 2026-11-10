@@ -1,0 +1,38 @@
+{
+  "slug": "155-lfpccs",
+  "numero": "155",
+  "nombre": "LEY Federal de Producción, Certificación y Comercio de Semillas",
+  "nombre_corto": "lfpccs",
+  "codigo_archivo": "LFPCCS_110518",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 15/06/2007",
+  "ultima_reforma": "DOF 11/05/2018",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfpccs.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPCCS_110518.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPCCS_110518.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 380288,
+      "sha256": "ea99e8d1b13b36451e69f865d4aeeca08ce847fb7dcab648e77f65ca88991a8b",
+      "path": "leyes/155-lfpccs/source/LFPCCS_110518.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFPCCS_110518.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFPCCS_110518.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 115200,
+      "sha256": "a5d0eee42c58c31b4e5ab0f8b4c00a42dc7b5fda3ec3d3b4dfe273fe5dc4c68d",
+      "path": "leyes/155-lfpccs/source/LFPCCS_110518.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:24Z"
+}

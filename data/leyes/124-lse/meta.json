@@ -1,0 +1,38 @@
+{
+  "slug": "124-lse",
+  "numero": "124",
+  "nombre": "LEY del Sector Eléctrico",
+  "nombre_corto": "lse",
+  "codigo_archivo": "LSE",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 18/03/2025",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lse.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSE.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSE.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 698275,
+      "sha256": "aa96853f010885bdf85160e944e5c0ef5c3c8e95422dfede280d228cf064310a",
+      "path": "leyes/124-lse/source/LSE.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LSE.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LSE.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 346112,
+      "sha256": "a807e45b7695fee2f7f2ed634428fe03c5bd0d81b14e0fefb606f57f06f640af",
+      "path": "leyes/124-lse/source/LSE.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:19Z"
+}

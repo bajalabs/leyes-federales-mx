@@ -1,0 +1,22 @@
+{
+  "title": "Ley Orgánica de la Procuraduría de la Defensa del Contribuyente",
+  "blocks": 248,
+  "kinds": {
+    "note": 2,
+    "heading": 19,
+    "body": 164,
+    "article_ordinal": 9,
+    "article": 28,
+    "annotation": 6,
+    "transitorio_heading": 4,
+    "ordinal_lead": 10,
+    "table": 6
+  },
+  "md_chars": 52264,
+  "slug": "252-lopdc",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Seguridad Nacional",
+  "blocks": 454,
+  "kinds": {
+    "note": 2,
+    "heading": 53,
+    "body": 234,
+    "article_ordinal": 14,
+    "article": 76,
+    "annotation": 23,
+    "transitorio_heading": 8,
+    "ordinal_lead": 38,
+    "table": 6
+  },
+  "md_chars": 83565,
+  "slug": "099-lsn",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

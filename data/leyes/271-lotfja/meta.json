@@ -1,0 +1,38 @@
+{
+  "slug": "271-lotfja",
+  "numero": "271",
+  "nombre": "LEY Orgánica del Tribunal Federal de Justicia Administrativa",
+  "nombre_corto": "lotfja",
+  "codigo_archivo": "LOTFJA",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 18/07/2016",
+  "ultima_reforma": "DOF 16/10/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lotfja.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LOTFJA.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LOTFJA.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 563473,
+      "sha256": "b32c33fa4ed071dc8bea1ad69ce8510cdb05016967e9e4fcb60f10c6f2216628",
+      "path": "leyes/271-lotfja/source/LOTFJA.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LOTFJA.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LOTFJA.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 216576,
+      "sha256": "9e7880dba96ac7a8217b47696cd486d5743238e2f24938e760b3a7373ea275b7",
+      "path": "leyes/271-lotfja/source/LOTFJA.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:50Z"
+}

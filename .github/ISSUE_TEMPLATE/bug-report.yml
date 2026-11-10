@@ -1,0 +1,27 @@
+name: Bug report
+description: A script fails or produces the wrong output.
+title: "[bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: command
+    attributes:
+      label: Command
+      description: The exact command you ran.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: What happened
+      description: The output or error, and what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      description: Operating system, `python3 --version`, and `sqlite3 --version` if relevant.
+    validations:
+      required: true

@@ -1,0 +1,38 @@
+{
+  "slug": "104-ltfccg",
+  "numero": "104",
+  "nombre": "LEY de Transparencia y de Fomento a la Competencia en el Crédito Garantizado",
+  "nombre_corto": "ltfccg",
+  "codigo_archivo": "256",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 30/12/2002",
+  "ultima_reforma": "DOF 10/01/2014",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/ltfccg.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/256.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/256.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 353625,
+      "sha256": "1764c89edb8173050fe6bc08f57826ea93a131c7c83f4fc8c15f74de03fb07c3",
+      "path": "leyes/104-ltfccg/source/256.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/256.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/256.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 116224,
+      "sha256": "4f3c0d317979d8940a8f99f893a5c24a46ecca282173bedeab383bb835120487",
+      "path": "leyes/104-ltfccg/source/256.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:16Z"
+}

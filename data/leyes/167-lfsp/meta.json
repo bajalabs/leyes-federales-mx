@@ -1,0 +1,38 @@
+{
+  "slug": "167-lfsp",
+  "numero": "167",
+  "nombre": "LEY Federal de Seguridad Privada",
+  "nombre_corto": "lfsp",
+  "codigo_archivo": "LFSP",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 06/07/2006",
+  "ultima_reforma": "DOF 17/10/2011",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfsp.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFSP.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFSP.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 365989,
+      "sha256": "08a1e07c7b82309ac734f7905b7457f059141336731e7b9047042f5bd84aac69",
+      "path": "leyes/167-lfsp/source/LFSP.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFSP.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFSP.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 185344,
+      "sha256": "818ac955df6c55cddedae0b66fb6fa80a0b8ebe53fc917d8836bf386ee691edb",
+      "path": "leyes/167-lfsp/source/LFSP.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:26Z"
+}

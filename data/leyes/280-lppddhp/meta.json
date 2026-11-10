@@ -1,0 +1,38 @@
+{
+  "slug": "280-lppddhp",
+  "numero": "280",
+  "nombre": "LEY para la Protección de Personas Defensoras de Derechos Humanos y Periodistas",
+  "nombre_corto": "lppddhp",
+  "codigo_archivo": "LPPDDHP",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 25/06/2012",
+  "ultima_reforma": "DOF 28/04/2022",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lppddhp.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LPPDDHP.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LPPDDHP.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 421186,
+      "sha256": "060468c7fa389756fc5706ce2d475a105bb9bb0149fc6a9079a018bc3b4f6e21",
+      "path": "leyes/280-lppddhp/source/LPPDDHP.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LPPDDHP.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LPPDDHP.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 159232,
+      "sha256": "7e8f5d20c4ac1ef1531c110f3a1f26918a95f30c440430edc773c3c2c879be32",
+      "path": "leyes/280-lppddhp/source/LPPDDHP.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:52Z"
+}

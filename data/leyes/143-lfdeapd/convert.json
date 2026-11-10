@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Declaración Especial de Ausencia para Personas Desaparecidas",
+  "blocks": 201,
+  "kinds": {
+    "note": 2,
+    "heading": 12,
+    "body": 118,
+    "article_ordinal": 3,
+    "article": 33,
+    "annotation": 3,
+    "transitorio_heading": 4,
+    "ordinal_lead": 20,
+    "table": 6
+  },
+  "md_chars": 46344,
+  "slug": "143-lfdeapd",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.09
+}

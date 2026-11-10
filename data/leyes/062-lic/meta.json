@@ -1,0 +1,38 @@
+{
+  "slug": "062-lic",
+  "numero": "062",
+  "nombre": "LEY de Instituciones de Crédito",
+  "nombre_corto": "lic",
+  "codigo_archivo": "LIC",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 18/07/1990",
+  "ultima_reforma": "DOF 14/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lic.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIC.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIC.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 2704455,
+      "sha256": "98225a423eaa3dc47c9ec4ddb49ef8b188ed7f8e7e9ef17323a1c33e47e4284d",
+      "path": "leyes/062-lic/source/LIC.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LIC.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LIC.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 1452544,
+      "sha256": "a9933a727b4d83613766fd7ebeb341f6cfefcaca38d648ba0fab4e36b6922ff5",
+      "path": "leyes/062-lic/source/LIC.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:08Z"
+}

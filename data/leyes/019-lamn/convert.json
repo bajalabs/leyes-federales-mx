@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Amnistía",
+  "blocks": 74,
+  "kinds": {
+    "note": 2,
+    "heading": 4,
+    "body": 40,
+    "article_ordinal": 2,
+    "article": 9,
+    "annotation": 1,
+    "transitorio_heading": 3,
+    "ordinal_lead": 7,
+    "table": 6
+  },
+  "md_chars": 13240,
+  "slug": "019-lamn",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.07
+}

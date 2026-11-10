@@ -1,0 +1,22 @@
+{
+  "title": "Ley Orgánica de la Procuraduría General de Justicia del Distrito Federal",
+  "blocks": 779,
+  "kinds": {
+    "note": 2,
+    "heading": 71,
+    "body": 597,
+    "table": 7,
+    "article_ordinal": 7,
+    "article": 84,
+    "annotation": 6,
+    "transitorio_heading": 2,
+    "ordinal_lead": 3
+  },
+  "md_chars": 123515,
+  "slug": "253-lopgjdf",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.15
+}

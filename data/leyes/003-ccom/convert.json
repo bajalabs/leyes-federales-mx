@@ -1,0 +1,22 @@
+{
+  "title": "Código de Comercio",
+  "blocks": 5654,
+  "kinds": {
+    "note": 2,
+    "heading": 370,
+    "body": 1635,
+    "article": 1669,
+    "annotation": 1691,
+    "table": 9,
+    "transitorio_heading": 73,
+    "article_ordinal": 79,
+    "ordinal_lead": 126
+  },
+  "md_chars": 706710,
+  "slug": "003-ccom",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.43
+}

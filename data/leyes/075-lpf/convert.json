@@ -1,0 +1,22 @@
+{
+  "title": "Ley de la Policía Federal",
+  "blocks": 506,
+  "kinds": {
+    "note": 2,
+    "heading": 33,
+    "body": 364,
+    "article_ordinal": 9,
+    "article": 55,
+    "annotation": 7,
+    "transitorio_heading": 5,
+    "ordinal_lead": 25,
+    "table": 6
+  },
+  "md_chars": 90052,
+  "slug": "075-lpf",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

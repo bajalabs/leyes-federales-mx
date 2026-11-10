@@ -1,0 +1,38 @@
+{
+  "slug": "144-lfdefp",
+  "numero": "144",
+  "nombre": "LEY Federal de Defensoría Pública",
+  "nombre_corto": "lfdefp",
+  "codigo_archivo": "LFDefP",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 28/05/1998",
+  "ultima_reforma": "DOF 01/04/2024",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfdefp.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFDefP.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFDefP.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 704006,
+      "sha256": "603475aa11e46fa2fcf3b7e1c1ec111d4202070c309d1b355b834f011c226262",
+      "path": "leyes/144-lfdefp/source/LFDefP.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFDefP.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFDefP.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 251392,
+      "sha256": "1a4d750cfd9623a803e4ce1314b158fd3ecd62ea9c458778175111a8542222fc",
+      "path": "leyes/144-lfdefp/source/LFDefP.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:23Z"
+}

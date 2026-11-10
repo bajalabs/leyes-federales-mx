@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Ahorro y Crédito Popular",
+  "blocks": 2070,
+  "kinds": {
+    "note": 2,
+    "heading": 77,
+    "body": 1240,
+    "article_ordinal": 36,
+    "article": 232,
+    "annotation": 351,
+    "transitorio_heading": 17,
+    "ordinal_lead": 109,
+    "table": 6
+  },
+  "md_chars": 479468,
+  "slug": "018-lacp",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.24
+}

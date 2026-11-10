@@ -1,0 +1,22 @@
+{
+  "title": "Ley del Instituto Mexicano de la Juventud",
+  "blocks": 290,
+  "kinds": {
+    "note": 2,
+    "heading": 7,
+    "body": 153,
+    "article": 20,
+    "annotation": 64,
+    "transitorio_heading": 11,
+    "ordinal_lead": 16,
+    "article_ordinal": 11,
+    "table": 6
+  },
+  "md_chars": 41307,
+  "slug": "119-limj",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.08
+}

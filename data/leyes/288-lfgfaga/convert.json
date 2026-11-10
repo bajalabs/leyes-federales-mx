@@ -1,0 +1,22 @@
+{
+  "title": "Ley que crea el Fondo de Garantía y Fomento para la Agricultura, Ganadería y Avicultura",
+  "blocks": 128,
+  "kinds": {
+    "note": 2,
+    "heading": 3,
+    "body": 70,
+    "article": 14,
+    "annotation": 17,
+    "transitorio_heading": 5,
+    "article_ordinal": 5,
+    "ordinal_lead": 6,
+    "table": 6
+  },
+  "md_chars": 19758,
+  "slug": "288-lfgfaga",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.11
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Firma Electrónica Avanzada",
+  "blocks": 250,
+  "kinds": {
+    "note": 2,
+    "heading": 25,
+    "body": 150,
+    "article_ordinal": 3,
+    "article": 31,
+    "annotation": 3,
+    "transitorio_heading": 4,
+    "ordinal_lead": 26,
+    "table": 6
+  },
+  "md_chars": 49306,
+  "slug": "051-lfea",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.14
+}

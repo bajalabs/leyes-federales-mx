@@ -1,0 +1,21 @@
+{
+  "title": "Ley de Fomento a la Industria Vitivinícola",
+  "blocks": 153,
+  "kinds": {
+    "note": 2,
+    "heading": 23,
+    "body": 82,
+    "article_ordinal": 1,
+    "article": 35,
+    "transitorio_heading": 1,
+    "ordinal_lead": 3,
+    "table": 6
+  },
+  "md_chars": 24960,
+  "slug": "054-lfiv",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

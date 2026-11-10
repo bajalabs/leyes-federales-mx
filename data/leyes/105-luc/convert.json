@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Uniones de Crédito",
+  "blocks": 950,
+  "kinds": {
+    "note": 2,
+    "heading": 51,
+    "body": 629,
+    "article_ordinal": 6,
+    "article": 151,
+    "annotation": 80,
+    "transitorio_heading": 6,
+    "ordinal_lead": 19,
+    "table": 6
+  },
+  "md_chars": 219509,
+  "slug": "105-luc",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.16
+}

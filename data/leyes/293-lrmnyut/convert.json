@@ -1,0 +1,21 @@
+{
+  "title": "Ley que Declara Reservas Mineras Nacionales los Yacimientos de Uranio, Torio y las demás Substancias de las de las Cuales se Obtengan Isótopos Hendibles que puedan Producir Energía Nuclear",
+  "blocks": 60,
+  "kinds": {
+    "note": 2,
+    "heading": 3,
+    "body": 21,
+    "article": 16,
+    "annotation": 3,
+    "transitorio_heading": 3,
+    "article_ordinal": 6,
+    "table": 6
+  },
+  "md_chars": 11456,
+  "slug": "293-lrmnyut",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.11
+}

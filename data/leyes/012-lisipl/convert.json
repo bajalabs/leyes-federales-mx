@@ -1,0 +1,19 @@
+{
+  "title": "Impuesto sobre Servicios Expresamente declarados de Interés Público por Ley, en los que Intervengan Empresas Concesionarias de Bienes del Dominio directo de la Nación (Ley que establece)",
+  "blocks": 49,
+  "kinds": {
+    "note": 2,
+    "heading": 3,
+    "body": 28,
+    "article_ordinal": 9,
+    "transitorio_heading": 1,
+    "table": 6
+  },
+  "md_chars": 8143,
+  "slug": "012-lisipl",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.07
+}

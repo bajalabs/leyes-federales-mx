@@ -1,0 +1,22 @@
+{
+  "title": "Ley General de Contabilidad Gubernamental",
+  "blocks": 781,
+  "kinds": {
+    "note": 2,
+    "heading": 47,
+    "body": 421,
+    "article_ordinal": 12,
+    "article": 87,
+    "annotation": 84,
+    "transitorio_heading": 13,
+    "ordinal_lead": 97,
+    "table": 18
+  },
+  "md_chars": 165897,
+  "slug": "192-lgcg",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

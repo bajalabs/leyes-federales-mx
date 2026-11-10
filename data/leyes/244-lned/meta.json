@@ -1,0 +1,38 @@
+{
+  "slug": "244-lned",
+  "numero": "244",
+  "nombre": "LEY Nacional de Extinción de Dominio",
+  "nombre_corto": "lned",
+  "codigo_archivo": "LNED",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 09/08/2019",
+  "ultima_reforma": "DOF 28/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lned.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LNED.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LNED.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 1056771,
+      "sha256": "e6a8ce3c4efe726e0336a029d6906fcefe2f517c2cf1e44edea9c4862ddd8c68",
+      "path": "leyes/244-lned/source/LNED.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LNED.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LNED.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 344576,
+      "sha256": "31a6fa484538b2dd87002a6a9adac08fe5ec49834e135fe545d32f30bec9253d",
+      "path": "leyes/244-lned/source/LNED.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:46Z"
+}

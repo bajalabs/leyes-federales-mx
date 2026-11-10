@@ -1,0 +1,22 @@
+{
+  "title": "Ley General de Sociedades Mercantiles",
+  "blocks": 999,
+  "kinds": {
+    "note": 3,
+    "heading": 43,
+    "body": 450,
+    "article": 281,
+    "annotation": 163,
+    "table": 7,
+    "transitorio_heading": 15,
+    "article_ordinal": 9,
+    "ordinal_lead": 28
+  },
+  "md_chars": 169625,
+  "slug": "217-lgsm",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.17
+}

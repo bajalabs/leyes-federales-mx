@@ -1,0 +1,22 @@
+{
+  "title": "Ley del Instituto Nacional de los Pueblos Indígenas",
+  "blocks": 294,
+  "kinds": {
+    "note": 2,
+    "heading": 10,
+    "body": 201,
+    "article_ordinal": 4,
+    "article": 29,
+    "annotation": 22,
+    "transitorio_heading": 5,
+    "ordinal_lead": 15,
+    "table": 6
+  },
+  "md_chars": 53113,
+  "slug": "121-linpi",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.09
+}

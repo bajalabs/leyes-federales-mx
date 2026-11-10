@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Aguas Nacionales",
+  "blocks": 2195,
+  "kinds": {
+    "note": 2,
+    "heading": 131,
+    "body": 1137,
+    "article": 215,
+    "annotation": 606,
+    "table": 14,
+    "transitorio_heading": 14,
+    "article_ordinal": 23,
+    "ordinal_lead": 53
+  },
+  "md_chars": 395273,
+  "slug": "017-lan",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.24
+}

@@ -1,0 +1,17 @@
+[project]
+name = "leyes-federales-mx"
+version = "1.0.0"
+description = "The 319 Mexican federal laws (Cámara de Diputados) as structured, searchable data: Markdown, SQLite with full-text search, CSV."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+authors = [{ name = "Baja Labs" }]
+# Standard library only. Conversion also uses curl, macOS textutil and poppler's pdftotext.
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/bajalabs/leyes-federales-mx"
+Issues = "https://github.com/bajalabs/leyes-federales-mx/issues"
+
+[tool.uv]
+package = false

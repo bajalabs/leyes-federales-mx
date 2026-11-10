@@ -1,0 +1,38 @@
+{
+  "slug": "314a-pef_2025",
+  "numero": "314 A",
+  "nombre": "PRESUPUESTO de Egresos de la Federación para el Ejercicio Fiscal 2025",
+  "nombre_corto": "pef_2025",
+  "codigo_archivo": "PEF_2025_abro",
+  "estado_vigencia": "abrogada",
+  "dof_original": "DOF 24/12/2024",
+  "ultima_reforma": "DOF 21/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/abro/pef_2025.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/abro/pef_2025/PEF_2025_abro.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/abro/pef_2025/PEF_2025_abro.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 9438797,
+      "sha256": "4cdbdc3dd9f2c87e07b79b71e0676050a0c34119028eab99963c61851368acf8",
+      "path": "leyes/314a-pef_2025/source/PEF_2025_abro.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/abro/pef_2025/PEF_2025_abro.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/abro/pef_2025/PEF_2025_abro.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 10884096,
+      "sha256": "bf3a758501537784eb5205cd5df44327f55dc86d4cf5cfe51af087eef2ade0c6",
+      "path": "leyes/314a-pef_2025/source/PEF_2025_abro.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:29:07Z"
+}

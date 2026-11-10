@@ -1,0 +1,22 @@
+{
+  "title": "Ley Sobre la Celebración de Tratados",
+  "blocks": 106,
+  "kinds": {
+    "note": 2,
+    "heading": 3,
+    "body": 53,
+    "article": 11,
+    "annotation": 4,
+    "transitorio_heading": 4,
+    "article_ordinal": 3,
+    "ordinal_lead": 20,
+    "table": 6
+  },
+  "md_chars": 25135,
+  "slug": "311-lsct",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.12
+}

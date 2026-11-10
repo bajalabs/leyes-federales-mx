@@ -1,0 +1,38 @@
+{
+  "slug": "184-lgamvlv",
+  "numero": "184",
+  "nombre": "LEY General de Acceso de las Mujeres a una Vida Libre de Violencias",
+  "nombre_corto": "lgamvlv",
+  "codigo_archivo": "LGAMVLV",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 01/02/2007",
+  "ultima_reforma": "DOF 15/01/2026",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgamvlv.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGAMVLV.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGAMVLV.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 903623,
+      "sha256": "9a35a6a9017840b7d052dfc0726ff668a76257fd3f76f741c615630125fbf535",
+      "path": "leyes/184-lgamvlv/source/LGAMVLV.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGAMVLV.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGAMVLV.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 475136,
+      "sha256": "02828978553252b63cd943b89778a87a810772a0f8379f00e8740f9f4087431c",
+      "path": "leyes/184-lgamvlv/source/LGAMVLV.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:32Z"
+}

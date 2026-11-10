@@ -1,0 +1,58 @@
+# CI: the tests, then a database built from the committed sample (data/sample.txt)
+# and checked by the verification gate. No network, no secrets.
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+
+      - name: Scripts compile
+        run: python -m compileall -q scripts tests
+
+      - name: Manifests and metadata parse
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          files = [pathlib.Path("data/manifest.json"), pathlib.Path("data/conversion-report.json"),
+                   *pathlib.Path("data/leyes").glob("*/meta.json"),
+                   *pathlib.Path("data/leyes").glob("*/convert.json")]
+          for p in files:
+              json.loads(p.read_text(encoding="utf-8"))
+          man = json.loads(pathlib.Path("data/manifest.json").read_text(encoding="utf-8"))
+          missing = [r["slug"] for r in man["laws"]
+                     if not (pathlib.Path("data/leyes") / r["slug"] / f"{r['codigo_archivo']}.md").exists()]
+          assert not missing, f"laws without markdown: {missing}"
+          assert all(f.get("sha256") for r in man["laws"] for f in r["files"].values()), "unpinned source file"
+          print(f"{len(files)} JSON files parse; {len(man['laws'])} laws, every one with markdown and pinned sources")
+          PY
+
+      - name: Tests
+        run: python -m unittest -v
+
+      - name: Build the sample database
+        run: python scripts/build_db.py --sample --db build/sample.sqlite
+
+      - name: Verify the sample database
+        run: python scripts/verify_db.py --sample --db build/sample.sqlite --receipt build/verify-sample.json

@@ -1,0 +1,38 @@
+{
+  "slug": "036-lcm",
+  "numero": "036",
+  "nombre": "LEY de Concursos Mercantiles",
+  "nombre_corto": "lcm",
+  "codigo_archivo": "LCM",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 12/05/2000",
+  "ultima_reforma": "DOF 16/01/2026 Sentencia SCJN",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lcm.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LCM.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LCM.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 1089765,
+      "sha256": "8e270686b885035488bfe310b0b42bb40e7154431794227ebe212dd7dc12e46a",
+      "path": "leyes/036-lcm/source/LCM.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LCM.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LCM.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 486912,
+      "sha256": "9bbc486014eace24e0199e90646448eaaff47d1a0aa1adedd4843e606e1e475a",
+      "path": "leyes/036-lcm/source/LCM.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:03Z"
+}

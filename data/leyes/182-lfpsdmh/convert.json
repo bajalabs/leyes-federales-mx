@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal para Prevenir y Sancionar los Delitos Cometidos en Materia de Hidrocarburos",
+  "blocks": 210,
+  "kinds": {
+    "note": 2,
+    "heading": 14,
+    "body": 109,
+    "article_ordinal": 4,
+    "article": 24,
+    "annotation": 23,
+    "transitorio_heading": 6,
+    "ordinal_lead": 22,
+    "table": 6
+  },
+  "md_chars": 42101,
+  "slug": "182-lfpsdmh",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.1
+}

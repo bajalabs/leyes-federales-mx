@@ -1,0 +1,20 @@
+{
+  "title": "Ley de Productos Orgánicos",
+  "blocks": 193,
+  "kinds": {
+    "note": 2,
+    "heading": 38,
+    "body": 90,
+    "article_ordinal": 6,
+    "article": 50,
+    "transitorio_heading": 1,
+    "table": 6
+  },
+  "md_chars": 35141,
+  "slug": "090-lpo",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.09
+}

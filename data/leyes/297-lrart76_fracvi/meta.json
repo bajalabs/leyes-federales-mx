@@ -1,0 +1,38 @@
+{
+  "slug": "297-lrart76_fracvi",
+  "numero": "297",
+  "nombre": "LEY Reglamentaria de la fracción VI del artículo 76 de la Constitución Política de los Estados Unidos Mexicanos",
+  "nombre_corto": "lrart76_fracvi",
+  "codigo_archivo": "LRArt76_fracVI",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 31/08/2007",
+  "ultima_reforma": "DOF 14/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lrart76_fracvi.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LRArt76_fracVI.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LRArt76_fracVI.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 285658,
+      "sha256": "bb06062d0e0454e928090853dd4071bfd19b713abe553033285147a67c323531",
+      "path": "leyes/297-lrart76_fracvi/source/LRArt76_fracVI.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LRArt76_fracVI.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LRArt76_fracVI.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 82432,
+      "sha256": "a54a94054d746d4ae4dfeb090f23b9063d3ce46f5597999f770baf4b4fe1701a",
+      "path": "leyes/297-lrart76_fracvi/source/LRArt76_fracVI.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:54Z"
+}

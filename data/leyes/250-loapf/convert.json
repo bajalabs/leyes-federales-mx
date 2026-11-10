@@ -1,0 +1,22 @@
+{
+  "title": "Ley Orgánica de la Administración Pública Federal",
+  "blocks": 2712,
+  "kinds": {
+    "note": 3,
+    "heading": 31,
+    "body": 1519,
+    "article": 76,
+    "annotation": 549,
+    "transitorio_heading": 73,
+    "article_ordinal": 102,
+    "ordinal_lead": 353,
+    "table": 6
+  },
+  "md_chars": 560272,
+  "slug": "250-loapf",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.3
+}

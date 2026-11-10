@@ -1,0 +1,38 @@
+{
+  "slug": "015-laassp",
+  "numero": "015",
+  "nombre": "LEY de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+  "nombre_corto": "laassp",
+  "codigo_archivo": "LAASSP",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 16/04/2025",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/laassp.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LAASSP.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LAASSP.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 682666,
+      "sha256": "883f6e9c3139d0961de302de7bddcf3262c69884008bb3b2324d57e5d67009fc",
+      "path": "leyes/015-laassp/source/LAASSP.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LAASSP.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LAASSP.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 309248,
+      "sha256": "52c68510c7033f8ccbdd272af507c40ea499df5f8695b18262d40517156088dd",
+      "path": "leyes/015-laassp/source/LAASSP.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:00Z"
+}

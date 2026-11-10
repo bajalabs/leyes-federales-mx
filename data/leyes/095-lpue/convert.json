@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Puertos",
+  "blocks": 455,
+  "kinds": {
+    "note": 2,
+    "heading": 21,
+    "body": 244,
+    "article": 73,
+    "annotation": 57,
+    "transitorio_heading": 8,
+    "ordinal_lead": 30,
+    "article_ordinal": 14,
+    "table": 6
+  },
+  "md_chars": 84298,
+  "slug": "095-lpue",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.14
+}

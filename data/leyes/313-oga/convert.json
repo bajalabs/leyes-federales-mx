@@ -1,0 +1,22 @@
+{
+  "title": "Ordenanza General de la Armada",
+  "blocks": 3197,
+  "kinds": {
+    "note": 2,
+    "heading": 218,
+    "body": 1637,
+    "article": 1000,
+    "table": 131,
+    "annotation": 199,
+    "transitorio_heading": 4,
+    "article_ordinal": 3,
+    "ordinal_lead": 3
+  },
+  "md_chars": 663170,
+  "slug": "313-oga",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.29
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Navegación y Comercio Marítimos",
+  "blocks": 1362,
+  "kinds": {
+    "note": 2,
+    "heading": 120,
+    "body": 664,
+    "article_ordinal": 28,
+    "article": 334,
+    "annotation": 180,
+    "transitorio_heading": 9,
+    "ordinal_lead": 19,
+    "table": 6
+  },
+  "md_chars": 260359,
+  "slug": "084-lncm",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.15
+}

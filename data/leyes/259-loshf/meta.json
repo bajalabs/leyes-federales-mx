@@ -1,0 +1,38 @@
+{
+  "slug": "259-loshf",
+  "numero": "259",
+  "nombre": "LEY Orgánica de Sociedad Hipotecaria Federal",
+  "nombre_corto": "loshf",
+  "codigo_archivo": "LOSHF",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 11/10/2001",
+  "ultima_reforma": "DOF 01/04/2024",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/loshf.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LOSHF.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LOSHF.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 449114,
+      "sha256": "00a876c2b691175df0253958b3f337e05d3610e11b79336ad1570539013d2865",
+      "path": "leyes/259-loshf/source/LOSHF.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LOSHF.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LOSHF.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 158208,
+      "sha256": "bf69d45d7588192a212d14c8a6d9eb1773e9e31f71d5a31800e1394b5383af96",
+      "path": "leyes/259-loshf/source/LOSHF.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:48Z"
+}

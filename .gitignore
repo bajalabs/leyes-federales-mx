@@ -1,0 +1,30 @@
+# Build outputs: the database and receipts (build/) and the release assets (dist/).
+/build/
+/dist/
+
+# Official sources: fetched on demand by scripts/fetch.py and pinned by sha256
+# in data/manifest.json. Never committed.
+/data/leyes/*/source/
+
+# Blocks are a release asset (leyes-federales-mx-blocks.zip), except the CI
+# sample listed in data/sample.txt, which is committed so CI can build offline.
+/data/leyes/*/*.blocks.jsonl
+!/data/leyes/001-cpeum/*.blocks.jsonl
+!/data/leyes/020-lamni/*.blocks.jsonl
+!/data/leyes/035-lce/*.blocks.jsonl
+!/data/leyes/224-lgsmime/*.blocks.jsonl
+!/data/leyes/309-levct/*.blocks.jsonl
+!/data/leyes/316-reg_senado/*.blocks.jsonl
+
+# Downloaded release archives, when unpacked at the repository root
+/*.zip
+/*.sqlite
+
+# Python and editor debris
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+*.part
+*.incoming
+*.tmp

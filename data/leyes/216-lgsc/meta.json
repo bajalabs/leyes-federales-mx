@@ -1,0 +1,38 @@
+{
+  "slug": "216-lgsc",
+  "numero": "216",
+  "nombre": "LEY General de Sociedades Cooperativas",
+  "nombre_corto": "lgsc",
+  "codigo_archivo": "LGSC",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 03/08/1994",
+  "ultima_reforma": "DOF 16/04/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgsc.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGSC.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGSC.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 643242,
+      "sha256": "7bed7f706ac5003e5089abf84b9134fa97495a1d6c9570c0841e418d48d7565f",
+      "path": "leyes/216-lgsc/source/LGSC.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGSC.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGSC.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 208896,
+      "sha256": "9890e6f54360a02ecb338ed3b623d6a5cc7b8f01146db8ec3306dac4f6601887",
+      "path": "leyes/216-lgsc/source/LGSC.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:39Z"
+}

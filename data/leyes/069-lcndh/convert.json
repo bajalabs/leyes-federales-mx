@@ -1,0 +1,22 @@
+{
+  "title": "Ley de la Comisión Nacional de los Derechos Humanos",
+  "blocks": 657,
+  "kinds": {
+    "note": 2,
+    "heading": 41,
+    "body": 325,
+    "annotation": 75,
+    "article": 86,
+    "transitorio_heading": 24,
+    "ordinal_lead": 74,
+    "article_ordinal": 24,
+    "table": 6
+  },
+  "md_chars": 128043,
+  "slug": "069-lcndh",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.11
+}

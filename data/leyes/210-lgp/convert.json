@@ -1,0 +1,22 @@
+{
+  "title": "Ley General de Población",
+  "blocks": 604,
+  "kinds": {
+    "note": 3,
+    "heading": 23,
+    "body": 149,
+    "article": 165,
+    "annotation": 188,
+    "table": 7,
+    "transitorio_heading": 16,
+    "article_ordinal": 17,
+    "ordinal_lead": 36
+  },
+  "md_chars": 67717,
+  "slug": "210-lgp",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.2
+}

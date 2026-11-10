@@ -1,0 +1,22 @@
+{
+  "title": "Ley del Impuesto al Valor Agregado",
+  "blocks": 1630,
+  "kinds": {
+    "note": 2,
+    "heading": 58,
+    "body": 943,
+    "article": 80,
+    "annotation": 285,
+    "table": 7,
+    "transitorio_heading": 67,
+    "article_ordinal": 104,
+    "ordinal_lead": 84
+  },
+  "md_chars": 346087,
+  "slug": "112-liva",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.2
+}

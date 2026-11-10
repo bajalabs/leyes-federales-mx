@@ -1,0 +1,38 @@
+{
+  "slug": "208-lgpp",
+  "numero": "208",
+  "nombre": "LEY General de Partidos Políticos",
+  "nombre_corto": "lgpp",
+  "codigo_archivo": "LGPP",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 23/05/2014",
+  "ultima_reforma": "DOF 24/11/2023 Sentencia SCJN",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgpp.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGPP.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGPP.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 1178847,
+      "sha256": "9163f0826f44c965b6d478e69c2bf0deb8795108104c3d7dddf6d11e511199b3",
+      "path": "leyes/208-lgpp/source/LGPP.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGPP.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGPP.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 444928,
+      "sha256": "fd46beface8b21bc6fbbe4d7da6f1de3ba4ea742029591b977295cfc8ad44d0e",
+      "path": "leyes/208-lgpp/source/LGPP.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:38Z"
+}

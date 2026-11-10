@@ -1,0 +1,38 @@
+{
+  "slug": "171-lfisan",
+  "numero": "171",
+  "nombre": "LEY Federal del Impuesto sobre Automóviles Nuevos",
+  "nombre_corto": "lfisan",
+  "codigo_archivo": "LFISAN",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 30/12/1996",
+  "ultima_reforma": "DOF 28/12/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfisan.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFISAN.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFISAN.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 580378,
+      "sha256": "ef658aa6a3b15e99a4d19edaa6713598a37523f4179ae69a4462bcb8ca870eb1",
+      "path": "leyes/171-lfisan/source/LFISAN.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFISAN.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFISAN.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 267776,
+      "sha256": "54d51f015f5b6dfb9d3c003bd28325ebdd633fca3a859b345d244551dd46a6ef",
+      "path": "leyes/171-lfisan/source/LFISAN.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:27Z"
+}

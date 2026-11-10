@@ -1,0 +1,38 @@
+{
+  "slug": "037-lcmopfih",
+  "numero": "037",
+  "nombre": "LEY de Contribución de Mejoras por Obras Públicas Federales de Infraestructura Hidráulica",
+  "nombre_corto": "lcmopfih",
+  "codigo_archivo": "30",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 26/12/1990",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lcmopfih.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/30.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/30.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 285878,
+      "sha256": "c8a4080aaf0b6f80cf9c50f8085d899e2ba68bbac8568ab12743dddf65cfa742",
+      "path": "leyes/037-lcmopfih/source/30.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/30.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/30.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 73216,
+      "sha256": "ec95f151334ecf70aa68e1d179731cbce342a6aa061f66ee305518db64c12db8",
+      "path": "leyes/037-lcmopfih/source/30.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:04Z"
+}

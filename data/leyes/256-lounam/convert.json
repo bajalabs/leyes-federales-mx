@@ -1,0 +1,19 @@
+{
+  "title": "Ley Orgánica de la Universidad Nacional Autónoma de México",
+  "blocks": 114,
+  "kinds": {
+    "note": 2,
+    "heading": 2,
+    "body": 77,
+    "article": 26,
+    "transitorio_heading": 1,
+    "table": 6
+  },
+  "md_chars": 19761,
+  "slug": "256-lounam",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.12
+}

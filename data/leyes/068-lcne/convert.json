@@ -1,0 +1,22 @@
+{
+  "title": "Ley de la Comisión Nacional de Energía",
+  "blocks": 289,
+  "kinds": {
+    "note": 3,
+    "heading": 32,
+    "body": 194,
+    "article_ordinal": 3,
+    "article": 28,
+    "annotation": 1,
+    "transitorio_heading": 2,
+    "ordinal_lead": 20,
+    "table": 6
+  },
+  "md_chars": 52534,
+  "slug": "068-lcne",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.08
+}

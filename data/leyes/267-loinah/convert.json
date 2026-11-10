@@ -1,0 +1,22 @@
+{
+  "title": "Ley Orgánica del Instituto Nacional de Antropología e Historia",
+  "blocks": 156,
+  "kinds": {
+    "note": 2,
+    "heading": 3,
+    "body": 76,
+    "article": 20,
+    "annotation": 27,
+    "transitorio_heading": 5,
+    "ordinal_lead": 13,
+    "article_ordinal": 4,
+    "table": 6
+  },
+  "md_chars": 24340,
+  "slug": "267-loinah",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

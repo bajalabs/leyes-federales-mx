@@ -1,0 +1,25 @@
+{
+  "total": 319,
+  "ok": 319,
+  "failed": 0,
+  "via_doc": 316,
+  "via_pdf_fallback": 3,
+  "pdf_fallbacks": [
+    {
+      "slug": "078-ligie_2022",
+      "reason": "doc mojibake 1.36/1k > 1.0"
+    },
+    {
+      "slug": "314-pef_2026",
+      "reason": "doc mojibake 6.00/1k > 1.0"
+    },
+    {
+      "slug": "314a-pef_2025",
+      "reason": "doc mojibake 6.10/1k > 1.0"
+    }
+  ],
+  "failures": [],
+  "total_blocks": 287779,
+  "total_articles": 42363,
+  "total_annotations": 37484
+}

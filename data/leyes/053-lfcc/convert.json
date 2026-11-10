@@ -1,0 +1,21 @@
+{
+  "title": "Ley de Fomento a la Confianza Ciudadana",
+  "blocks": 87,
+  "kinds": {
+    "note": 2,
+    "heading": 13,
+    "body": 44,
+    "article_ordinal": 1,
+    "article": 17,
+    "transitorio_heading": 1,
+    "ordinal_lead": 3,
+    "table": 6
+  },
+  "md_chars": 17124,
+  "slug": "053-lfcc",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.12
+}

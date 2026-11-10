@@ -1,0 +1,21 @@
+{
+  "title": "Ley de Geotermia",
+  "blocks": 345,
+  "kinds": {
+    "note": 2,
+    "heading": 31,
+    "body": 219,
+    "article_ordinal": 3,
+    "article": 66,
+    "transitorio_heading": 2,
+    "ordinal_lead": 10,
+    "table": 12
+  },
+  "md_chars": 65039,
+  "slug": "058-lgeo",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.11
+}

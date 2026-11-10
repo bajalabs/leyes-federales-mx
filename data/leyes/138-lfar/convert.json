@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Austeridad Republicana",
+  "blocks": 241,
+  "kinds": {
+    "note": 2,
+    "heading": 21,
+    "body": 139,
+    "article_ordinal": 4,
+    "article": 30,
+    "annotation": 3,
+    "transitorio_heading": 3,
+    "ordinal_lead": 33,
+    "table": 6
+  },
+  "md_chars": 49779,
+  "slug": "138-lfar",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.09
+}

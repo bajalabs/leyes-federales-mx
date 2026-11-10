@@ -1,0 +1,38 @@
+{
+  "slug": "192-lgcg",
+  "numero": "192",
+  "nombre": "LEY General de Contabilidad Gubernamental",
+  "nombre_corto": "lgcg",
+  "codigo_archivo": "LGCG",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 31/12/2008",
+  "ultima_reforma": "DOF 16/07/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgcg.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGCG.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGCG.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 636591,
+      "sha256": "cf7f5220f083bdcd8eed4104bbdf40299221f32cd5c51e17b1f03b033e677815",
+      "path": "leyes/192-lgcg/source/LGCG.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGCG.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGCG.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 324608,
+      "sha256": "70e31d20432a1b293d4082f696d2b87cd11ddd801ec6760c1325faf7bec7c63d",
+      "path": "leyes/192-lgcg/source/LGCG.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:32Z"
+}

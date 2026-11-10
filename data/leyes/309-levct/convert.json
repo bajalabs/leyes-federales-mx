@@ -1,0 +1,22 @@
+{
+  "title": "Abrogada: Ley sobre Elaboración y Venta de Café Tostado. DOF 25-05-1972",
+  "blocks": 106,
+  "kinds": {
+    "note": 2,
+    "heading": 3,
+    "body": 50,
+    "article": 9,
+    "annotation": 14,
+    "transitorio_heading": 6,
+    "article_ordinal": 7,
+    "ordinal_lead": 9,
+    "table": 6
+  },
+  "md_chars": 15334,
+  "slug": "309-levct",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.11
+}

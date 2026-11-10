@@ -1,0 +1,22 @@
+{
+  "title": "Código Nacional de Procedimientos Penales",
+  "blocks": 2832,
+  "kinds": {
+    "note": 2,
+    "heading": 198,
+    "body": 1855,
+    "article_ordinal": 27,
+    "article": 490,
+    "annotation": 163,
+    "transitorio_heading": 15,
+    "ordinal_lead": 76,
+    "table": 6
+  },
+  "md_chars": 500122,
+  "slug": "009-cnpp",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.26
+}

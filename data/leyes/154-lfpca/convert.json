@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Procedimiento Contencioso Administrativo",
+  "blocks": 1264,
+  "kinds": {
+    "note": 2,
+    "heading": 55,
+    "body": 626,
+    "article": 135,
+    "annotation": 362,
+    "transitorio_heading": 16,
+    "ordinal_lead": 47,
+    "article_ordinal": 15,
+    "table": 6
+  },
+  "md_chars": 238189,
+  "slug": "154-lfpca",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.2
+}

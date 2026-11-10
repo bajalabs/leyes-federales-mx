@@ -1,0 +1,38 @@
+{
+  "slug": "101-lsrlip",
+  "numero": "101",
+  "nombre": "LEY de Sociedades de Responsabilidad Limitada de Interés Público",
+  "nombre_corto": "lsrlip",
+  "codigo_archivo": "70",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 31/08/1934",
+  "ultima_reforma": "DOF 09/04/2012",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lsrlip.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/70.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/70.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 327778,
+      "sha256": "18a1d80243cd419c3ffc7173cf90b8509ab8d78b4b5f64de97025fb51a170613",
+      "path": "leyes/101-lsrlip/source/70.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/70.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/70.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 57344,
+      "sha256": "a27b61bc4c09c6374767587515c16f6a1f379b3321ed574e1211f0d5cf7d2f6c",
+      "path": "leyes/101-lsrlip/source/70.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:15Z"
+}

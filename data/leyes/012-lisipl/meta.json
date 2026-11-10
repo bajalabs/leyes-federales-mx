@@ -1,0 +1,38 @@
+{
+  "slug": "012-lisipl",
+  "numero": "012",
+  "nombre": "IMPUESTO sobre Servicios Expresamente Declarados de Interés Público por Ley, en los que Intervengan Empresas Concesionarias de Bienes del Dominio Directo de la Nación (LEY que establece, reforma y adiciona las disposiciones relativas a diversos impuestos)",
+  "nombre_corto": "lisipl",
+  "codigo_archivo": "79",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 31/12/1968",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lisipl.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/79.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/79.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 263324,
+      "sha256": "432feb3abb31b584418b275a1e4d42015eb7a4f4a440d09d938a7d74a9c13113",
+      "path": "leyes/012-lisipl/source/79.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/79.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/79.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 55808,
+      "sha256": "398c7f501d68216f7fad21825f1e45f552da5d7531dede8b3c901b06391db776",
+      "path": "leyes/012-lisipl/source/79.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:26:59Z"
+}

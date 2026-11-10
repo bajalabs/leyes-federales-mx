@@ -1,0 +1,38 @@
+{
+  "slug": "312-lrpcap",
+  "numero": "312",
+  "nombre": "LEY sobre Refugiados, Protección Complementaria y Asilo Político",
+  "nombre_corto": "lrpcap",
+  "codigo_archivo": "LRPCAP",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 27/01/2011",
+  "ultima_reforma": "DOF 18/02/2022",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lrpcap.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LRPCAP.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LRPCAP.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 469812,
+      "sha256": "cf241af670623476911e625178a081e9e05921b4b6cc73ae92b41a47da45487a",
+      "path": "leyes/312-lrpcap/source/LRPCAP.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LRPCAP.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LRPCAP.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 149504,
+      "sha256": "08b5cd1084c6733f1e236539502850d0c1d3b478b15e90ad8a61644219375dfa",
+      "path": "leyes/312-lrpcap/source/LRPCAP.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:57Z"
+}

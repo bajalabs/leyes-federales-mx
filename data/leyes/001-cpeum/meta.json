@@ -1,0 +1,38 @@
+{
+  "slug": "001-cpeum",
+  "numero": "001",
+  "nombre": "CONSTITUCIÓN Política de los Estados Unidos Mexicanos",
+  "nombre_corto": "cpeum",
+  "codigo_archivo": "CPEUM",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 05/02/1917",
+  "ultima_reforma": "DOF 03/03/2026",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/cpeum.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 3141703,
+      "sha256": "ca63a23a4b7444ebdbdad93759fbf46bd14c069e587c5878decf89fc9c12ca8e",
+      "path": "leyes/001-cpeum/source/CPEUM.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/CPEUM.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/CPEUM.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 1865216,
+      "sha256": "b976c0d9705f274511325ea18c1719ec60b9112da3a240fd2f694f88485a219f",
+      "path": "leyes/001-cpeum/source/CPEUM.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:29:04Z"
+}

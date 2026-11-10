@@ -1,0 +1,38 @@
+{
+  "slug": "160-lfremsp",
+  "numero": "160",
+  "nombre": "LEY Federal de Remuneraciones de los Servidores Públicos",
+  "nombre_corto": "lfremsp",
+  "codigo_archivo": "LFRemSP_190521",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 19/05/2021",
+  "ultima_reforma": "Sin reforma",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfremsp.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFRemSP_190521.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFRemSP_190521.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 253995,
+      "sha256": "1ae9c606fad4de72ca0d2379696b39adb17826fbb112f1ae46c9acb952fa7a5d",
+      "path": "leyes/160-lfremsp/source/LFRemSP_190521.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFRemSP_190521.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFRemSP_190521.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 108032,
+      "sha256": "65ec8829aa5b39f12163d2b5ed653fa873cabd811e75c32be3c1bdc5986dadf9",
+      "path": "leyes/160-lfremsp/source/LFRemSP_190521.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:25Z"
+}

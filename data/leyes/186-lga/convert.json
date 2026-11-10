@@ -1,0 +1,22 @@
+{
+  "title": "Ley General de Archivos",
+  "blocks": 680,
+  "kinds": {
+    "note": 2,
+    "heading": 84,
+    "body": 428,
+    "article_ordinal": 4,
+    "article": 123,
+    "annotation": 3,
+    "transitorio_heading": 5,
+    "ordinal_lead": 25,
+    "table": 6
+  },
+  "md_chars": 118856,
+  "slug": "186-lga",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.15
+}

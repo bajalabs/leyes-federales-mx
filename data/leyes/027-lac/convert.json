@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Aviación Civil",
+  "blocks": 1446,
+  "kinds": {
+    "note": 2,
+    "heading": 82,
+    "body": 760,
+    "article": 154,
+    "annotation": 356,
+    "table": 8,
+    "transitorio_heading": 16,
+    "ordinal_lead": 53,
+    "article_ordinal": 15
+  },
+  "md_chars": 252317,
+  "slug": "027-lac",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.19
+}

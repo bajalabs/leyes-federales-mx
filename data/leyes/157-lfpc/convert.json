@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Protección al Consumidor",
+  "blocks": 1690,
+  "kinds": {
+    "note": 2,
+    "heading": 42,
+    "body": 728,
+    "article": 190,
+    "annotation": 308,
+    "transitorio_heading": 57,
+    "ordinal_lead": 302,
+    "article_ordinal": 55,
+    "table": 6
+  },
+  "md_chars": 309726,
+  "slug": "157-lfpc",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.18
+}

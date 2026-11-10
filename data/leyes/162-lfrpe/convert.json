@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal de Responsabilidad Patrimonial del Estado",
+  "blocks": 185,
+  "kinds": {
+    "note": 2,
+    "heading": 15,
+    "body": 82,
+    "article_ordinal": 7,
+    "article": 35,
+    "annotation": 9,
+    "transitorio_heading": 6,
+    "ordinal_lead": 23,
+    "table": 6
+  },
+  "md_chars": 42338,
+  "slug": "162-lfrpe",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.09
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "173-lft",
+  "numero": "173",
+  "nombre": "LEY Federal del Trabajo",
+  "nombre_corto": "lft",
+  "codigo_archivo": "LFT",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 01/04/1970",
+  "ultima_reforma": "DOF 15/01/2026",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lft.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 4225835,
+      "sha256": "12f09393a1951a91c3f57f579bf611b034edf1a5f78cdbfb828e23ff3a9acbf7",
+      "path": "leyes/173-lft/source/LFT.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFT.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFT.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 2778112,
+      "sha256": "0d6860c68de91de2e9f2410fcc54b296a262324c6a67da7ece5bba9865ffef43",
+      "path": "leyes/173-lft/source/LFT.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:30Z"
+}

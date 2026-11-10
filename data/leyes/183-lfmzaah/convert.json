@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal Sobre Monumentos y Zonas Arqueológicos, Artísticos e Históricos",
+  "blocks": 332,
+  "kinds": {
+    "note": 2,
+    "heading": 15,
+    "body": 153,
+    "article": 62,
+    "annotation": 43,
+    "transitorio_heading": 14,
+    "article_ordinal": 19,
+    "ordinal_lead": 18,
+    "table": 6
+  },
+  "md_chars": 61032,
+  "slug": "183-lfmzaah",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.11
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ley Orgánica del Banco del Bienestar",
+  "blocks": 455,
+  "kinds": {
+    "note": 2,
+    "body": 238,
+    "heading": 16,
+    "annotation": 111,
+    "article": 41,
+    "transitorio_heading": 8,
+    "article_ordinal": 26,
+    "ordinal_lead": 7,
+    "table": 6
+  },
+  "md_chars": 79211,
+  "slug": "260-lobb",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.15
+}

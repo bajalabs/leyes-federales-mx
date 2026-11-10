@@ -1,0 +1,22 @@
+{
+  "title": "Ley Federal del Impuesto sobre Automóviles Nuevos",
+  "blocks": 983,
+  "kinds": {
+    "note": 2,
+    "heading": 24,
+    "body": 317,
+    "article_ordinal": 14,
+    "article": 66,
+    "annotation": 31,
+    "table": 493,
+    "transitorio_heading": 15,
+    "ordinal_lead": 21
+  },
+  "md_chars": 74083,
+  "slug": "171-lfisan",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.15
+}

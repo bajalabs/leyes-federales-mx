@@ -1,0 +1,38 @@
+{
+  "slug": "035-lce",
+  "numero": "035",
+  "nombre": "LEY de Comercio Exterior",
+  "nombre_corto": "lce",
+  "codigo_archivo": "28",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 27/07/1993",
+  "ultima_reforma": "DOF 21/12/2006",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lce.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/28.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LCE.pdf",
+      "http_code": 200,
+      "fallback_rank": 1,
+      "content_type": "application/pdf",
+      "bytes": 573351,
+      "sha256": "3f114f47007c21b4691bad502b786b45aa5e45c1571bd56dd8ca4f5af991b459",
+      "path": "leyes/035-lce/source/28.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/28.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LCE.doc",
+      "http_code": 200,
+      "fallback_rank": 1,
+      "content_type": "application/msword",
+      "bytes": 201216,
+      "sha256": "1cb224946819990ddf188e73d0ab7fbbda103e0b76b565a13dfeed37a54dfd33",
+      "path": "leyes/035-lce/source/28.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:29:04Z"
+}

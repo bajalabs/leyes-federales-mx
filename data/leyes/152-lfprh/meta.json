@@ -1,0 +1,38 @@
+{
+  "slug": "152-lfprh",
+  "numero": "152",
+  "nombre": "LEY Federal de Presupuesto y Responsabilidad Hacendaria",
+  "nombre_corto": "lfprh",
+  "codigo_archivo": "LFPRH",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 30/03/2006",
+  "ultima_reforma": "DOF 16/07/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfprh.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPRH.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPRH.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 1411811,
+      "sha256": "ce45c7c0c4e9099691e6e24bd2456d0b6f71f91ab27eedd5c4f2190b66d47741",
+      "path": "leyes/152-lfprh/source/LFPRH.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFPRH.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFPRH.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 628224,
+      "sha256": "34b156cd4a3c8cb170f7252ecaa54b0980f128c56ba369161bc0545220611791",
+      "path": "leyes/152-lfprh/source/LFPRH.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:24Z"
+}

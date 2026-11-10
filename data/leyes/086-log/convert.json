@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Organizaciones Ganaderas",
+  "blocks": 138,
+  "kinds": {
+    "note": 2,
+    "heading": 9,
+    "body": 80,
+    "article": 26,
+    "annotation": 3,
+    "transitorio_heading": 3,
+    "ordinal_lead": 8,
+    "article_ordinal": 1,
+    "table": 6
+  },
+  "md_chars": 25324,
+  "slug": "086-log",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.13
+}

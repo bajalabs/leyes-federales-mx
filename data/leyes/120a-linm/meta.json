@@ -1,0 +1,38 @@
+{
+  "slug": "120a-linm",
+  "numero": "120 A",
+  "nombre": "LEY del Instituto Nacional de las Mujeres",
+  "nombre_corto": "linm",
+  "codigo_archivo": "88_200521",
+  "estado_vigencia": "abrogada",
+  "dof_original": "DOF 12/01/2001",
+  "ultima_reforma": "DOF 15/01/2026",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/linm.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/88_200521.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/abro/linm/LINM_abro.pdf",
+      "http_code": 200,
+      "fallback_rank": 2,
+      "content_type": "application/pdf",
+      "bytes": 429623,
+      "sha256": "93a08328535cb43ae6d1d7fd87af8ca68581c1e6d48b08ea51701f5a51e7f576",
+      "path": "leyes/120a-linm/source/88_200521.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/88_200521.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/abro/linm/LINM_abro.doc",
+      "http_code": 200,
+      "fallback_rank": 2,
+      "content_type": "application/msword",
+      "bytes": 180224,
+      "sha256": "bb7d7fc699435ffcd93df73bd0bb434d8dea67edce308a38c0c6cdcc644eecef",
+      "path": "leyes/120a-linm/source/88_200521.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:29:04Z"
+}

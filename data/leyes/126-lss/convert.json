@@ -1,0 +1,22 @@
+{
+  "title": "Ley del Seguro Social",
+  "blocks": 2521,
+  "kinds": {
+    "note": 2,
+    "heading": 149,
+    "body": 1244,
+    "article": 387,
+    "annotation": 433,
+    "table": 18,
+    "transitorio_heading": 46,
+    "ordinal_lead": 198,
+    "article_ordinal": 44
+  },
+  "md_chars": 511583,
+  "slug": "126-lss",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.27
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "294-lccaif",
+  "numero": "294",
+  "nombre": "LEY que Establece Bases para la Ejecución en México, por el Poder Ejecutivo Federal, del Convenio Constitutivo de la Asociación Internacional de Fomento",
+  "nombre_corto": "lccaif",
+  "codigo_archivo": "LCCAIF",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 31/12/1960",
+  "ultima_reforma": "DOF 06/06/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lccaif.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LCCAIF.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LCCAIF.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 345490,
+      "sha256": "0cfd6d7820098b2fa0a6388cbf69fb010bc2816951a1c80c52245dadbecd4eda",
+      "path": "leyes/294-lccaif/source/LCCAIF.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LCCAIF.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LCCAIF.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 121856,
+      "sha256": "170bf3c6782f44ad1ca7b7ecb7cc183d2a3700e74569f951c5607856651cce0b",
+      "path": "leyes/294-lccaif/source/LCCAIF.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:54Z"
+}

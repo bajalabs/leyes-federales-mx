@@ -1,0 +1,9 @@
+# The CI sample: laws whose .blocks.jsonl files are committed to git, so the
+# database can be rebuilt and verified on any machine without a download.
+# One slug per line. Chosen to exercise every part of the grammar:
+001-cpeum        # the Constitution: decree groups, ordinal transitorios, the citation target
+020-lamni        # the smallest law in the corpus
+035-lce          # Ley de Comercio Exterior: Bis articles, citations to the Constitution
+224-lgsmime      # invalidada; "DISPOSICIONES TRANSITORIAS" closes a decree body
+309-levct        # abrogada
+316-reg_senado   # article headers printed as bare paragraphs ("Artículo 10")

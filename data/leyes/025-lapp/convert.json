@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Asociaciones Público Privadas",
+  "blocks": 855,
+  "kinds": {
+    "note": 2,
+    "heading": 80,
+    "body": 520,
+    "article_ordinal": 12,
+    "article": 143,
+    "annotation": 34,
+    "transitorio_heading": 8,
+    "ordinal_lead": 50,
+    "table": 6
+  },
+  "md_chars": 186540,
+  "slug": "025-lapp",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.013,
+  "fallback_reason": null,
+  "secs": 0.21
+}

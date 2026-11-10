@@ -1,0 +1,22 @@
+{
+  "title": "Ley General de Movilidad y Seguridad Vial",
+  "blocks": 734,
+  "kinds": {
+    "note": 2,
+    "heading": 48,
+    "body": 567,
+    "article_ordinal": 3,
+    "article": 82,
+    "annotation": 13,
+    "transitorio_heading": 4,
+    "ordinal_lead": 9,
+    "table": 6
+  },
+  "md_chars": 149101,
+  "slug": "206-lgmsv",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.18
+}

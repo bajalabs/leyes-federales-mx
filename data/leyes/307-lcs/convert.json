@@ -1,0 +1,22 @@
+{
+  "title": "Ley Sobre el Contrato de Seguro",
+  "blocks": 670,
+  "kinds": {
+    "note": 2,
+    "heading": 33,
+    "body": 163,
+    "annotation": 129,
+    "article": 210,
+    "transitorio_heading": 7,
+    "table": 97,
+    "article_ordinal": 18,
+    "ordinal_lead": 11
+  },
+  "md_chars": 100003,
+  "slug": "307-lcs",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.14
+}

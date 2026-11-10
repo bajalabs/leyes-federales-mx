@@ -1,0 +1,38 @@
+{
+  "slug": "304-lrart6_mdr",
+  "numero": "304",
+  "nombre": "LEY Reglamentaria del artículo 6o., párrafo primero, de la Constitución Política de los Estados Unidos Mexicanos, en materia del Derecho de Réplica",
+  "nombre_corto": "lrart6_mdr",
+  "codigo_archivo": "LRArt6_MDR",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 04/11/2015",
+  "ultima_reforma": "DOF 14/11/2025",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lrart6_mdr.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LRArt6_MDR.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LRArt6_MDR.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 496450,
+      "sha256": "b3013ac434856f46bc973c4178d55c6d5d440730a42f3d7f8ca225730e0d382c",
+      "path": "leyes/304-lrart6_mdr/source/LRArt6_MDR.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LRArt6_MDR.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LRArt6_MDR.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 115200,
+      "sha256": "43e128576af02c31d51d472fa7e8a4ee82453f5461f5dc99cd975fb851943d2b",
+      "path": "leyes/304-lrart6_mdr/source/LRArt6_MDR.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:56Z"
+}

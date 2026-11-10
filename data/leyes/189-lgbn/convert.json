@@ -1,0 +1,22 @@
+{
+  "title": "Ley General de Bienes Nacionales",
+  "blocks": 1135,
+  "kinds": {
+    "note": 2,
+    "heading": 51,
+    "body": 687,
+    "article_ordinal": 14,
+    "article": 158,
+    "annotation": 128,
+    "transitorio_heading": 15,
+    "ordinal_lead": 74,
+    "table": 6
+  },
+  "md_chars": 245437,
+  "slug": "189-lgbn",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.15
+}

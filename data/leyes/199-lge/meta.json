@@ -1,0 +1,38 @@
+{
+  "slug": "199-lge",
+  "numero": "199",
+  "nombre": "LEY General de Educación",
+  "nombre_corto": "lge",
+  "codigo_archivo": "LGE",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 30/09/2019",
+  "ultima_reforma": "DOF 15/01/2026",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lge.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGE.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGE.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 1059443,
+      "sha256": "75ae7c5f6dd941ce9a3e988e5310c87422966b1774f3b7e83919538c0bb079e9",
+      "path": "leyes/199-lge/source/LGE.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGE.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LGE.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 405504,
+      "sha256": "e632d9e8ebbd05c18b486269cc20bbf6d20798ae8c24d69bcaf7b5d91d72c954",
+      "path": "leyes/199-lge/source/LGE.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:35Z"
+}

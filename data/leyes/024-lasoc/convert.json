@@ -1,0 +1,22 @@
+{
+  "title": "Ley de Asistencia Social",
+  "blocks": 440,
+  "kinds": {
+    "note": 2,
+    "heading": 22,
+    "body": 274,
+    "article_ordinal": 10,
+    "article": 68,
+    "annotation": 17,
+    "transitorio_heading": 11,
+    "ordinal_lead": 30,
+    "table": 6
+  },
+  "md_chars": 70962,
+  "slug": "024-lasoc",
+  "ok": true,
+  "source_kind": "doc",
+  "mojibake_per_1k": 0.0,
+  "fallback_reason": null,
+  "secs": 0.19
+}

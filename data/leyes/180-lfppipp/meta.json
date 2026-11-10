@@ -1,0 +1,38 @@
+{
+  "slug": "180-lfppipp",
+  "numero": "180",
+  "nombre": "LEY Federal para la Protección a Personas que Intervienen en el Procedimiento Penal",
+  "nombre_corto": "lfppipp",
+  "codigo_archivo": "LFPPIPP_200521",
+  "estado_vigencia": "vigente",
+  "dof_original": "DOF 08/06/2012",
+  "ultima_reforma": "DOF 20/05/2021",
+  "url_detalle": "https://www.diputados.gob.mx/LeyesBiblio/ref/lfppipp.htm",
+  "files": {
+    "pdf": {
+      "kind": "pdf",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPPIPP_200521.pdf",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPPIPP_200521.pdf",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/pdf",
+      "bytes": 391564,
+      "sha256": "2a105e5201b86ff5517ca1ef8d971224ea8c717f195fdd5fa28b916c7e622e56",
+      "path": "leyes/180-lfppipp/source/LFPPIPP_200521.pdf"
+    },
+    "doc": {
+      "kind": "doc",
+      "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFPPIPP_200521.doc",
+      "status": "ok",
+      "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LFPPIPP_200521.doc",
+      "http_code": 200,
+      "fallback_rank": 0,
+      "content_type": "application/msword",
+      "bytes": 188928,
+      "sha256": "0c9c5fdaeb188b9ac6bea2fa28eb1ab2f5d40a929beb2243c556af6fab195f0a",
+      "path": "leyes/180-lfppipp/source/LFPPIPP_200521.doc"
+    }
+  },
+  "fetched_at": "2026-08-26T06:27:30Z"
+}

@@ -1,0 +1,11 @@
+# The pipeline uses the Python standard library only (pyproject.toml declares no
+# dependencies), so GitHub Actions is the one ecosystem with versions to update.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ["*"]
