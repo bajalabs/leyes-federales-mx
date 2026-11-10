@@ -624,16 +624,3 @@ Publicado en el Diario Oficial de la Federación el 17 de diciembre de 2025
 **Ciudad de México, a 9 de diciembre de 2025**.- Dip. Kenia López Rabadán, Presidenta.- Sen. Laura Itzel Castillo Juárez, Presidenta.- Dip. Alan Sahir Márquez Becerra, Secretario.- Sen. María Martina Kantún Can, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 15 de diciembre de 2025.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
-
-PAGE \* MERGEFORMAT 8 DIARIO OFICIAL Viernes 25 de junio de 2004
-
-| EMBED Word.Picture.8 |
-| **LEY DE ASCENSOS DE LA ARMADA DE MÉXICO** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 17-12-2025_ |
-
-PAGE
-
-PAGE1 de NUMPAGES18

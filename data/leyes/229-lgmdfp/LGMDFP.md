@@ -2542,14 +2542,3 @@ Las leyes de las entidades federativas deberán implementar el contenido del pre
 Ciudad de México, a 30 de junio de 2025.- Sen. Gerardo Fernández Noroña, Presidente.- Dip. Sergio Carlos Gutiérrez Luna, Presidente.- Sen. Verónica Noemí Camino Farjat, Secretaria.- Dip. Julieta Villalpando Riquelme, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 15 de julio de 2025.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
-
-PAGE \* MERGEFORMAT2 (Primera Sección) DIARIO OFICIAL Viernes 17 de noviembre de 2017
-
-| EMBED Word.Picture.8 |
-| **LEY GENERAL EN MATERIA DE DESAPARICIÓN FORZADA DE PERSONAS, DESAPARICIÓN COMETIDA POR PARTICULARES Y DEL SISTEMA NACIONAL DE BÚSQUEDA DE PERSONAS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 16-07-2025_ |
-
-PAGE1 de NUMPAGES81

@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 42,
-    "body": 264,
+    "body": 262,
     "article_ordinal": 4,
     "article": 45,
     "annotation": 274,
-    "table": 9,
+    "table": 3,
     "transitorio_heading": 5,
-    "ordinal_lead": 19
+    "ordinal_lead": 19,
+    "furniture": 8
   },
   "md_chars": 103700,
   "slug": "191-lgcs",

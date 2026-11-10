@@ -2454,14 +2454,3 @@ Las entidades federativas comprobarán el ejercicio de los recursos del Fondo de
 Ciudad de México, a 12 de diciembre de 2023.- Sen. **Ana Lilia Rivera Rivera**, Presidenta.- Dip. **Marcela Guerra Castillo**, Presidenta.- Sen. **Verónica Noemí Camino Farjat**, Secretaria.- Dip. **Brenda Espinoza Lopez**, Secretaria.- Rúbricas."
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 27 de diciembre de 2023.- **Andrés Manuel López Obrador**.- Rúbrica.- La Secretaria de Gobernación, **Luisa María Alcalde Luján**.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **LEY DE COORDINACIÓN FISCAL** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 03-01-2024_ |
-
-PAGE
-
-PAGE1 de NUMPAGES98

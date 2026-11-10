@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 349,
-    "body": 3223,
+    "body": 3221,
     "article_ordinal": 7,
     "annotation": 1525,
     "article": 542,
-    "table": 11,
+    "table": 5,
     "transitorio_heading": 9,
-    "ordinal_lead": 79
+    "ordinal_lead": 79,
+    "furniture": 8
   },
   "md_chars": 936531,
   "slug": "201-lgipe",

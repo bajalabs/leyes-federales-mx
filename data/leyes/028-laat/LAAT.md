@@ -200,14 +200,3 @@ Las acciones de vigilancia se ajustarán al procedimiento administrativo estable
 México, D.F., a 7 de octubre de 2010.- Dip. **Jorge Carlos Ramirez Marin**, Presidente.- Sen. **Manlio Fabio Beltrones Rivera**, Presidente.- Dip. **Maria de Jesus Aguirre Maldonado**, Secretaria.- Sen. **Adrián Rivera Pérez**, Secretario.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, Distrito Federal, a once de enero de dos mil once.- **Felipe de Jesús Calderón Hinojosa**.- Rúbrica.- El Secretario de Gobernación, **José Francisco Blake Mora**.- Rúbrica.
-
-PAGE \* MERGEFORMAT 8 (Primera Sección) DIARIO OFICIAL Lunes 17 de enero de 2011
-
-| EMBED Word.Picture.8 |
-| **LEY DE AYUDA ALIMENTARIA PARA LOS TRABAJADORES** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 17-01-2011_ |
-
-PAGE6 de NUMPAGES6

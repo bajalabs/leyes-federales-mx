@@ -635,14 +635,3 @@ En caso de que la controversia sea competencia de otra autoridad, la Secretaría
 **Ciudad de México, a 3 de diciembre de 2025**.- Dip. Kenia López Rabadán, Presidenta.- Sen. Laura Itzel Castillo Juárez, Presidenta.- Dip. Laura Irais Ballesteros Mancilla, Secretaria.- Sen. María Martina Kantún Can, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 15 de diciembre de 2025.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
-
-PAGE \* MERGEFORMAT6 DIARIO OFICIAL Viernes 19 de diciembre de 2025
-
-| EMBED Word.Picture.8 |
-| **LEY DE DESARROLLO SUSTENTABLE DE LA CAFETICULTURA** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 19-12-2025_ |
-
-PAGE1 de NUMPAGES19

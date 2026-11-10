@@ -448,16 +448,3 @@ Publicado en el Diario Oficial de la Federación el 18 de octubre de 2023
 **Ciudad de México, a 12 de septiembre de 2023**.- Dip. **Marcela Guerra Castillo**, Presidenta.- Sen. **Ana Lilia Rivera Rivera**, Presidenta.- Dip. **Olga Luz Espinosa Morales**, Secretaria.- Sen. **Verónica Noemí Camino Farjat**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 10 de octubre de 2023.- **Andrés Manuel López Obrador**.- Rúbrica.- La Secretaria de Gobernación, **Luisa María Alcalde Luján**.- Rúbrica.
-
-PAGE8 (Primera Sección) DIARIO OFICIAL Jueves 13 de marzo de 2003
-
-| EMBED Word.Picture.8 |
-| **LEY GENERAL DE DERECHOS LINGÜÍSTICOS DE LOS PUEBLOS INDÍGENAS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 18-10-2023_ |
-
-PAGE
-
-PAGE1 de NUMPAGES20

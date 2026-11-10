@@ -4,13 +4,14 @@
   "kinds": {
     "note": 3,
     "heading": 52,
-    "body": 1105,
+    "body": 1103,
     "article": 262,
     "annotation": 396,
     "transitorio_heading": 26,
     "ordinal_lead": 108,
     "article_ordinal": 41,
-    "table": 7
+    "table": 1,
+    "furniture": 8
   },
   "md_chars": 461881,
   "slug": "207-lgoaac",

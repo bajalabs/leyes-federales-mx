@@ -4,7 +4,8 @@ import unittest
 from tests import REPO  # noqa: F401  (puts scripts/ on sys.path)
 from patterns import (ANNOT_TEXT_RE, ART_ORD_RE, ART_RE, BARE_ORD_RE, DECRETO_RE,
                       DISPOSICIONES_TRANS_RE, SPACED_TRANS_RE, TRANS_RE, article_key,
-                      deaccent, display_suffix, suffix_tokens, ultima_reforma_in_text)
+                      deaccent, display_suffix, ends_with_furniture, furniture_start, mark_furniture,
+                      suffix_tokens, ultima_reforma_in_text)
 
 
 def key_of(lead: str) -> str | None:
@@ -118,6 +119,52 @@ class LastReform(unittest.TestCase):
     def test_only_the_opening_paragraphs_count(self):
         late = ["x"] * 40 + ["Última reforma publicada DOF 01-01-2000"]
         self.assertIsNone(ultima_reforma_in_text(late))
+
+
+def blk(text, kind="body", size=10.0):
+    return {"kind": kind, "text": text, "style": {"size": size}}
+
+
+# The tail textutil emits for the Constitution: the Word file's running header and page fields.
+TAIL = [blk("EMBED Word.Picture.8", "table", 8.0),
+        blk("CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS", "table", 8.0),
+        blk("CÁMARA DE DIPUTADOS DEL H. CONGRESO DE LA UNIÓN", "table", 6.0),
+        blk("Secretaría General", "table", 6.5),
+        blk("Secretaría de Servicios Parlamentarios", "table", 6.5),
+        blk("Última Reforma DOF 07-10-2026", "table", 7.0),
+        blk("PAGE", "body", 12.0),
+        blk("PAGE1 de NUMPAGES416", "body", 9.0)]
+BODY = [blk("Artículo 1o. En los Estados Unidos Mexicanos todas las personas gozarán…"),
+        blk("En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución… " * 3)]
+
+
+class PageFurniture(unittest.TestCase):
+    def test_trailing_header_and_page_fields_are_furniture(self):
+        blocks = [dict(b) for b in BODY + TAIL]
+        self.assertEqual(furniture_start(blocks), len(BODY))
+        self.assertEqual(mark_furniture(blocks), len(TAIL))
+        self.assertEqual([b["kind"] for b in blocks[len(BODY):]], ["furniture"] * len(TAIL))
+        self.assertEqual([b["kind"] for b in blocks[:len(BODY)]], ["body", "body"])
+
+    def test_dof_running_head_with_field_code(self):
+        head = blk("PAGE \\* MERGEFORMAT2 (Primera Sección) DIARIO OFICIAL Viernes 4 de junio de 2010", "body", 9.0)
+        foot = blk("Miércoles 20 de agosto de 2008 DIARIO OFICIAL (Primera Sección) PAGE \\* MERGEFORMAT 9", "body", 9.0)
+        self.assertEqual(furniture_start(BODY + [head] + TAIL + [foot]), len(BODY))
+
+    def test_no_field_code_no_furniture(self):
+        # a law that really ends in small table rows keeps them
+        rows = [blk("ANEXO 38. AMPLIACIONES AL RAMO 48", "table", 7.0), blk("MONTO 1,985,500,000", "table", 7.0)]
+        self.assertIsNone(furniture_start(BODY + rows))
+
+    def test_equations_and_body_text_are_not_furniture(self):
+        eq = blk("EMBED Equation.3 : Cuota prevista en el artículo 223 de esta Ley.")
+        self.assertIsNone(furniture_start(BODY + [eq]))
+        self.assertEqual(furniture_start(BODY + [eq] + TAIL), len(BODY) + 1)
+
+    def test_ends_with_furniture(self):
+        self.assertTrue(ends_with_furniture("Artículo 9o. Texto.\n\nPAGE1 de NUMPAGES416"))
+        self.assertTrue(ends_with_furniture("Texto.\n\nSecretaría de Servicios Parlamentarios"))
+        self.assertFalse(ends_with_furniture("Artículo 9o. La Secretaría General de Acuerdos publicará…"))
 
 
 if __name__ == "__main__":

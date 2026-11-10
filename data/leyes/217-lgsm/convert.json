@@ -4,13 +4,14 @@
   "kinds": {
     "note": 3,
     "heading": 43,
-    "body": 450,
+    "body": 448,
     "article": 281,
     "annotation": 163,
-    "table": 7,
+    "table": 1,
     "transitorio_heading": 15,
     "article_ordinal": 9,
-    "ordinal_lead": 28
+    "ordinal_lead": 28,
+    "furniture": 8
   },
   "md_chars": 169625,
   "slug": "217-lgsm",

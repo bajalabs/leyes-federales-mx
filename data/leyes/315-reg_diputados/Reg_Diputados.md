@@ -5296,14 +5296,3 @@ Publicado en el Diario Oficial de la Federación el 7 de mayo de 2025
 **Único.** El presente Decreto entrará en vigor el día siguiente al de su publicación en el Diario Oficial de la Federación.
 
 SALÓN DE SESIONES DE LA CÁMARA DE DIPUTADOS DEL HONORABLE CONGRESO DE LA UNIÓN.- Ciudad de México, a 29 de abril de 2025.- Dip. **Sergio Carlos Gutiérrez Luna**, Presidente.- Rúbrica.- Dip. **José Luis Montalvo Luna**, Secretario.- Rúbrica.
-
-PAGE \* MERGEFORMAT 2 (Primera Sección) DIARIO OFICIAL Viernes 24 de diciembre de 2010
-
-| EMBED Word.Picture.8 |
-| **REGLAMENTO DE LA CÁMARA DE DIPUTADOS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 07-05-2025_ |
-
-PAGE1 de NUMPAGES146

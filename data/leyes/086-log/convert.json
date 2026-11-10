@@ -4,13 +4,13 @@
   "kinds": {
     "note": 2,
     "heading": 9,
-    "body": 80,
+    "body": 77,
     "article": 26,
     "annotation": 3,
     "transitorio_heading": 3,
     "ordinal_lead": 8,
     "article_ordinal": 1,
-    "table": 6
+    "furniture": 9
   },
   "md_chars": 25324,
   "slug": "086-log",

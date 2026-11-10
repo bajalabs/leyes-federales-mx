@@ -572,14 +572,3 @@ Publicado en el Diario Oficial de la Federación el 19 de enero de 2023
 **Ciudad de México, a 6 de diciembre de 2022**.- Dip. **Santiago Creel Miranda**, Presidente.- Sen. **Alejandro Armenta Mier**, Presidente.- Dip. **María Macarena Chávez Flores**, Secretaria.- Sen. **Verónica Noemí Camino Farjat**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 12 de enero de 2023.- **Andrés Manuel López Obrador**.- Rúbrica.- El Secretario de Gobernación, Lic. **Adán Augusto López Hernández**.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **LEY DEL SERVICIO POSTAL MEXICANO** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 19-01-2023_ |
-
-PAGE
-
-PAGE17 de NUMPAGES17

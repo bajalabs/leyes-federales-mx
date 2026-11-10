@@ -884,14 +884,3 @@ Publicado en el Diario Oficial de la Federación el 10 de mayo de 2022
 **Ciudad de México, a 5 de abril de 2022**.- Dip. **Sergio Carlos Gutiérrez Luna**, Presidente.- Sen. **Olga Sánchez Cordero Dávila**, Presidenta.- Dip. **Luis Enrique Martínez Ventura**, Secretario.- Sen. **Verónica Noemí Camino Farjat**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 2 de mayo de 2022.- **Andrés Manuel López Obrador**.- Rúbrica.- El Secretario de Gobernación, Lic. **Adán Augusto López Hernández**.- Rúbrica.
-
-PAGE \* MERGEFORMAT2 (Edición Vespertina) DIARIO OFICIAL Miércoles 27 de abril de 2016
-
-| EMBED Word.Picture.8 |
-| **LEY DE DISCIPLINA FINANCIERA DE LAS ENTIDADES FEDERATIVAS Y LOS MUNICIPIOS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 10-05-2022_ |
-
-PAGE1 de NUMPAGES34

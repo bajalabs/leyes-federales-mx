@@ -356,16 +356,3 @@ Publicado en el Diario Oficial de la Federación el 29 de diciembre de 2023
 **Ciudad de México, a 14 de noviembre de 2023**.- Dip. **Marcela Guerra Castillo**, Presidenta.- Sen. **Ana Lilia Rivera Rivera**, Presidenta.- Dip. **Diana Estefanía Gutiérrez Valtierra**, Secretaria.- Sen. **Verónica Noemí Camino Farjat**, Secretaria.- Rúbricas."
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 27 de diciembre de 2023.- **Andrés Manuel López Obrador**.- Rúbrica.- La Secretaria de Gobernación, **Luisa María Alcalde Luján**.- Rúbrica.
-
-PAGE \* MERGEFORMAT 56 (Primera Sección) DIARIO OFICIAL Viernes 31 de diciembre de 2004
-
-| EMBED Word.Picture.8 |
-| **LEY FEDERAL DE RESPONSABILIDAD PATRIMONIAL DEL ESTADO** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 29-12-2023_ |
-
-PAGE
-
-PAGE15 de NUMPAGES15

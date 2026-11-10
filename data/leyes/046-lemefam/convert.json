@@ -3,14 +3,14 @@
   "blocks": 227,
   "kinds": {
     "note": 2,
-    "body": 80,
+    "body": 77,
     "heading": 30,
     "article_ordinal": 5,
     "annotation": 32,
     "article": 52,
     "transitorio_heading": 6,
     "ordinal_lead": 14,
-    "table": 6
+    "furniture": 9
   },
   "md_chars": 29388,
   "slug": "046-lemefam",

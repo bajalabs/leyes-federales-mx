@@ -27,8 +27,8 @@ from pathlib import Path
 # re-derive these regexes here: private copies are how a suffix-truncation bug
 # once survived in two places.
 from patterns import (ART_RE, ART_ORD_RE, HEAD_RE, ANNOT_TEXT_RE, TRANS_RE,
-                      SPACED_TRANS_RE, DISPOSICIONES_TRANS_RE, BARE_ORD_RE)
-from mdrender import header_md, render_doc_block, with_text_reform
+                      SPACED_TRANS_RE, DISPOSICIONES_TRANS_RE, BARE_ORD_RE, mark_furniture)
+from mdrender import to_markdown
 
 # ── style vocabulary observed in the diputados corpus ────────────────────────
 ANNOT_COLORS = {"#0000ff", "#595959", "#181818"}   # reform provenance / editorial
@@ -148,7 +148,7 @@ def convert(doc: Path, out_dir: Path, code: str, meta: dict | None = None) -> di
     def in_table(pos: int) -> bool:
         return any(a <= pos < b for a, b in table_spans)
 
-    blocks, md = [], []
+    blocks = []
 
     idx = 0
     for m in re.finditer(r'<p class="(p\d+)"[^>]*>(.*?)</p>', html, re.S):
@@ -165,18 +165,20 @@ def convert(doc: Path, out_dir: Path, code: str, meta: dict | None = None) -> di
         br = bold_ratio(body)
         kind = classify(text, sty, br, tbl)
         idx += 1
+        style = {"cls": cls, **sty, "bold_ratio": round(br, 3)}
+        if tbl:
+            style["in_table"] = True       # kept so a replay can reclassify without the HTML
         blocks.append({
             "i": idx, "kind": kind, "text": text,
             "md": "\n".join(l for l in lines_md if l),
-            "style": {"cls": cls, **sty, "bold_ratio": round(br, 3)},
+            "style": style,
         })
-        # ── markdown emission (shared with blocks_to_md.py via mdrender) ─────
-        rendered = "  \n".join(l for l in lines_md if l)
-        md.append(render_doc_block(kind, text, rendered))
 
-    md = header_md(title, with_text_reform(meta, blocks), "doc") + md
+    # the Word file's headers and footers, emitted after the body
+    mark_furniture(blocks)
+    # markdown emission goes through mdrender, the same path blocks_to_md.py uses
     out_dir.mkdir(parents=True, exist_ok=True)
-    md_text = re.sub(r"\n{3,}", "\n\n", "\n".join(md)).strip() + "\n"
+    md_text = to_markdown(title, meta, "doc", blocks)
     (out_dir / f"{code}.md").write_text(md_text, encoding="utf-8")
     with (out_dir / f"{code}.blocks.jsonl").open("w", encoding="utf-8") as f:
         for b in blocks:

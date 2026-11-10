@@ -566,14 +566,3 @@ Firman el señor Ministro Presidente y el señor Ministro ponente con el Secreta
 Presidente, Ministro **Hugo Aguilar Ortiz**.- Firmado electrónicamente.- Ponente, Ministro **Giovanni Azael Figueroa Mejía**.- Firmado electrónicamente.- Secretario General de Acuerdos, Licenciado **Rafael Coello Cetina**.- Firmado electrónicamente.
 
 EL LICENCIADO **RAFAEL COELLO CETINA**, SECRETARIO GENERAL DE ACUERDOS DE LA SUPREMA CORTE DE JUSTICIA DE LA NACIÓN: CERTIFICA: Que la presente copia fotostática constante de dieciocho fojas útiles, concuerda fiel y exactamente con el original firmado electrónicamente de la sentencia emitida en la acción de inconstitucional 51/2025, promovida por la Comisión Nacional de los Derechos Humanos, dictada por el Pleno de la Suprema Corte de Justicia de la Nación en su sesión del tres de noviembre de dos mil veinticinco. Se certifica con la finalidad de que se publique en el Diario Oficial de la Federación.- Ciudad de México, a veintiuno de noviembre de dos mil veinticinco.- Rúbrica.
-
-PAGE \* MERGEFORMAT2 (Edición Vespertina) DIARIO OFICIAL Martes 18 de marzo de 2025
-
-| EMBED Word.Picture.8 |
-| **LEY DE LA COMISIÓN NACIONAL DE ENERGÍA** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 18-03-2025_ |
-
-PAGE1 de NUMPAGES20

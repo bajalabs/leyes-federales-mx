@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 71,
-    "body": 1157,
-    "table": 680,
+    "body": 1155,
+    "table": 674,
     "annotation": 291,
     "article": 70,
     "transitorio_heading": 82,
     "article_ordinal": 178,
-    "ordinal_lead": 94
+    "ordinal_lead": 94,
+    "furniture": 8
   },
   "md_chars": 409684,
   "slug": "113-lieps",

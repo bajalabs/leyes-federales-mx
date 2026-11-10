@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 59,
-    "body": 339,
+    "body": 337,
     "article": 145,
     "annotation": 159,
-    "table": 10,
+    "table": 4,
     "transitorio_heading": 27,
     "article_ordinal": 33,
-    "ordinal_lead": 55
+    "ordinal_lead": 55,
+    "furniture": 8
   },
   "md_chars": 127699,
   "slug": "089-lperc",

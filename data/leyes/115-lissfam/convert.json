@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 24,
-    "body": 914,
+    "body": 911,
     "article": 232,
     "annotation": 179,
-    "table": 300,
+    "table": 294,
     "transitorio_heading": 13,
     "ordinal_lead": 36,
-    "article_ordinal": 10
+    "article_ordinal": 10,
+    "furniture": 9
   },
   "md_chars": 233451,
   "slug": "115-lissfam",

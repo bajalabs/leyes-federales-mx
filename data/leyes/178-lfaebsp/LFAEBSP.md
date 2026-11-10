@@ -1580,16 +1580,3 @@ En el mismo plazo señalado en el párrafo anterior, el Instituto Nacional de la
 **Ciudad de México, a 25 de abril de 2024.-** Dip. **Karla Yuritzi Almazán Burgos**, Vicepresidenta en funciones de Presidenta.- Sen. **Ana Lilia Rivera Rivera**, Presidenta.- Dip. **Fuensanta Guadalupe Guerrero Esquivel**, Secretaria.- Sen. **Verónica Noemí Camino Farjat**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 30 de abril de 2024.- **Andrés Manuel López Obrador**.- Rúbrica.- La Secretaria de Gobernación, **Luisa María Alcalde Luján**.- Rúbrica.
-
-PAGE2 (Primera Sección) DIARIO OFICIAL Jueves 19 de diciembre de 2002
-
-| EMBED Word.Picture.8 |
-| **LEY FEDERAL PARA LA ADMINISTRACIÓN Y ENAJENACIÓN DE BIENES DEL SECTOR PÚBLICO** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 30-04-2024_ |
-
-PAGE
-
-PAGE47 de NUMPAGES50

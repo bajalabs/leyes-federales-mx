@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 44,
-    "body": 629,
+    "body": 626,
     "article": 143,
     "annotation": 113,
     "transitorio_heading": 27,
     "ordinal_lead": 75,
     "article_ordinal": 31,
-    "table": 32
+    "table": 26,
+    "furniture": 9
   },
   "md_chars": 205029,
   "slug": "222-lgvs",

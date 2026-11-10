@@ -440,16 +440,3 @@ Publicado en el Diario Oficial de la Federación el 3 de enero de 2024
 Ciudad de México, a 22 de noviembre de 2023.- Dip. **Marcela Guerra Castillo**, Presidenta.- Sen. **Ana Lilia Rivera Rivera**, Presidenta.- Dip. **Olga Luz Espinosa Morales**, Secretaria.- Sen. **Verónica Noemí Camino Farjat**, Secretaria.- Rúbricas."
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 27 de diciembre de 2023.- **Andrés Manuel López Obrador**.- Rúbrica.- La Secretaria de Gobernación, **Luisa María Alcalde Luján**.- Rúbrica.
-
-PAGE \* MERGEFORMAT 52 (Primera Sección) DIARIO OFICIAL Lunes 24 de abril de 2006
-
-| EMBED Word.Picture.8 |
-| **LEY DEL INSTITUTO DEL FONDO NACIONAL PARA EL CONSUMO DE LOS TRABAJADORES** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 03-01-2024_ |
-
-PAGE
-
-PAGE1 de NUMPAGES15

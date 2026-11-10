@@ -3,14 +3,15 @@
   "blocks": 678,
   "kinds": {
     "note": 2,
-    "body": 369,
+    "body": 366,
     "heading": 29,
     "annotation": 116,
     "article": 78,
-    "table": 7,
+    "table": 1,
     "transitorio_heading": 12,
     "article_ordinal": 16,
-    "ordinal_lead": 49
+    "ordinal_lead": 49,
+    "furniture": 9
   },
   "md_chars": 103323,
   "slug": "023-larefam",

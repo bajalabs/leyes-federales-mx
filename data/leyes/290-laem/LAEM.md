@@ -298,14 +298,3 @@ VII. Los recursos que ingresen a la Agencia por los conceptos señalados en el a
 México, D.F., a 20 de abril de 2010.- Sen. **Carlos Navarrete Ruiz**, Presidente.- Dip. **Francisco Javier Ramírez Acuña**, Presidente.- Sen. **Martha Leticia Sosa Govea**, Secretaria.- Dip. **Jaime Arturo Vazquez Aguilar**, Secretario.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, Distrito Federal, a trece de julio de dos mil diez.- **Felipe de Jesús Calderón Hinojosa**.- Rúbrica.- El Secretario de Gobernación, Lic. **Fernando Francisco Gómez Mont Urueta**.- Rúbrica.
-
-PAGE \* MERGEFORMAT 48 (Primera Sección) DIARIO OFICIAL Viernes 30 de julio de 2010
-
-| EMBED Word.Picture.8 |
-| **LEY QUE CREA LA AGENCIA ESPACIAL MEXICANA** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 30-07-2010_ |
-
-PAGE1 de NUMPAGES9

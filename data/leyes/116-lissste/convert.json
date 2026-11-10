@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 132,
-    "body": 1048,
+    "body": 1046,
     "article_ordinal": 25,
     "article": 259,
     "annotation": 89,
     "transitorio_heading": 27,
     "ordinal_lead": 111,
-    "table": 94
+    "table": 81,
+    "furniture": 15
   },
   "md_chars": 358079,
   "slug": "116-lissste",

@@ -2876,14 +2876,3 @@ Firman la señora Ministra Presidenta y el señor Ministro Ponente con el Secret
 Presidenta, Ministra **Norma Lucía Piña Hernández**.- Firmado electrónicamente.- Ponente, Ministro **Javier Laynez Potisek**.- Firmado electrónicamente.- Secretario General de Acuerdos, Lic. **Rafael Coello Cetina**.- Firmado electrónicamente.
 
 EL LICENCIADO **RAFAEL COELLO CETINA**, SECRETARIO GENERAL DE ACUERDOS DE LA SUPREMA CORTE DE JUSTICIA DE LA NACIÓN: CERTIFICA: Que la presente copia fotostática constante de setenta y tres fojas útiles, concuerda fiel y exactamente con el original firmado electrónicamente de la sentencia emitida en la acción de inconstitucionalidad 71/2023 y sus acumuladas 75/2023, 89/2023, 90/2023, 91/2023, 92/2023 y 93/2023, promovidas por el Partido Movimiento Ciudadano, el Partido de la Revolución Democrática, el Partido Acción Nacional, por Diputados y Senadores del Congreso de la Unión, por el Partido Revolucionario Institucional y el Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales, dictada por el Pleno de la Suprema Corte de Justicia de la Nación en su sesión del veintidós de junio de dos mil veintitrés. Se certifica con la finalidad de que se publique en el Diario Oficial de la Federación.- Ciudad de México, a veintitrés de octubre de dos mil veintitrés.- Rúbrica.
-
-PAGE \* MERGEFORMAT71 (Tercera Sección) DIARIO OFICIAL Viernes 23 de mayo de 2014
-
-| EMBED Word.Picture.8 |
-| **LEY GENERAL DE PARTIDOS POLÍTICOS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 02-03-2023_ |
-
-PAGE1 de NUMPAGES85

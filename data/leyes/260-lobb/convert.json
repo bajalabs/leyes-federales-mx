@@ -3,14 +3,14 @@
   "blocks": 455,
   "kinds": {
     "note": 2,
-    "body": 238,
+    "body": 235,
     "heading": 16,
     "annotation": 111,
     "article": 41,
     "transitorio_heading": 8,
     "article_ordinal": 26,
     "ordinal_lead": 7,
-    "table": 6
+    "furniture": 9
   },
   "md_chars": 79211,
   "slug": "260-lobb",

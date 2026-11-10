@@ -5414,14 +5414,3 @@ Publicado en el Diario Oficial de la Federación el 7 de mayo de 2026
 **Ciudad de México, a 21 de abril de 2026**.- Dip. Kenia López Rabadán, Presidenta.- Sen. Laura Itzel Castillo Juárez, Presidenta.- Dip. Magdalena del Socorro Núñez Monreal, Secretaria.- Sen. María Martina Kantún Can, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 04 de mayo de 2026.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **LEY ORGÁNICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 07-05-2026_ |
-
-PAGE
-
-PAGE1 de NUMPAGES206

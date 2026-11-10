@@ -70,7 +70,8 @@ def header_md(title: str, meta: dict | None, source_kind: str) -> list[str]:
 
 
 def render_doc_block(kind: str, text: str, rendered: str) -> str:
-    """One block -> markdown fragment, DOC-path rules (doc_to_md.py)."""
+    """One block -> markdown fragment, DOC-path rules (doc_to_md.py).
+    'furniture' blocks (page headers and fields) never reach this: to_markdown skips them."""
     if kind == "heading":
         return f"\n{'#' * heading_level(text)} {_bare(rendered)}\n"
     if kind == "transitorio_heading":
@@ -111,6 +112,8 @@ def with_text_reform(meta: dict | None, blocks: list[dict]) -> dict | None:
 def to_markdown(title: str, meta: dict | None, source_kind: str, blocks: list[dict]) -> str:
     md = header_md(title, with_text_reform(meta, blocks), source_kind)
     for b in blocks:
+        if b["kind"] == "furniture":
+            continue
         if (b.get("style") or {}).get("src") == "pdf":
             md.append(render_pdf_block(b["kind"], b["text"]))
         else:

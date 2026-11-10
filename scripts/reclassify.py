@@ -21,13 +21,31 @@ sys.path.insert(0, str(Path(__file__).parent))
 from corpus import DEFAULT_BUILD, DEFAULT_DATA, law_dir, load_manifest, parse_only, select  # noqa: E402
 from doc_to_md import classify as classify_doc   # noqa: E402
 from pdf_to_md import classify as classify_pdf   # noqa: E402
+from patterns import mark_furniture   # noqa: E402
 
 
 def reclassify_block(b: dict) -> str:
     sty = b.get("style") or {}
     if sty.get("src") == "pdf":
         return classify_pdf(b["text"], sty.get("indent") or 0)
-    return classify_doc(b["text"], sty, sty.get("bold_ratio") or 0.0, b["kind"] == "table")
+    return classify_doc(b["text"], sty, sty.get("bold_ratio") or 0.0, bool(sty.get("in_table")))
+
+
+def reclassify_blocks(blocks: list[dict]) -> int:
+    """Replay the per-paragraph classifier, then the sequence rules (trailing
+    page furniture). Returns how many blocks changed."""
+    changed = 0
+    for b in blocks:
+        sty = b.setdefault("style", {})
+        # blocks written before the in_table flag existed: a table block is in a table
+        if sty.get("src") != "pdf" and b["kind"] == "table" and "in_table" not in sty:
+            sty["in_table"] = True
+            changed += 1
+    before = [b["kind"] for b in blocks]
+    for b in blocks:
+        b["kind"] = reclassify_block(b)
+    mark_furniture(blocks)
+    return changed + sum(1 for k, b in zip(before, blocks) if k != b["kind"])
 
 
 def main() -> int:
@@ -53,12 +71,7 @@ def main() -> int:
             with bl.open(encoding="utf-8") as f:
                 blocks = [json.loads(l) for l in f]
             before = Counter(b["kind"] for b in blocks)
-            changed = 0
-            for b in blocks:
-                k = reclassify_block(b)
-                if k != b["kind"]:
-                    b["kind"] = k
-                    changed += 1
+            changed = reclassify_blocks(blocks)
             if changed == 0:
                 continue
             after = Counter(b["kind"] for b in blocks)

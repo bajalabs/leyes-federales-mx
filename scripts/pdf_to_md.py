@@ -20,7 +20,7 @@ from pathlib import Path
 from patterns import (ART_RE, ART_ORD_RE, HEAD_RE, TRANS_RE, SPACED_TRANS_RE,
                       DISPOSICIONES_TRANS_RE, BARE_ORD_RE,
                       ANNOT_TEXT_RE as ANNOT_RE)
-from mdrender import header_md, render_pdf_block, with_text_reform
+from mdrender import to_markdown
 
 HEADER_PATS = [
     re.compile(r"C[ÁA]MARA DE DIPUTADOS DEL H\. CONGRESO DE LA UNI[ÓO]N", re.I),
@@ -111,7 +111,7 @@ def classify(text: str, indent: int) -> str:
 def convert(pdf: Path, out_dir: Path, code: str, meta: dict | None = None) -> dict:
     lines = strip_furniture(pdftotext(pdf))
     paras = reflow(lines)
-    blocks, md = [], []
+    blocks = []
     title = (meta or {}).get("nombre") or code
     for i, (t, ind) in enumerate(paras, 1):
         k = classify(t, ind)
@@ -119,11 +119,9 @@ def convert(pdf: Path, out_dir: Path, code: str, meta: dict | None = None) -> di
                        "style": {"cls": None, "size": None, "color": None,
                                  "align": "center" if ind >= 25 else "justify",
                                  "font": None, "bold_ratio": 0.0, "indent": ind, "src": "pdf"}})
-        md.append(render_pdf_block(k, t))
 
-    md = header_md(title, with_text_reform(meta, blocks), "pdf") + md
     out_dir.mkdir(parents=True, exist_ok=True)
-    md_text = re.sub(r"\n{3,}", "\n\n", "\n".join(md)).strip() + "\n"
+    md_text = to_markdown(title, meta, "pdf", blocks)
     (out_dir / f"{code}.md").write_text(md_text, encoding="utf-8")
     with (out_dir / f"{code}.blocks.jsonl").open("w", encoding="utf-8") as f:
         for b in blocks:

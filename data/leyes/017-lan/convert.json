@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 131,
-    "body": 1137,
+    "body": 1134,
     "article": 215,
     "annotation": 606,
-    "table": 14,
+    "table": 8,
     "transitorio_heading": 14,
     "article_ordinal": 23,
-    "ordinal_lead": 53
+    "ordinal_lead": 53,
+    "furniture": 9
   },
   "md_chars": 395273,
   "slug": "017-lan",

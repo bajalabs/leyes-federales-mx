@@ -310,14 +310,3 @@ Para la verificación de los procedimientos de legitimación de contratos colect
 Ciudad de México, a 14 de noviembre de 2019.- Dip. **Laura Angélica Rojas Hernández**, Presidenta.- Sen. **Mónica Fernández Balboa**, Presidenta.- Dip. **Mónica Bautista Rodríguez**, Secretaria.- Sen. **Primo Dothé Mata**, Secretario.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 3 de enero de 2020.- **Andrés Manuel López Obrador**.- Rúbrica.- La Secretaria de Gobernación, Dra. **Olga María del Carmen Sánchez Cordero Dávila**.- Rúbrica.
-
-PAGE \* MERGEFORMAT124 DIARIO OFICIAL Lunes 6 de enero de 2020
-
-| EMBED Word.Picture.8 |
-| **LEY ORGÁNICA DEL CENTRO FEDERAL DE CONCILIACIÓN Y REGISTRO LABORAL** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 06-01-2020_ |
-
-PAGE1 de NUMPAGES10

@@ -3249,14 +3249,3 @@ Publicado en el Diario Oficial de la Federación el 12 de noviembre de 2021
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 10 de noviembre de 2021.- **Andrés Manuel López Obrador**.- Rúbrica.- El Secretario de Gobernación, Lic. **Adán Augusto López Hernández**.- Rúbrica.
 
 page 104 (Segunda Sección) DIARIO OFICIAL Lunes 30 de diciembre de 1996
-
-| EMBED Word.Picture.8 |
-| **LEY DEL IMPUESTO AL VALOR AGREGADO** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 12-11-2021_ |
-
-PAGE
-
-PAGE128 de NUMPAGES128

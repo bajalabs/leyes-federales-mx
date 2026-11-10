@@ -406,14 +406,3 @@ No procederá la acumulación de procesos cuando alguno de ellos se tramite conf
 Ciudad de México, a 01 de octubre de 2025.- Sen. Laura Itzel Castillo Juárez, Presidenta.- Dip. Kenia López Rabadán, Presidenta.- Sen. María Martina Kantún Can, Secretaria.- Dip. Julieta Villalpando Riquelme, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 13 de noviembre de 2025.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
-
-PAGE \* MERGEFORMAT2 (Primera Sección) DIARIO OFICIAL Miércoles 4 de noviembre de 2015
-
-| EMBED Word.Picture.8 |
-| **LEY REGLAMENTARIA DEL ARTÍCULO 6o., PÁRRAFO PRIMERO, DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS, EN MATERIA DEL DERECHO DE RÉPLICA** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 14-11-2025_ |
-
-PAGE1 de NUMPAGES17

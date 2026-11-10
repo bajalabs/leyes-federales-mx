@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 137,
-    "body": 1743,
+    "body": 1741,
     "article_ordinal": 30,
     "annotation": 900,
     "article": 280,
     "transitorio_heading": 28,
     "ordinal_lead": 101,
-    "table": 151
+    "table": 145,
+    "furniture": 8
   },
   "md_chars": 660618,
   "slug": "013-ladua",

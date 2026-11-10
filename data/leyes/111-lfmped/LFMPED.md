@@ -508,14 +508,3 @@ Publicado en el Diario Oficial de la Federación el 18 de marzo de 2025
 Ciudad de México, a 12 de marzo de 2025.- Sen. Gerardo Fernández Noroña, Presidente.- Dip. Sergio Carlos Gutiérrez Luna, Presidente.- Sen. Verónica Noemí Camino Farjat, Secretaria.- Dip. José Luis Montalvo Luna, Secretario.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 18 de marzo de 2025.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
-
-PAGE \* MERGEFORMAT2 (Primera Sección-Vespertina) DIARIO OFICIAL Lunes 11 de agosto de 2014
-
-| EMBED Word.Picture.8 |
-| **LEY DEL FONDO MEXICANO DEL PETRÓLEO PARA LA ESTABILIZACIÓN Y EL DESARROLLO** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 18-03-2025_ |
-
-PAGE1 de NUMPAGES21

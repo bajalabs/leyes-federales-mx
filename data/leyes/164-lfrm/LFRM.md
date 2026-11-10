@@ -628,14 +628,3 @@ Firman los señores Ministros Presidente y el Ponente con la Secretaria General 
 Presidente, Ministro **Arturo Zaldívar Lelo de Larrea**.- Firmado electrónicamente.- Ponente, Ministro **Jorge Mario Pardo Rebolledo**.- Firmado electrónicamente.- Secretaria General de Acuerdos en Funciones, Licenciada **Mónica Fernanda Estevané Núñez**.- Firmado electrónicamente.
 
 EL LICENCIADO **RAFAEL COELLO CETINA**, SECRETARIO GENERAL DE ACUERDOS DE LA SUPREMA CORTE DE JUSTICIA DE LA NACIÓN: CERTIFICA: Que la presente copia fotostática constante de ochenta y tres fojas útiles, concuerda fiel y exactamente con el original firmado electrónicamente de la sentencia emitida en la acción de inconstitucionalidad 151/2021, promovida por los Diversos Diputados Integrantes de la Sexagésima Quinta Legislatura del Congreso de la Unión, dictada por el Pleno de la Suprema Corte de Justicia de la Nación en su sesión de tres de febrero de dos mil veintidós. Se certifica con la finalidad de que se publique en el Diario Oficial de la Federación.- Ciudad de México, a quince de agosto de dos mil veintidós.- Rúbrica.
-
-PAGE \* MERGEFORMAT2 DIARIO OFICIAL Martes 14 de septiembre de 2021
-
-| EMBED Word.Picture.8 |
-| **LEY FEDERAL DE REVOCACIÓN DE MANDATO** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 14-09-2021_ |
-
-PAGE1 de NUMPAGES21

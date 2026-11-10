@@ -4034,14 +4034,3 @@ Sin perjuicio de lo previsto en el párrafo anterior, se podrá llevar a cabo el
 Ciudad de México, a 18 de marzo de 2026.- Sen. Laura Itzel Castillo Juárez, Presidenta.- Dip. Kenia López Rabadán, Presidenta.- Sen. María Martina Kantún Can, Secretaria.- Dip. Laura Iraís Ballesteros Mancilla, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 31 de marzo de 2026.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
-
-PAGE \* MERGEFORMAT118 (Primera Sección-Vespertina) DIARIO OFICIAL Miércoles 1 de julio de 2020
-
-| EMBED Word.Picture.8 |
-| **LEY FEDERAL DE PROTECCIÓN A LA PROPIEDAD INDUSTRIAL** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 03-04-2026_ |
-
-PAGE1 de NUMPAGES116

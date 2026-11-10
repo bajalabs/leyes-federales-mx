@@ -1708,14 +1708,3 @@ Cuando las autoridades competentes determinen que los depósitos o sitios de dis
 **Ciudad de México, a 28 de abril de 2023**.- Dip. **Santiago Creel Miranda**, Presidente.- Sen. **Alejandro Armenta Mier**, Presidente.- Dip. **María del Carmen Pinete Vargas**, Secretaria.- Sen. **Verónica Noemí Camino Farjat**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 8 de mayo de 2023.- **Andrés Manuel López Obrador**.- Rúbrica.- El Secretario de Gobernación, Lic. **Adán Augusto López Hernández**.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **LEY DE MINERÍA** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 08-05-2023_ |
-
-PAGE
-
-PAGE1 de NUMPAGES47

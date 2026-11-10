@@ -1546,14 +1546,3 @@ Firman los Señores Ministros Presidente y Ponente, con el Secretario General de
 El Ministro Presidente **Juan N. Silva Meza**.- Rúbrica.- El Ministro Ponente, **Sergio A. Valls Hernández**.- Rúbrica.- El Secretario General de Acuerdos, **Rafael Coello Cetina**.- Rúbrica.
 
 EL LICENCIADO **RAFAEL COELLO CETINA**, SECRETARIO GENERAL DE ACUERDOS DE LA SUPREMA CORTE DE JUSTICIA DE LA NACION, CERTIFICA: Que esta fotocopia constante de cuarenta y seis fojas útiles, concuerda fiel y exactamente con su original que corresponde a la sentencia del nueve de enero de dos mil doce, dictada por el Tribunal pleno en la acción de inconstitucionalidad 20/2011, promovida por la Procuradora General de la Republica. Se certifica para su publicación en el Diario Oficial de la Federación.- México, Distrito Federal, a siete de febrero de dos mil doce.- Rúbrica.
-
-PAGE \* MERGEFORMAT 2 (Primera Sección) DIARIO OFICIAL Lunes 20 de junio de 2011
-
-| EMBED Word.Picture.8 |
-| **LEY ORGÁNICA DE LA PROCURADURÍA GENERAL DE JUSTICIA DEL DISTRITO FEDERAL** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 20-06-2011_ |
-
-PAGE1 de NUMPAGES45

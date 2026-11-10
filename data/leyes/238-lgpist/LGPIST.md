@@ -1016,14 +1016,3 @@ Publicado en el Diario Oficial de la Federación el 28 de abril de 2022
 **Ciudad de México, a 15 de marzo de 2022**.- Dip. **Sergio Carlos Gutiérrez Luna**, Presidente.- Sen. **Olga Sánchez Cordero Dávila**, Presidenta.- Dip. **María Macarena Chávez Flores**, Secretaria.- Sen. **Verónica Noemí Camino Farjat**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 21 de abril de 2022.- **Andrés Manuel López Obrador**.- Rúbrica.- El Secretario de Gobernación, Lic. **Adán Augusto López Hernández**.- Rúbrica.
-
-PAGE \* MERGEFORMAT2 (Primera Sección) DIARIO OFICIAL Lunes 26 de junio de 2017
-
-| EMBED Word.Picture.8 |
-| **LEY GENERAL PARA PREVENIR, INVESTIGAR Y SANCIONAR LA TORTURA Y OTROS TRATOS O PENAS CRUELES, INHUMANOS O DEGRADANTES** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 28-04-2022_ |
-
-PAGE1 de NUMPAGES34

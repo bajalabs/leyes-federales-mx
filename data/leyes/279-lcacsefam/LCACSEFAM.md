@@ -390,16 +390,3 @@ Publicado en el Diario Oficial de la Federación el 3 de mayo de 2024
 **Ciudad de México, a 2 de abril de 2024**.- Dip. **Marcela Guerra Castillo**, Presidenta.- Sen. **Ana Lilia Rivera Rivera**, Presidenta.- Dip. **Pedro Vázquez González**, Secretario.- Sen. **Verónica Noemí Camino Farjat**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 30 de abril de 2024.- **Andrés Manuel López Obrador**.- Rúbrica.- La Secretaria de Gobernación, **Luisa María Alcalde Luján**.- Rúbrica.
-
-PAGE \* MERGEFORMAT 2 (Primera Sección) DIARIO OFICIAL Jueves 9 de febrero de 2006
-
-| EMBED Word.Picture.8 |
-| **LEY PARA LA COMPROBACIÓN, AJUSTE Y CÓMPUTO DE SERVICIOS EN EL EJÉRCITO Y FUERZA AÉREA MEXICANOS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 03-05-2024_ |
-
-PAGE
-
-PAGE1 de NUMPAGES13

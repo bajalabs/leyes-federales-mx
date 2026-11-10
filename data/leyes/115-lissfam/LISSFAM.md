@@ -3121,16 +3121,3 @@ Ciudad de México, a 07 de enero de 2026
 **SECRETARIO GENERAL DE ACUERDOS DE LA SUPREMA CORTE DE JUSTICIA DE LA NACIÓN.- Rúbrica.**
 
 _Notificado el engrose a la Cámara de Diputados del H. Congreso de la Unión el jueves 15 de enero de 2026 a las 11:46 hrs.- Oficialía de Partes.- Sello de Recibido._
-
-PAGE \* MERGEFORMAT 68 DIARIO OFICIAL Miércoles 9 de julio de 2003
-
-| EMBED Word.Picture.8 |
-| **LEY DEL INSTITUTO DE SEGURIDAD SOCIAL PARA LAS FUERZAS ARMADAS MEXICANAS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 14-11-2025_ |
-
-PAGE
-
-PAGE43 de NUMPAGES90

@@ -11296,14 +11296,3 @@ Publicado en el Diario Oficial de la Federación el 18 de febrero de 2026
 **ÚNICO.** El presente Acuerdo entra en vigor el día de su publicación en el Diario Oficial de la Federación.
 
 Ciudad de México, a 30 de enero de 2026.- El Secretario de Economía, **Marcelo Luis Ebrard Casaubon**.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **CÓDIGO DE COMERCIO** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 14-11-2025_ |
-
-PAGE
-
-PAGE1 de NUMPAGES291

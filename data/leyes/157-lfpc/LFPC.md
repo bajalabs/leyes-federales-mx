@@ -3368,14 +3368,3 @@ Para efectuar el pago de las cantidades que resulten de la actualización, para 
 **ÚNICO.-** El presente Acuerdo entrará en vigor a partir del 01 de enero de 2026.
 
 Ciudad de México, a 11 de diciembre del 2025.- El Procurador Federal del Consumidor, Licenciado **César Iván Escalante Ruiz**.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **LEY FEDERAL DE PROTECCIÓN AL CONSUMIDOR** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 12-12-2025_ |
-
-PAGE
-
-PAGE1 de NUMPAGES119

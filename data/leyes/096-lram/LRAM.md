@@ -414,14 +414,3 @@ Publicado en el Diario Oficial de la Federación el 22 de noviembre de 2021
 **Ciudad de México, a 4 de noviembre de 2021**.- Dip. **Sergio Carlos Gutiérrez Luna**, Presidente.- Sen. **Olga Sánchez Cordero Dávila**, Presidenta.- Dip. **María Macarena Chávez Flores**, Secretaria.- Sen. **María Celeste Sánchez Sugía**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 19 de noviembre de 2021.- **Andrés Manuel López Obrador**.- Rúbrica.- El Secretario de Gobernación, Lic. **Adán Augusto López Hernández**.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **LEY DE RECOMPENSAS DE LA ARMADA DE MÉXICO** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 22-11-2021_ |
-
-PAGE
-
-PAGE16 de NUMPAGES16

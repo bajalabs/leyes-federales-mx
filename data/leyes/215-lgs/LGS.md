@@ -11581,14 +11581,3 @@ Formalizada la modificación al contrato dentro de los treinta días hábiles si
 **Ciudad de México, a 10 de diciembre de 2025**.- Dip. Kenia López Rabadán, Presidenta.- Sen. Laura Itzel Castillo Juárez, Presidenta.- Dip. Magdalena del Socorro Núñez Monreal, Secretaria.- Sen. María Martina Kantún Can, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 13 de enero de 2026.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **LEY GENERAL DE SALUD** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Últimas Reformas DOF 15-01-2026_ |
-
-PAGE
-
-PAGE1 de NUMPAGES376

@@ -4,13 +4,14 @@
   "kinds": {
     "note": 3,
     "heading": 329,
-    "body": 3944,
+    "body": 3942,
     "article": 1279,
     "annotation": 1625,
-    "table": 2128,
+    "table": 2122,
     "transitorio_heading": 34,
     "article_ordinal": 33,
-    "ordinal_lead": 130
+    "ordinal_lead": 130,
+    "furniture": 8
   },
   "md_chars": 1319323,
   "slug": "173-lft",

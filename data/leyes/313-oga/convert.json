@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 218,
-    "body": 1637,
+    "body": 1635,
     "article": 1000,
-    "table": 131,
+    "table": 125,
     "annotation": 199,
     "transitorio_heading": 4,
     "article_ordinal": 3,
-    "ordinal_lead": 3
+    "ordinal_lead": 3,
+    "furniture": 8
   },
   "md_chars": 663170,
   "slug": "313-oga",

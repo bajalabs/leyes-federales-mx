@@ -416,14 +416,3 @@ Firman el Ministro Presidente, el Ministro Ponente y el Secretario General de Ac
 El Ministro Presidente, **Luis María Aguilar Morales**.- Rúbrica.- El Ministro Ponente, **Alberto Pérez Dayán**.- Rúbrica.- El Secretario General de Acuerdos, **Rafael Coello Cetina**.- Rúbrica
 
 EL LICENCIADO **RAFAEL COELLO CETINA,** SECRETARIO GENERAL DE ACUERDOS DE LA SUPREMA CORTE DE JUSTICIA DE LA NACIÓN, CERTIFICA: Que esta fotocopia constante de treinta y nueve fojas útiles, concuerda fiel y exactamente con su original que corresponde a la sentencia del dieciocho de febrero de dos mil dieciséis, dictada por el Tribunal Pleno en la acción de inconstitucionalidad 33/2015, promovida por la Comisión Nacional de Derechos Humanos. Se certifica con la finalidad de que se publique en el Diario Oficial de la Federación.- Ciudad de México, a cuatro de mayo de dos mil dieciséis.- Rúbrica.
-
-PAGE \* MERGEFORMAT8 (Edición Vespertina) DIARIO OFICIAL Jueves 30 de abril de 2015
-
-| EMBED Word.Picture.8 |
-| **LEY GENERAL PARA LA ATENCIÓN Y PROTECCIÓN A PERSONAS CON LA CONDICIÓN DEL ESPECTRO AUTISTA** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 30-04-2015_ |
-
-PAGE11 de NUMPAGES14

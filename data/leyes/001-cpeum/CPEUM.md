@@ -10198,14 +10198,3 @@ Publicado en el Diario Oficial de la Federación el 7 de octubre de 2026
 Ciudad de México, a 06 de octubre de 2026.- Sen. Higinio Martínez Miranda, Presidente.- Dip. Raúl Bolaños-Cacho Cué, Presidente.- Sen. Claudia Tello Espinosa, Secretaria.- Dip. Julieta Villalpando Riquelme, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 07 de octubre de 2026.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 07-10-2026_ |
-
-PAGE
-
-PAGE1 de NUMPAGES416

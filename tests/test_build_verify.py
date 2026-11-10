@@ -65,6 +65,28 @@ class SampleDatabase(unittest.TestCase):
         self.assertEqual(receipt["status"], "PASS", json.dumps(receipt["problems"], ensure_ascii=False))
         self.assertEqual(receipt["checks"]["floors"]["001-cpeum"]["regular_articles"], 136)
 
+    def test_no_article_carries_page_furniture(self):
+        n = self.one("SELECT count(*) FROM articles WHERE text LIKE '%NUMPAGES%' OR text LIKE '%EMBED Word.Picture%'")
+        self.assertEqual(n, 0)
+        # the running header never survives as a paragraph of its own
+        header = {"Secretaría General", "Secretaría de Servicios Parlamentarios",
+                  "CÁMARA DE DIPUTADOS DEL H. CONGRESO DE LA UNIÓN"}
+        texts = [r[0] for r in self.con.execute("SELECT text FROM articles")]
+        self.assertFalse([x for x in texts if header & {p.strip() for p in x.split("\n")}])
+        self.assertGreater(self.one("SELECT count(*) FROM blocks WHERE kind = 'furniture'"), 0)
+
+    def test_verify_fails_when_an_article_ends_with_furniture(self):
+        db = Path(self.tmp.name) / "tampered.sqlite"
+        db.write_bytes(self.db.read_bytes())
+        con = sqlite3.connect(db)
+        con.execute("""UPDATE articles SET text = text || char(10) || char(10) || 'PAGE1 de NUMPAGES416'
+                       WHERE id = (SELECT max(id) FROM articles)""")
+        con.commit()
+        con.close()
+        receipt = verify(DATA, db, set(sample_slugs()))
+        self.assertEqual(receipt["status"], "FAIL")
+        self.assertEqual(len(receipt["checks"]["furniture_tails"]), 1)
+
     def test_constitution_article_27_with_its_place(self):
         row = self.con.execute("""SELECT label, division_heading FROM v_articles
                                   WHERE law_slug='001-cpeum' AND numero_int=27 AND is_transitorio=0""").fetchone()
@@ -96,6 +118,12 @@ class SampleDatabase(unittest.TestCase):
             WHERE l.slug = '001-cpeum' GROUP BY 1""").fetchall())
         self.assertGreater(changes.get("added", 0), 0)
         self.assertNotIn("removed", changes)
+        # only the three articles the October 2026 reform amended; no page furniture moving around
+        modified = [k for (k,) in self.con.execute("""
+            SELECT c.article_key FROM article_changes c
+            JOIN version_diffs d ON d.id = c.version_diff_id JOIN laws l ON l.id = d.law_id
+            WHERE l.slug = '001-cpeum' AND c.change_type = 'modified' ORDER BY c.id""")]
+        self.assertEqual(modified, ["82", "116", "122"])
         art82 = self.one("""SELECT c.change_type FROM article_changes c
                             JOIN version_diffs d ON d.id = c.version_diff_id JOIN laws l ON l.id = d.law_id
                             WHERE l.slug = '001-cpeum' AND c.article_key = '82'""")

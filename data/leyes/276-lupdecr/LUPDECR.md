@@ -166,16 +166,3 @@ Asimismo la Cruz Roja Mexicana podrá autorizar a las demás Sociedades Nacional
 México, D.F., a 19 de diciembre de 2006.- Sen. **Manlio Fabio Beltrones Rivera**, Presidente.- Dip. **Jorge Zermeño Infante**, Presidente.- Sen. **Renán Cleominio Zoreda Novelo**, Secretario.- Dip. **Eduardo Sergio de la Torre Jaramillo**, Secretario.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, Distrito Federal, a los veinte días del mes de marzo de dos mil siete.- **Felipe de Jesús Calderón Hinojosa**.- Rúbrica.- El Secretario de Gobernación, **Francisco Javier Ramírez Acuña**.- Rúbrica.
-
-PAGE \* MERGEFORMAT 2 (Primera Sección) DIARIO OFICIAL Viernes 23 de marzo de 2007
-
-| EMBED Word.Picture.8 |
-| **LEY PARA EL USO Y PROTECCIÓN DE LA DENOMINACIÓN Y DEL EMBLEMA DE LA CRUZ ROJA** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 23-03-2007_ |
-
-PAGE
-
-PAGE3 de NUMPAGES6

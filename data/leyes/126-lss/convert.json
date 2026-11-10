@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 149,
-    "body": 1244,
+    "body": 1242,
     "article": 387,
     "annotation": 433,
-    "table": 18,
+    "table": 12,
     "transitorio_heading": 46,
     "ordinal_lead": 198,
-    "article_ordinal": 44
+    "article_ordinal": 44,
+    "furniture": 8
   },
   "md_chars": 511583,
   "slug": "126-lss",

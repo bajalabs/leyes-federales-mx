@@ -324,20 +324,3 @@ Cuando se adviertan irregularidades o inconsistencias de la información a que h
 **Ciudad de México, a 22 de febrero de 2023**.- Dip. **Santiago Creel Miranda**, Presidente.- Sen. **Alejandro Armenta Mier**, Presidente.- Dip. **Brenda Espinoza Lopez**, Secretaria.- Sen. **Verónica Noemí Camino Farjat**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 27 de febrero de 2023.- **Andrés Manuel López Obrador**.- Rúbrica.- El Secretario de Gobernación, Lic. **Adán Augusto López Hernández**.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **LEY DE PROTECCIÓN DEL ESPACIO AÉREO MEXICANO** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 01-03-2023_ |
-| EMBED Word.Picture.8 |
-| **LEY DE PROTECCIÓN DEL ESPACIO AÉREO MEXICANO** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 01-03-2023_ |
-
-PAGE2 de NUMPAGES7
-
-PAGE2 de NUMPAGES10

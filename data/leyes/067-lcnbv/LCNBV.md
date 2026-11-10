@@ -856,16 +856,3 @@ Publicado en el Diario Oficial de la Federación el 11 de mayo de 2022
 **Ciudad de México, a 15 de marzo de 2022.-** Dip. **Sergio Carlos Gutiérrez Luna**, Presidente.- Sen. **Olga Sánchez Cordero Dávila**, Presidenta.- Dip. **Luis Enrique Martínez Ventura**, Secretario.- Sen. **Verónica Noemí Camino Farjat**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 2 de mayo de 2022.- **Andrés Manuel López Obrador**.- Rúbrica.- El Secretario de Gobernación, Lic. **Adán Augusto López Hernández**.- Rúbrica.
-
-PAGE10 (Segunda Sección) DIARIO OFICIAL Viernes 28 de abril de 1995
-
-| EMBED Word.Picture.8 |
-| **LEY DE LA COMISIÓN NACIONAL BANCARIA Y DE VALORES** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 11-05-2022_ |
-
-PAGE
-
-PAGE1 de NUMPAGES37

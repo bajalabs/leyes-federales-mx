@@ -3287,21 +3287,3 @@ Publicado en el Diario Oficial de la Federación el 7 de julio de 2025
 **Segundo.-** En un plazo no mayor a seis meses, a partir de la entrada en vigor de esta reforma, se deberán adecuar los instrumentos normativos internos, conforme a las atribuciones conferidas en el presente Decreto a la Contraloría Interna de la Cámara de Diputados.
 
 Ciudad de México, a 26 de junio de 2025.- Dip. **Sergio Carlos Gutiérrez Luna**, Presidente.- Rúbrica.- Sen. **Gerardo Fernández Noroña**, Presidente.- Rúbrica.- Dip. **José Luis Montalvo Luna**, Secretario.- Rúbrica.- Sen. **Lizeth Sánchez García**, Secretaria.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **LEY ORGÁNICA DEL CONGRESO GENERAL DE LOS ESTADOS UNIDOS MEXICANOS** |
-| **Cámara de Diputados del H. Congreso de la Unión** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| Dirección General de Bibliotecas |
-| _Última Reforma DOF 10-05-2004_ |
-| EMBED Word.Picture.8 |
-| **LEY ORGÁNICA DEL CONGRESO GENERAL DE LOS ESTADOS UNIDOS MEXICANOS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 07-07-2025_ |
-
-PAGE
-
-PAGE1 de NUMPAGES115

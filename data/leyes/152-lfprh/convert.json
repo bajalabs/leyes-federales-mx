@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 61,
-    "body": 1029,
+    "body": 1026,
     "article_ordinal": 25,
     "article": 124,
     "annotation": 172,
-    "table": 32,
+    "table": 26,
     "transitorio_heading": 25,
-    "ordinal_lead": 149
+    "ordinal_lead": 149,
+    "furniture": 9
   },
   "md_chars": 375003,
   "slug": "152-lfprh",

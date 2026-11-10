@@ -1438,14 +1438,3 @@ De conformidad con las cuotas establecidas en el artículo 55 de la LISH y confo
 Atentamente.
 
 Ciudad de México, a 17 de diciembre de 2025.- En suplencia por ausencia del Jefe del Servicio de Administración Tributaria, con fundamento en el artículo 4, primer párrafo del Reglamento Interior del Servicio de Administración Tributaria, firma el Administrador General Jurídico, Lic. **Ricardo Carrasco Varona**.- Rúbrica.
-
-PAGE \* MERGEFORMAT2 (Primera Sección-Vespertina) DIARIO OFICIAL Lunes 11 de agosto de 2014
-
-| EMBED Word.Picture.8 |
-| **LEY DE INGRESOS SOBRE HIDROCARBUROS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 18-03-2025_ |
-
-PAGE1 de NUMPAGES44

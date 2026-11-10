@@ -4,12 +4,13 @@
   "kinds": {
     "note": 2,
     "heading": 11,
-    "body": 407,
+    "body": 405,
     "article_ordinal": 1,
     "article": 34,
-    "table": 644,
+    "table": 638,
     "transitorio_heading": 1,
-    "ordinal_lead": 29
+    "ordinal_lead": 29,
+    "furniture": 8
   },
   "md_chars": 200805,
   "slug": "060-lif_2026",

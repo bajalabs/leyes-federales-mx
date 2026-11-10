@@ -24,6 +24,9 @@ Checks
   9. currency: each law's current version was converted from the file its
      manifest entry pins now (catches a recapture that was never converted),
      and every pair of consecutive captures has been diffed
+ 10. no page furniture: no article's text ends with the Word file's running
+     header or a page field ("Secretaría de Servicios Parlamentarios",
+     "PAGE1 de NUMPAGES416"), which textutil emits after the body
 """
 from __future__ import annotations
 import argparse, json, re, sqlite3, sys
@@ -31,6 +34,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from corpus import DEFAULT_BUILD, DEFAULT_DATA, DEFAULT_DB, law_dir, load_manifest, parse_only, select  # noqa: E402
+from patterns import ends_with_furniture  # noqa: E402
 
 STANDALONE_HDR = re.compile(r"^\*\*Art[ií]culo\s+\d+[^\n]*\*\*\s*$", re.M | re.I)
 
@@ -160,6 +164,14 @@ def verify(data: Path, db: Path, want: set[str] | None = None) -> dict:
         problems.append(f"version_diffs {n_diffs} < consecutive capture pairs {pairs}")
     changes = dict(q("SELECT change_type, count(*) FROM article_changes GROUP BY 1 ORDER BY 1"))
 
+    # 10 — no article ends with page furniture
+    furniture_tails = [{"law": slug, "article_key": key, "tail": text.rstrip()[-80:]}
+                       for slug, key, text in q("""SELECT l.slug, a.article_key, a.text FROM articles a
+                                                   JOIN laws l ON l.id = a.law_id""")
+                       if ends_with_furniture(text)]
+    if furniture_tails:
+        problems.append(f"{len(furniture_tails)} articles end with page furniture: {furniture_tails[:5]}")
+
     cur_v = "SELECT law_version_id FROM v_laws"
     counts_current = {
         "laws": one("SELECT count(*) FROM v_laws"),
@@ -212,6 +224,7 @@ def verify(data: Path, db: Path, want: set[str] | None = None) -> dict:
             "manifest_totals": {"manifest_laws": len(laws), "laws": n_laws, "law_versions": n_lv},
             "floors": floors,
             "current_is_pinned": {"stale": stale},
+            "furniture_tails": furniture_tails[:20],
         },
         "notes": notes,
         "problems": problems,

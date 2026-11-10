@@ -3,14 +3,14 @@
   "blocks": 378,
   "kinds": {
     "note": 2,
-    "body": 162,
+    "body": 160,
     "heading": 54,
     "article_ordinal": 5,
     "annotation": 50,
     "article": 79,
     "transitorio_heading": 6,
     "ordinal_lead": 14,
-    "table": 6
+    "furniture": 8
   },
   "md_chars": 66880,
   "slug": "312-lrpcap",

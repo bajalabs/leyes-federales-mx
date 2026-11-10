@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 112,
-    "body": 970,
+    "body": 968,
     "article": 151,
     "annotation": 159,
     "transitorio_heading": 47,
     "article_ordinal": 60,
-    "table": 140,
-    "ordinal_lead": 78
+    "table": 127,
+    "ordinal_lead": 78,
+    "furniture": 15
   },
   "md_chars": 247458,
   "slug": "265-locg",

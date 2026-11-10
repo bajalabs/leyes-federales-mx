@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 95,
-    "body": 584,
+    "body": 581,
     "article_ordinal": 5,
     "article": 177,
     "annotation": 32,
-    "table": 165,
+    "table": 159,
     "transitorio_heading": 6,
-    "ordinal_lead": 21
+    "ordinal_lead": 21,
+    "furniture": 9
   },
   "md_chars": 189212,
   "slug": "165-lfsa",

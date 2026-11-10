@@ -1986,14 +1986,3 @@ Publicado en el Diario Oficial de la Federación el 26 de diciembre de 2025
 **ÚNICO.** El presente Acuerdo entra en vigor el 1 de enero de 2026.
 
 Ciudad de México, a 17 de diciembre de 2025.- El Secretario de Economía, **Marcelo Luis Ebrard Casaubon**.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **LEY GENERAL DE SOCIEDADES MERCANTILES** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 20-10-2023_ |
-
-PAGE
-
-PAGE1 de NUMPAGES3

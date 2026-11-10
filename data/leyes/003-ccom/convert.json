@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 370,
-    "body": 1635,
+    "body": 1633,
     "article": 1669,
     "annotation": 1691,
-    "table": 9,
+    "table": 3,
     "transitorio_heading": 73,
     "article_ordinal": 79,
-    "ordinal_lead": 126
+    "ordinal_lead": 126,
+    "furniture": 8
   },
   "md_chars": 706710,
   "slug": "003-ccom",

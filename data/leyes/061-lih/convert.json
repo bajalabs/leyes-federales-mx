@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 52,
-    "body": 415,
+    "body": 413,
     "article_ordinal": 5,
     "article": 83,
     "annotation": 101,
-    "table": 82,
+    "table": 76,
     "transitorio_heading": 5,
-    "ordinal_lead": 8
+    "ordinal_lead": 8,
+    "furniture": 8
   },
   "md_chars": 118751,
   "slug": "061-lih",

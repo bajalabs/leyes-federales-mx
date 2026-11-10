@@ -247,14 +247,3 @@ Firman la señora Ministra Presidenta y el señor Ministro Ponente con el Secret
 Ministra Presidenta, **Norma Lucía Piña Hernández**.- Firmado electrónicamente.- Ministro Ponente, **Jorge Mario Pardo Rebolledo**.- Firmado electrónicamente.- Secretario General de Acuerdos, **Rafael Coello Cetina**.- Firmado electrónicamente.
 
 EL LICENCIADO **RAFAEL COELLO CETINA**, SECRETARIO GENERAL DE ACUERDOS DE LA SUPREMA CORTE DE JUSTICIA DE LA NACIÓN: CERTIFICA: Que la presente copia fotostática constante de ciento un fojas útiles, concuerda fiel y exactamente con el original firmado electrónicamente de la sentencia emitida en la controversia constitucional 94/2021, promovida por la Comisión Federal de Competencia Económica, dictada por el Pleno de la Suprema Corte de Justicia de la Nación en su sesión del ocho de junio de dos mil veintitrés. Se certifica con la finalidad de que se publique en el Diario Oficial de la Federación.- Ciudad de México, a veintiocho de noviembre de dos mil veintitrés.- Rúbrica.
-
-PAGE \* MERGEFORMAT6 DIARIO OFICIAL Jueves 3 de junio de 2021
-
-| EMBED Word.Picture.8 |
-| **LEY PARA LA TRANSPARENCIA, PREVENCIÓN Y COMBATE DE PRÁCTICAS INDEBIDAS EN MATERIA DE CONTRATACIÓN DE PUBLICIDAD** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 03-06-2021_ |
-
-PAGE1 de NUMPAGES9

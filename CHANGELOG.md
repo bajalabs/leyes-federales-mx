@@ -16,15 +16,19 @@ First public release.
   Diputados: 310 vigentes, 4 abrogadas, 5 invalidadas.
 - Second capture on 10 November 2026 of the two laws republished since: the
   Constitution (reform of DOF 07/10/2026 to articles 82, 116 and 122: 7
-  articles added, 4 modified, 924 unchanged) and the LIGIE 2022 (a tariff
+  articles added, 3 modified, 925 unchanged) and the LIGIE 2022 (a tariff
   decree: 2 added, 81 unchanged). Both captures are kept as versions and
   diffed into `version_diffs` and `article_changes`.
 - 638 official source files (.doc and .pdf) pinned by URL and sha256 in
   `data/manifest.json`, plus the 4 files of the earlier capture; 316 laws
   converted from the Word file, 3 from the PDF.
 - Current text: 59,549 articles (42,721 regular, 16,828 transitorios),
-  205,957 article parts, 10,278 divisions, 37,487 reform annotations
-  (99.82% parsed), 30,031 citations (99.95% resolved), 287,829 blocks.
+  203,339 article parts, 10,278 divisions, 37,487 reform annotations
+  (99.82% parsed), 30,009 citations (99.95% resolved), 287,829 blocks.
+- The Word files' page headers and page-number fields, which textutil emits
+  after the body, are classified as `furniture` and left out of articles and
+  Markdown (2,666 blocks; before, the last article of 311 laws ended with
+  them).
 - `law_versions.ultima_reforma` takes the date each edition prints itself
   when it prints one (250 laws); the index value is kept in
   `ultima_reforma_indice`.

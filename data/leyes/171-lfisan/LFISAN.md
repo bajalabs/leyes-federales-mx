@@ -1488,14 +1488,3 @@ Artículo 8o. fracción II segundo párrafo: **$356,934.06** y hasta **$452,116.
 Atentamente.
 
 Ciudad de México, a 17 de diciembre de 2025.- En suplencia por ausencia del Jefe del Servicio de Administración Tributaria, con fundamento en el artículo 4, primer párrafo del Reglamento Interior del Servicio de Administración Tributaria, firma el Administrador General Jurídico, Lic. **Ricardo Carrasco Varona**.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **LEY FEDERAL DEL IMPUESTO SOBRE AUTOMÓVILES NUEVOS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 12-11-2021_ |
-
-PAGE
-
-PAGE1 de NUMPAGES44

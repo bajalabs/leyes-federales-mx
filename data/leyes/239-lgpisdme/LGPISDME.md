@@ -492,14 +492,3 @@ Los procedimientos penales en materia de extorsión, iniciados antes de la entra
 Ciudad de México, a 25 de noviembre de 2025.- Sen. Laura Itzel Castillo Juárez, Presidenta.- Dip. Kenia López Rabadán, Presidenta.- Sen. Simey Olvera Bautista, Secretaria.- Dip. Nayeli Arlen Fernández Cruz, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 28 de noviembre de 2025.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
-
-PAGE \* MERGEFORMAT2 (Edición Vespertina) DIARIO OFICIAL Viernes 28 de noviembre de 2025
-
-| EMBED Word.Picture.8 |
-| **LEY GENERAL PARA PREVENIR, INVESTIGAR Y SANCIONAR LOS DELITOS EN MATERIA DE EXTORSIÓN, REGLAMENTARIA DE LA FRACCIÓN XXI DEL ARTÍCULO 73 DE LA CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 28-11-2025_ |
-
-PAGE1 de NUMPAGES13

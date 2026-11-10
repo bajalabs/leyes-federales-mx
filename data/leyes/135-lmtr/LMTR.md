@@ -3530,14 +3530,3 @@ Transcurridos ciento veinte días hábiles posteriores a la conclusión de la im
 Ciudad de México, a 1 de julio de 2025.- Sen. Gerardo Fernández Noroña, Presidente.- Dip. Sergio Carlos Gutiérrez Luna, Presidente.- Sen. Verónica Noemí Camino Farjat, Secretaria.- Dip. José Luis Montalvo Luna, Secretario.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 15 de julio de 2025.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
-
-PAGE \* MERGEFORMAT364 (Edición Vespertina) DIARIO OFICIAL Miércoles 16 de julio de 2025
-
-| EMBED Word.Picture.8 |
-| **LEY EN MATERIA DE TELECOMUNICACIONES Y RADIODIFUSIÓN** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 16-07-2025_ |
-
-PAGE1 de NUMPAGES29

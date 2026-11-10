@@ -4056,14 +4056,3 @@ Publicado en el Diario Oficial de la Federación el 6 de diciembre de 2024
 **Único.-** El presente Decreto entrará en vigor el día siguiente al de su publicación en el Diario Oficial de la Federación.
 
 SALÓN DE SESIONES DE LA HONORABLE CÁMARA DE SENADORES.- Ciudad de México, a 5 de diciembre de 2024.- Sen. **Gerardo Fernández Noroña,** Presidente.- Rúbrica.- Sen. **Verónica Noemí Camino Farjat**, Secretaria.- Rúbrica.
-
-(Primera Sección) DIARIO OFICIAL Viernes 4 de junio de 2010
-
-| EMBED Word.Picture.8 |
-| **REGLAMENTO DEL SENADO DE LA REPÚBLICA** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 06-12-2024_ |
-
-PAGE120 de NUMPAGES120

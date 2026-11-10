@@ -294,16 +294,3 @@ Ejercer las demás atribuciones que le confieran este ordenamiento y las normas 
 México, D.F., a 7 de marzo de 2006.- Dip. **Marcela González Salas P.**, Presidenta.- Sen. **Enrique Jackson Ramírez**, Presidente.- Dip. **Marcos Morales Torres**, Secretario.- Sen. **Sara I. Castellanos Cortés**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, Distrito Federal, a los veinte días del mes de abril de dos mil seis.- **Vicente Fox Quesada**.- Rúbrica.- El Secretario de Gobernación, **Carlos María Abascal Carranza**.- Rúbrica.
-
-PAGE \* MERGEFORMAT 60 (Primera Sección) DIARIO OFICIAL Miércoles 26 de abril de 2006
-
-| EMBED Word.Picture.8 |
-| **LEY ORGÁNICA DE LA UNIVERSIDAD AUTÓNOMA AGRARIA ANTONIO NARRO** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 26-04-2006_ |
-
-PAGE
-
-PAGE8 de NUMPAGES8

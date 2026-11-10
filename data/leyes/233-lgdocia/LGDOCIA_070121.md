@@ -342,14 +342,3 @@ El Centro integrará la información demográfica del Registro Nacional de todo 
 Ciudad de México, a 18 de noviembre de 2020.- Dip. **Dulce María Sauri Riancho**, Presidenta.- Sen. **Oscar Eduardo Ramírez Aguilar**, Presidente.- Dip. **Martha Hortencia Garay Cadena**, Secretaria.- Sen. **Lilia Margarita Valdez Martínez**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 4 de enero de 2021.- **Andrés Manuel López Obrador**.- Rúbrica.- La Secretaria de Gobernación, Dra. **Olga María del Carmen Sánchez Cordero Dávila**.- Rúbrica.
-
-PAGE \* MERGEFORMAT74 DIARIO OFICIAL Jueves 7 de enero de 2021
-
-| EMBED Word.Picture.8 |
-| **LEY GENERAL PARA LA DETECCIÓN OPORTUNA DEL CÁNCER EN LA INFANCIA Y LA ADOLESCENCIA** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 07-01-2021_ |
-
-PAGE10 de NUMPAGES11

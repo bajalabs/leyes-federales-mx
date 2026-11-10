@@ -3,14 +3,15 @@
   "blocks": 1655,
   "kinds": {
     "note": 2,
-    "body": 940,
+    "body": 938,
     "heading": 78,
     "annotation": 372,
-    "table": 7,
+    "table": 1,
     "article": 195,
     "transitorio_heading": 12,
     "ordinal_lead": 40,
-    "article_ordinal": 9
+    "article_ordinal": 9,
+    "furniture": 8
   },
   "md_chars": 374877,
   "slug": "057-lfi",

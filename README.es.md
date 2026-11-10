@@ -21,12 +21,12 @@ Captura del 26 de agosto de 2026 desde [diputados.gob.mx/LeyesBiblio](https://ww
 | tipos | 1 constitución, 9 códigos, 301 leyes, 3 reglamentos, 1 estatuto y 4 más (los presupuestos de egresos 2025 y 2026, la Ordenanza General de la Armada y una ley de impuestos) |
 | archivos fuente | 638 (un .doc y un .pdf por ley), 417 MB, cada uno anclado por URL y sha256; los 4 archivos de la captura anterior de las dos leyes recapturadas siguen anclados |
 | artículos | **59,549**: 42,721 artículos ordinarios y 16,828 transitorios |
-| partes de artículo | 205,957 párrafos, fracciones, incisos y numerales |
+| partes de artículo | 203,339 párrafos, fracciones, incisos y numerales |
 | divisiones | 10,278 libros, títulos, capítulos, secciones y apartados |
 | notas de reforma | 37,487 ("Artículo reformado DOF 14-08-2001"); el 99.82 % se descompone en acción y fechas ISO |
-| citas | 30,031 referencias entre artículos y leyes; el 99.95 % resuelto a su destino |
+| citas | 30,009 referencias entre artículos y leyes; el 99.95 % resuelto a su destino |
 | bloques | 287,829 párrafos clasificados: el registro sin pérdida del que se deriva todo lo demás |
-| texto normativo | 46.6 millones de caracteres |
+| texto normativo | 46.5 millones de caracteres |
 
 ## Qué cambió desde la captura anterior
 
@@ -34,10 +34,10 @@ La base guarda cada captura de una ley como su propia `law_version` y compara ca
 
 | Ley | Última reforma, antes → después | Agregados | Modificados | Eliminados | Sin cambio |
 |---|---|---|---|---|---|
-| Constitución (`001-cpeum`) | DOF 02/06/2026 → DOF 07/10/2026 | 7 | 4 | 0 | 924 |
+| Constitución (`001-cpeum`) | DOF 02/06/2026 → DOF 07/10/2026 | 7 | 3 | 0 | 925 |
 | LIGIE 2022 (`078-ligie_2022`) | DOF 29/12/2025 → DOF 29/12/2025 | 2 | 0 | 0 | 81 |
 
-La reforma constitucional del 7 de octubre de 2026 (nacionalidad única para la titularidad de los Poderes Ejecutivos Federal y locales) modifica los artículos 82, 116 y 122 y agrega su decreto: un artículo y seis transitorios. El cuarto artículo modificado es el último transitorio del decreto de junio de 2026, que cerraba el texto anterior y arrastraba los encabezados de página del archivo Word (ver Limitaciones conocidas). La LIGIE sumó un decreto que modifica temporalmente el arancel de importación de una fracción arancelaria: un artículo y un transitorio.
+La reforma constitucional del 7 de octubre de 2026 (nacionalidad única para la titularidad de los Poderes Ejecutivos Federal y locales) modifica los artículos 82, 116 y 122 y agrega su decreto: un artículo y seis transitorios. La LIGIE sumó un decreto que modifica temporalmente el arancel de importación de una fracción arancelaria: un artículo y un transitorio.
 
 ```sql
 -- cada artículo de la Constitución que cambió entre sus dos capturas
@@ -86,7 +86,7 @@ python3 scripts/verify_db.py                          # PASS, con un recibo JSON
 
 | Archivo | Qué es |
 |---|---|
-| `leyes-federales-mx.sqlite.zip` | la base de datos (291 MB desempacada) |
+| `leyes-federales-mx.sqlite.zip` | la base de datos (290 MB desempacada) |
 | `leyes-federales-mx-blocks.zip` | el `<CODE>.blocks.jsonl` de cada captura, en su ruta bajo `data/leyes/` (las capturas anteriores bajo `history/<fecha>/`) |
 | `leyes-federales-mx-laws.csv` | una fila por ley: nombres, vigencia, fechas, URL y sha256 de la fuente, conteos |
 | `leyes-federales-mx-articles.csv.zip` | una fila por artículo del texto vigente de cada ley: ley, clave, etiqueta, estructura, última reforma, texto completo |
@@ -213,9 +213,9 @@ fetch.py ──> source/<CODE>.doc, .pdf ──> convert_all.py ──> <CODE>.b
 ```
 
 1. **Descarga.** [`scripts/fetch.py`](scripts/fetch.py) baja el `.doc` y el `.pdf` de cada ley desde la Cámara de Diputados y los compara con el sha256 de `data/manifest.json`. La Cámara sobrescribe el archivo en cada reforma y mueve las leyes abrogadas a `/abro/`, así que cada descarga recorre una escalera de URL conocidas y registra la que respondió. `--recapture` adopta un archivo que cambió y mueve la captura anterior a `previous_captures` y a `history/<fecha>/`.
-2. **Conversión.** [`scripts/convert_all.py`](scripts/convert_all.py) convierte cada `.doc` a HTML con `textutil` de macOS y clasifica cada párrafo ([`doc_to_md.py`](scripts/doc_to_md.py)): inicio de artículo, inicio de transitorio, encabezado, nota de reforma, nota, tabla o cuerpo. Un control de salud mide el mojibake de cada conversión y recurre al PDF ([`pdf_to_md.py`](scripts/pdf_to_md.py), `pdftotext -layout`) cuando el Word no se puede leer.
+2. **Conversión.** [`scripts/convert_all.py`](scripts/convert_all.py) convierte cada `.doc` a HTML con `textutil` de macOS y clasifica cada párrafo ([`doc_to_md.py`](scripts/doc_to_md.py)): inicio de artículo, inicio de transitorio, encabezado, nota de reforma, nota, tabla o cuerpo. Los encabezados de página y los campos de número de página del Word, que `textutil` emite después del cuerpo, se clasifican como `furniture`: se conservan en `blocks` y quedan fuera de los artículos y del Markdown. Un control de salud mide el mojibake de cada conversión y recurre al PDF ([`pdf_to_md.py`](scripts/pdf_to_md.py), `pdftotext -layout`) cuando el Word no se puede leer.
 3. **Construcción.** [`scripts/build_db.py`](scripts/build_db.py) construye cada captura de cada ley como una versión y compara capturas consecutivas. Recorre una vez los bloques de cada captura: mantiene la pila de divisiones, abre un artículo en cada inicio, separa el cuerpo en partes, adjunta las notas, descompone sus fechas DOF y extrae las citas. Una sola gramática, [`scripts/patterns.py`](scripts/patterns.py), sirve a todas las etapas: números de artículo con sufijos sucesivos (`8 Bis`, `195-Z-1`, `77 Bis 35 A`, `26-LL`, `257 Quintus`), transitorios ordinales (`DÉCIMO PRIMERO`), fronteras de decreto dentro de las zonas transitorias.
-4. **Verificación.** [`scripts/verify_db.py`](scripts/verify_db.py) es la compuerta de regresión: integridad referencial, ninguna clave de artículo repetida entre artículos ordinarios, una alarma que confirma que cada encabezado de artículo del Markdown se volvió artículo, huecos de numeración, al menos 99 % de notas descompuestas, paridad del índice de texto completo, totales contra el manifiesto, pisos de artículos para leyes que alguna vez retrocedieron, y que la versión vigente de cada ley sea la captura que ancla su manifiesto.
+4. **Verificación.** [`scripts/verify_db.py`](scripts/verify_db.py) es la compuerta de regresión: integridad referencial, ninguna clave de artículo repetida entre artículos ordinarios, una alarma que confirma que cada encabezado de artículo del Markdown se volvió artículo, huecos de numeración, al menos 99 % de notas descompuestas, paridad del índice de texto completo, totales contra el manifiesto, pisos de artículos para leyes que alguna vez retrocedieron, que la versión vigente de cada ley sea la captura que ancla su manifiesto, y que ningún artículo termine con encabezados de página.
 
 Cuando la gramática mejora, [`reclassify.py`](scripts/reclassify.py) vuelve a clasificar los bloques guardados y [`blocks_to_md.py`](scripts/blocks_to_md.py) regenera el Markdown: sin conversión, sin red, en cualquier sistema operativo. [`diff_versions.py`](scripts/diff_versions.py) compara dos capturas artículo por artículo y [`package_release.py`](scripts/package_release.py) escribe los archivos de la versión.
 
@@ -244,8 +244,8 @@ En el Word, la Cámara compone las notas de reforma en letra pequeña azul aline
 - **Las partes de artículo se etiquetan por patrón.** Las fracciones en romanos y los incisos con letra son confiables; las listas muy anidadas o dentro de tablas quedan como `parrafo`.
 - **Claves repetidas en zonas transitorias.** Quedan 333 grupos de `article_key` repetida dentro de zonas transitorias, donde las resoluciones de invalidez de la Suprema Corte repiten PRIMERO/SEGUNDO/TERCERO bajo un mismo encabezado sin frontera de decreto. Los artículos ordinarios no tienen ninguna (una compuerta de `verify_db.py`); `diff_versions.py` empareja el residuo por posición.
 - **Los huecos de numeración de la OGA** (290) son renumeraciones de la propia fuente, verificadas contra el archivo oficial.
-- **Las citas se hallan por patrón**: referencias a un artículo de la misma ley, a la Constitución y a otras leyes nombradas completas. Las abreviaturas y referencias vagas ("la Ley", "el Reglamento") no se resuelven; 14 de las 30,031 referencias halladas nombran un número de artículo que la ley no tiene.
-- **Encabezados de página al final de una ley.** `textutil` emite el encabezado de página y los códigos de campo del archivo Word (`EMBED Word.Picture.8`, `PAGE`, `NUMPAGES`) después del cuerpo, así que en 311 leyes el texto del último artículo termina con unas líneas de ellos. Todavía no se quitan; cuando una ley gana un nuevo último artículo, el anterior aparece como modificado.
+- **Las citas se hallan por patrón**: referencias a un artículo de la misma ley, a la Constitución y a otras leyes nombradas completas. Las abreviaturas y referencias vagas ("la Ley", "el Reglamento") no se resuelven; 14 de las 30,009 referencias halladas nombran un número de artículo que la ley no tiene.
+- **Imágenes y ecuaciones son marcadores.** Una imagen dentro de un decreto aparece como su código de campo de Word (`import "http://…gif"`, 3 párrafos en 2 leyes) y una ecuación como `EMBED Equation.3`, seguida del texto que la explica.
 - **El seguimiento de cambios apenas empieza.** Dos leyes tienen dos capturas; las otras 317 tienen una, así que `article_changes` solo cubre lo que cambió en esas dos.
 - **No es una publicación oficial ni asesoría legal.** El texto con validez es el publicado en el [Diario Oficial de la Federación](https://www.dof.gob.mx). Revisa el archivo oficial antes de apoyarte en cualquier texto de aquí; su URL y su sha256 están en el encabezado de cada ley.
 

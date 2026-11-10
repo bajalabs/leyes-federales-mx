@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 108,
-    "body": 837,
+    "body": 835,
     "article_ordinal": 9,
     "article": 203,
     "annotation": 445,
-    "table": 7,
+    "table": 1,
     "transitorio_heading": 10,
-    "ordinal_lead": 81
+    "ordinal_lead": 81,
+    "furniture": 8
   },
   "md_chars": 293331,
   "slug": "221-lgv",

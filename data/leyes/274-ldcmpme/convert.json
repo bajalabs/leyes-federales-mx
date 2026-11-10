@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 12,
-    "body": 193,
+    "body": 190,
     "article": 26,
     "annotation": 45,
-    "table": 23,
+    "table": 17,
     "transitorio_heading": 10,
     "article_ordinal": 15,
-    "ordinal_lead": 11
+    "ordinal_lead": 11,
+    "furniture": 9
   },
   "md_chars": 44248,
   "slug": "274-ldcmpme",

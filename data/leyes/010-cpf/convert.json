@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 394,
-    "table": 24,
-    "body": 2206,
+    "table": 6,
+    "body": 2204,
     "annotation": 1011,
     "article": 585,
     "transitorio_heading": 168,
     "article_ordinal": 261,
-    "ordinal_lead": 347
+    "ordinal_lead": 347,
+    "furniture": 20
   },
   "md_chars": 798795,
   "slug": "010-cpf",

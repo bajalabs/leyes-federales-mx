@@ -4,13 +4,14 @@
   "kinds": {
     "note": 3,
     "heading": 22,
-    "body": 740,
+    "body": 738,
     "article": 65,
     "annotation": 197,
     "transitorio_heading": 35,
     "article_ordinal": 43,
     "ordinal_lead": 110,
-    "table": 28
+    "table": 22,
+    "furniture": 8
   },
   "md_chars": 267791,
   "slug": "039-lcf",

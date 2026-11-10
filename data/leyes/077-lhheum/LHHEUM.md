@@ -128,18 +128,3 @@ Publicado en el Diario Oficial de la Federación el 29 de noviembre de 2022
 Ciudad de México, a 24 de noviembre de 2022.- Sen. **Alejandro Armenta Mier**, Presidente.- Dip. **Karla Yuritzi Almazán Burgos**, Vicepresidenta en Funciones de Presidenta.- Sen. **José Narro Céspedes**, Secretario.- Dip. **María Macarena Chávez Flores**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 28 de noviembre de 2022.- **Andrés Manuel López Obrador**.- Rúbrica.- El Secretario de Gobernación, Lic. **Adán Augusto López Hernández**.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **LEY DE LOS HUSOS HORARIOS EN LOS ESTADOS UNIDOS MEXICANOS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 28-10-2022_ |
-| EMBED Word.Picture.8 |
-| **LEY DE LOS HUSOS HORARIOS EN LOS ESTADOS UNIDOS MEXICANOS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 29-11-2022_ |
-
-PAGE1 de NUMPAGES5

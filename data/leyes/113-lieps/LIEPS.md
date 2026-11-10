@@ -4595,14 +4595,3 @@ Diésel **49.0817** centavos por litro.
 Atentamente.
 
 Ciudad de México, a 16 de diciembre de 2025.- En suplencia por ausencia del Secretario de Hacienda y Crédito Público y de la Subsecretaria de Hacienda y Crédito Público, con fundamento en el artículo 50, primer párrafo del Reglamento Interior de la Secretaría de Hacienda y Crédito Público, el Subsecretario de Ingresos, **Carlos Gabriel Lerma Cotera**.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **LEY DEL IMPUESTO ESPECIAL SOBRE PRODUCCIÓN Y SERVICIOS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 07-11-2025_ |
-
-PAGE
-
-PAGE1 de NUMPAGES165

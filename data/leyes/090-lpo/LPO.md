@@ -372,16 +372,3 @@ La Secretaría coordinará sus acciones con la Secretaría de Medio Ambiente y R
 México, D.F., a 8 de diciembre de 2005.- Sen. **Enrique Jackson Ramírez**, Presidente.- Dip. **Heliodoro Díaz Escárraga**, Presidente.- Sen. **Sara Isabel Castellanos Cortés**, Secretaria.- Dip. **Patricia Garduño Morales**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, Distrito Federal, a los treinta días del mes de enero de dos mil seis.- **Vicente Fox Quesada**.- Rúbrica.- El Secretario de Gobernación, **Carlos María Abascal Carranza**.- Rúbrica.
-
-PAGE \* MERGEFORMAT 54 (Primera Sección) DIARIO OFICIAL Martes 7 de febrero de 2006
-
-| EMBED Word.Picture.8 |
-| **LEY DE PRODUCTOS ORGÁNICOS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 07-02-2006_ |
-
-PAGE
-
-PAGE12 de NUMPAGES12

@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 117,
-    "body": 2758,
+    "body": 2757,
     "article_ordinal": 18,
     "article": 236,
     "annotation": 299,
-    "table": 229,
+    "table": 223,
     "transitorio_heading": 16,
-    "ordinal_lead": 19
+    "ordinal_lead": 19,
+    "furniture": 7
   },
   "md_chars": 1093671,
   "slug": "114-lisr",

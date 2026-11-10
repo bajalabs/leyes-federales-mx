@@ -4,12 +4,13 @@
   "kinds": {
     "note": 2,
     "heading": 43,
-    "body": 291,
+    "body": 289,
     "article_ordinal": 1,
     "article": 101,
-    "table": 67,
+    "table": 61,
     "transitorio_heading": 1,
-    "ordinal_lead": 5
+    "ordinal_lead": 5,
+    "furniture": 8
   },
   "md_chars": 70020,
   "slug": "251-loam",

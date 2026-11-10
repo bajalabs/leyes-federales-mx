@@ -139,9 +139,9 @@ CREATE TABLE IF NOT EXISTS blocks (
   id              INTEGER PRIMARY KEY,
   law_version_id  INTEGER NOT NULL REFERENCES law_versions(id) ON DELETE CASCADE,
   seq             INTEGER NOT NULL,
-  kind            TEXT NOT NULL,         -- article|article_ordinal|ordinal_lead|heading|transitorio_heading|annotation|note|body|table
+  kind            TEXT NOT NULL,         -- article|article_ordinal|ordinal_lead|heading|transitorio_heading|annotation|note|body|table|furniture
   text            TEXT NOT NULL,
-  style           TEXT                   -- JSON: css class, size, colour, alignment, bold ratio
+  style           TEXT                   -- JSON: css class, size, colour, alignment, bold ratio, in_table
 );
 CREATE INDEX IF NOT EXISTS ix_blk_lv ON blocks(law_version_id, seq);
 

@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 52,
-    "body": 126,
+    "body": 124,
     "article": 72,
     "annotation": 8,
-    "table": 25,
+    "table": 19,
     "transitorio_heading": 6,
     "ordinal_lead": 6,
-    "article_ordinal": 4
+    "article_ordinal": 4,
+    "furniture": 8
   },
   "md_chars": 33191,
   "slug": "130-lspm",

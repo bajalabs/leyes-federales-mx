@@ -890,14 +890,3 @@ Ciudad de México, a 28 de agosto de 2025
 **SECRETARIO GENERAL DE ACUERDOS DE LA SUPREMA CORTE DE JUSTICIA DE LA NACIÓN.- Rúbrica.**
 
 _Notificado el Engrose a la Cámara de Diputados del H. Congreso de la Unión el lunes 1 de septiembre de 2025 a las 10:57 hrs.- Oficialía de Partes.- Sello de Recibido._
-
-| EMBED Word.Picture.8 |
-| **LEY FEDERAL DE CINEMATOGRAFÍA** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 22-03-2021_ |
-
-PAGE
-
-PAGE1 de NUMPAGES31

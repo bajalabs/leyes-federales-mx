@@ -2552,14 +2552,3 @@ Publicado en el Diario Oficial de la Federación el 14 de mayo de 2026
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 11 de mayo de 2026.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
 
 \PAGE80 (Primera Sección) DIARIO OFICIAL Martes 24 de diciembre de 1996
-
-| EMBED Word.Picture.8 |
-| **LEY FEDERAL DEL DERECHO DE AUTOR** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 14-05-2026_ |
-
-PAGE
-
-PAGE87 de NUMPAGES87

@@ -166,16 +166,3 @@ Para los efectos de este artículo, no se considerará expediente administrativo
 México, D.F., a 28 de abril de 2005.- Dip. **Manlio Fabio Beltrones Rivera**, Presidente.- Sen. **Diego Fernández de Cevallos Ramos**, Presidente.- Dip. **Marcos Morales Torres**, Secretario.- Sen. **Sara I. Castellanos Cortés**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, Distrito Federal, a los diecisiete días del mes de junio de dos mil cinco.- **Vicente Fox Quesada**.- Rúbrica.- El Secretario de Gobernación, **Carlos María Abascal Carranza**.- Rúbrica.
-
-PAGE \* MERGEFORMAT 10 (Primera Sección) DIARIO OFICIAL Jueves 23 de junio de 2005
-
-| EMBED Word.Picture.8 |
-| **LEY FEDERAL DE LOS DERECHOS DEL CONTRIBUYENTE** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 23-06-2005_ |
-
-PAGE
-
-PAGE1 de NUMPAGES7

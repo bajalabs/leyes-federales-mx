@@ -199,6 +199,84 @@ def ultima_reforma_in_text(texts, limit: int = 40) -> str | None:
     return None
 
 
+# ── page furniture ─────────────────────────────────────────────────────────
+# textutil emits a Word file's headers and footers AFTER the body: the Cámara's
+# logo (EMBED Word.Picture.8), its running header (the law's title, "CÁMARA DE
+# DIPUTADOS DEL H. CONGRESO DE LA UNIÓN", "Secretaría General", "Secretaría de
+# Servicios Parlamentarios", "Última Reforma DOF …") and the page-number fields
+# ("PAGE", "PAGE1 de NUMPAGES416"). Files with a separate even-page header add
+# the DOF's own running head, with or without its field code ("PAGE \*
+# MERGEFORMAT2 (Primera Sección) DIARIO OFICIAL Viernes 4 de junio de 2010").
+# None of it is text of the law. Measured on the 2026 captures: every such
+# paragraph sits in the last 25 blocks of its file; field codes elsewhere
+# ("EMBED Equation.3 : Cuota prevista…", image imports) are content and stay.
+LOGO_RE = re.compile(r"^\s*EMBED\s+Word\.Picture\.\d+\s*$")
+PAGE_FIELD_RE = re.compile(r"^\s*(?:P[áa]gina\s+)?PAGE(?![A-Za-zÁÉÍÓÚáéíóúÑñ])")   # PAGE, PAGE1 de NUMPAGES9
+FIELD_TOKEN_RE = re.compile(r"\\\*\s*MERGEFORMAT|NUMPAGES|DocVariable")          # field codes inside a line
+DOF_HEAD_RE = re.compile(
+    r"^\s*(?:\([^)]{1,40}\)\s+)?(?:DocVariable\s+\w+\s+)?DIARIO\s+OFICIAL\s+\w+\s+\d{1,2}\s+de\s+\w+\s+de\s+\d{4}\s*$"
+    r"|^\s*\w+\s+\d{1,2}\s+de\s+\w+\s+de\s+\d{4}\s+DIARIO\s+OFICIAL(?:\s+\([^)]{1,40}\))?\s*$")
+FURNITURE_WINDOW = 40          # how far from the end the trailing zone may start
+FURNITURE_MAX_CHARS = 300      # header and footer lines are short (a long law title runs to ~260)
+FURNITURE_MAX_SIZE = 9.0       # running-header rows are set in 5-9 pt
+
+
+def is_field(text: str) -> bool:
+    """The logo, a page-number field, or a line carrying a Word field code."""
+    return bool(LOGO_RE.match(text) or PAGE_FIELD_RE.match(text) or FIELD_TOKEN_RE.search(text))
+
+
+def _furniture_zone_ok(zone: list[dict]) -> bool:
+    """A zone is furniture when it opens with a Word field or a DOF running head,
+    holds at least one Word field, and every paragraph in it is one of those or
+    a small header row that follows the logo."""
+    if not zone or not (is_field(zone[0]["text"]) or DOF_HEAD_RE.match(zone[0]["text"])):
+        return False
+    after_logo, fields = False, 0
+    for b in zone:
+        t = b["text"]
+        if len(t) > FURNITURE_MAX_CHARS:
+            return False
+        if LOGO_RE.match(t):
+            after_logo, fields = True, fields + 1
+        elif is_field(t):
+            fields += 1
+        elif DOF_HEAD_RE.match(t):
+            pass
+        elif after_logo and ((b.get("style") or {}).get("size") or 99) <= FURNITURE_MAX_SIZE:
+            pass
+        else:
+            return False
+    return fields > 0
+
+
+def furniture_start(blocks: list[dict]) -> int | None:
+    """Index of the first block of the trailing page furniture, or None."""
+    for s in range(max(0, len(blocks) - FURNITURE_WINDOW), len(blocks)):
+        if _furniture_zone_ok(blocks[s:]):
+            return s
+    return None
+
+
+def mark_furniture(blocks: list[dict]) -> int:
+    """Set kind='furniture' on the trailing page furniture. Returns how many changed."""
+    s = furniture_start(blocks)
+    changed = 0
+    for b in blocks[s:] if s is not None else []:
+        if b["kind"] != "furniture":
+            b["kind"] = "furniture"
+            changed += 1
+    return changed
+
+
+def ends_with_furniture(text: str) -> bool:
+    """True when an article's last paragraph is a Word field or a running-header line."""
+    last = (text or "").rstrip().rsplit("\n", 1)[-1].strip()
+    return bool(is_field(last) or DOF_HEAD_RE.match(last)
+                or last in ("CÁMARA DE DIPUTADOS DEL H. CONGRESO DE LA UNIÓN",
+                            "Secretaría de Servicios Parlamentarios"))
+
+
 DIV_KIND = {"libro": "libro", "titulo": "titulo", "capitulo": "capitulo",
             "seccion": "seccion", "apartado": "apartado"}
 DEPTH = {"libro": 0, "titulo": 1, "capitulo": 2, "seccion": 3, "apartado": 4, "otro": 5}

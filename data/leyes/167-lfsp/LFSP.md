@@ -824,16 +824,3 @@ Publicado en el Diario Oficial de la Federación el 17 de octubre de 2011
 México, D.F., a 8 de febrero de 2011.- Sen. **Manlio Fabio Beltrones Rivera**, Presidente.- Dip. **Jorge Carlos Ramirez Marin**, Presidente.- Sen. **Martha Leticia Sosa Govea**, Secretaria.- Dip. **Maria de Jesus Aguirre Maldonado**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, Distrito Federal, a doce de octubre de dos mil once.- **Felipe de Jesús Calderón Hinojosa**.- Rúbrica.- El Secretario de Gobernación, **José Francisco Blake Mora**.- Rúbrica.
-
-PAGE \* MERGEFORMAT 22 (Primera Sección) DIARIO OFICIAL Jueves 6 de julio de 2006
-
-| EMBED Word.Picture.8 |
-| **LEY FEDERAL DE SEGURIDAD PRIVADA** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 17-10-2011_ |
-
-PAGE
-
-PAGE23 de NUMPAGES25

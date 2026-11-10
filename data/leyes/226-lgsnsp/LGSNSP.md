@@ -2042,14 +2042,3 @@ Una vez que se emita el nuevo reglamento y se autorice la nueva estructura orgá
 **Ciudad de México, a 1 de julio de 2025**.- Dip. Sergio Carlos Gutiérrez Luna, Presidente.- Sen. Gerardo Fernández Noroña, Presidente.- Dip. José Luis Montalvo Luna, Secretario.- Sen. Lizeth Sánchez García, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 15 de julio de 2025.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
-
-PAGE \* MERGEFORMAT124 (Edición Vespertina) DIARIO OFICIAL Miércoles 16 de julio de 2025
-
-| EMBED Word.Picture.8 |
-| **LEY GENERAL DEL SISTEMA NACIONAL DE SEGURIDAD PÚBLICA** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 16-07-2025_ |
-
-PAGE1 de NUMPAGES48

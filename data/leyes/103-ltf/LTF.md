@@ -554,14 +554,3 @@ En caso de que la Tesorería no reciba la información señalada en el párrafo 
 México, D.F., a 14 de diciembre de 2015.- Dip. **José de Jesús Zambrano Grijalva**, Presidente.- Sen. **Roberto Gil Zuarth**, Presidente.- Dip. **Ernestina Godoy Ramos**, Secretaria.- Sen. **María Elena Barrera Tapia**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, Distrito Federal, a veintitrés de diciembre de dos mil quince.- **Enrique Peña Nieto**.- Rúbrica.- El Secretario de Gobernación, **Miguel Ángel Osorio Chong**.- Rúbrica.
-
-PAGE \* MERGEFORMAT22 (Primera Sección) DIARIO OFICIAL Miércoles 30 de diciembre de 2015
-
-| EMBED Word.Picture.8 |
-| **LEY DE TESORERÍA DE LA FEDERACIÓN** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 30-12-2015_ |
-
-PAGE20 de NUMPAGES20

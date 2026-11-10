@@ -980,16 +980,3 @@ En tanto la persona titular del Ejecutivo Federal expida las modificaciones a la
 **Ciudad de México, a 28 de abril de 2023**.- Dip. **Santiago Creel Miranda**, Presidente.- Sen. **Alejandro Armenta Mier**, Presidente.- Dip. **María del Carmen Pinete Vargas**, Secretaria.- Sen. **Verónica Noemí Camino Farjat**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 3 de mayo de 2023.- **Andrés Manuel López Obrador**.- Rúbrica.- El Secretario de Gobernación, Lic. **Adán Augusto López Hernández**.- Rúbrica.
-
-PAGE56 (Primera Sección) DIARIO OFICIAL Viernes 26 de diciembre de 1997
-
-| EMBED Word.Picture.8 |
-| **LEY FEDERAL PARA EL CONTROL DE PRECURSORES QUÍMICOS, PRODUCTOS QUÍMICOS ESENCIALES Y MÁQUINAS PARA ELABORAR CÁPSULAS, TABLETAS Y/O COMPRIMIDOS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 03-05-2023_ |
-
-PAGE
-
-PAGE1 de NUMPAGES27

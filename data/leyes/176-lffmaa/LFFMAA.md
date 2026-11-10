@@ -462,14 +462,3 @@ Publicado en el Diario Oficial de la Federación el 27 de marzo de 2023
 **Ciudad de México, a 8 de febrero de 2023**.- Dip. **Santiago Creel Miranda**, Presidente.- Sen. **Alejandro Armenta Mier**, Presidente.- Dip. **Sarai Núñez Cerón**, Secretaria.- Sen. **Verónica Delgadillo García**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 14 de marzo de 2023.- **Andrés Manuel López Obrador**.- Rúbrica.- El Secretario de Gobernación, Lic. **Adán Augusto López Hernández**.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **LEY FEDERAL PARA EL FOMENTO DE LA MICROINDUSTRIA Y LA ACTIVIDAD ARTESANAL** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Últimas Reformas DOF 27-03-2023_ |
-
-PAGE
-
-PAGE1 de NUMPAGES18

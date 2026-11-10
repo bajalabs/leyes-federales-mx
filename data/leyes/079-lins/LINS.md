@@ -816,14 +816,3 @@ Publicado en el Diario Oficial de la Federación el 11 de mayo de 2022
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 2 de mayo de 2022.- **Andrés Manuel López Obrador**.- Rúbrica.- El Secretario de Gobernación, Lic. **Adán Augusto López Hernández**.- Rúbrica.
 
 página 18 (Primera Sección) DIARIO OFICIAL Viernes 26 de mayo de 2000
-
-| EMBED Word.Picture.8 |
-| **LEY DE LOS INSTITUTOS NACIONALES DE SALUD** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 11-05-2022_ |
-
-PAGE
-
-PAGE31 de NUMPAGES31

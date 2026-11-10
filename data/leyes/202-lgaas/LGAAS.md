@@ -940,14 +940,3 @@ El Reglamento deberá contemplar, al menos, las disposiciones necesarias para:
 Ciudad de México, a 6 de marzo de 2024.- Sen. **Ana Lilia Rivera Rivera**, Presidenta.- Dip. **Karla Yuritzi Almazán Burgos**, Vicepresidenta en funciones de Presidenta.- Sen. **Ricardo Velázquez Meza**, Secretario.- Dip. **Pedro Vázquez González**, Secretario.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 12 de abril de 2024.- **Andrés Manuel López Obrador**.- Rúbrica.- La Secretaria de Gobernación, **Luisa María Alcalde Luján**.- Rúbrica.
-
-PAGE \* MERGEFORMAT92 DIARIO OFICIAL Miércoles 17 de abril de 2024
-
-| EMBED Word.Picture.8 |
-| **LEY GENERAL DE LA ALIMENTACIÓN ADECUADA Y SOSTENIBLE** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Nueva Ley DOF 17-04-2024_ |
-
-PAGE1 de NUMPAGES32

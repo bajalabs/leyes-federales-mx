@@ -4,13 +4,14 @@
   "kinds": {
     "note": 2,
     "heading": 43,
-    "body": 335,
+    "body": 332,
     "article_ordinal": 5,
     "article": 75,
     "annotation": 16,
-    "table": 591,
+    "table": 585,
     "transitorio_heading": 5,
-    "ordinal_lead": 34
+    "ordinal_lead": 34,
+    "furniture": 9
   },
   "md_chars": 125403,
   "slug": "175-lfcsq",

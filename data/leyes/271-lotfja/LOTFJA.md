@@ -1170,14 +1170,3 @@ Todas las autoridades de la Federación, entidades federativas, municipios y alc
 **Ciudad de México, a 15 de octubre de 2025**.- Dip. Sergio Carlos Gutiérrez Luna, Vicepresidente en funciones de Presidente.- Sen. Laura Itzel Castillo Juárez, Presidenta.- Dip. Magdalena del Socorro Núñez Monreal, Secretaria.- Sen. María Martina Kantún Can, Secretaria.- Rúbricas."
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 16 de octubre de 2025.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
-
-PAGE \* MERGEFORMAT2 (Edición Vespertina) DIARIO OFICIAL Lunes 18 de julio de 2016
-
-| EMBED Word.Picture.8 |
-| **LEY ORGÁNICA DEL TRIBUNAL FEDERAL DE JUSTICIA ADMINISTRATIVA** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 16-10-2025_ |
-
-PAGE1 de NUMPAGES40

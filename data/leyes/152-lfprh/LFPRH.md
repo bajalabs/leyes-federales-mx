@@ -3202,16 +3202,3 @@ En caso de alguna modificación a la estructura orgánica, ésta deberá realiza
 **Ciudad de México, a 7 de abril de 2026.-** Dip. Kenia López Rabadán, Presidenta.- Sen. Laura Itzel Castillo Juárez, Presidenta.- Dip. Magdalena del Socorro Núñez Monreal, Secretaria.- Sen. Lizeth Sánchez García, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 09 de abril de 2026.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
-
-PAGE \* MERGEFORMAT 46 (Primera Sección) DIARIO OFICIAL Jueves 30 de marzo de 2006
-
-| EMBED Word.Picture.8 |
-| **LEY FEDERAL DE PRESUPUESTO Y RESPONSABILIDAD HACENDARIA** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 09-04-2026_ |
-
-PAGE
-
-PAGE1 de NUMPAGES125

@@ -408,14 +408,3 @@ Publicado en el Diario Oficial de la Federación el 12 de noviembre de 2021
 **Ciudad de México, a 26 de octubre de 2021.-** Dip. **Sergio Carlos Gutiérrez Luna**, Presidente.- Sen. **Olga Sánchez Cordero Dávila**, Presidenta.- Dip. **María Macarena Chávez Flores**, Secretaria.- Sen. **Verónica Noemí Camino Farjat**, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 10 de noviembre de 2021.- **Andrés Manuel López Obrador**.- Rúbrica.- El Secretario de Gobernación, Lic. **Adán Augusto López Hernández**.- Rúbrica.
-
-PAGE \* MERGEFORMAT8 (Primera Sección) DIARIO OFICIAL Martes 12 de enero de 2016
-
-| EMBED Word.Picture.8 |
-| **LEY FEDERAL PARA PREVENIR Y SANCIONAR LOS DELITOS COMETIDOS EN MATERIA DE HIDROCARBUROS** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 12-11-2021_ |
-
-PAGE1 de NUMPAGES15

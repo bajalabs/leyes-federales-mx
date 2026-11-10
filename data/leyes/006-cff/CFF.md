@@ -9392,14 +9392,3 @@ Publicado en el Diario Oficial de la Federación el 9 de abril de 2026
 **Ciudad de México, a 7 de abril de 2026**.- Dip. Kenia López Rabadán, Presidenta.- Sen. Laura Itzel Castillo Juárez, Presidenta.- Dip. Julieta Villalpando Riquelme, Secretaria.- Sen. María Martina Kantún Can, Secretaria.- Rúbricas.**"**
 
 En cumplimiento de lo dispuesto por la fracción I del Artículo 89 de la Constitución Política de los Estados Unidos Mexicanos, y para su debida publicación y observancia, expido el presente Decreto en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 09 de abril de 2026.- **Claudia Sheinbaum Pardo**, Presidenta de los Estados Unidos Mexicanos.- Rúbrica.- Lcda. **Rosa Icela Rodríguez Velázquez**, Secretaria de Gobernación.- Rúbrica.
-
-| EMBED Word.Picture.8 |
-| **CÓDIGO FISCAL DE LA FEDERACIÓN** |
-| **C****ÁMARA** **DE** **D****IPUTADOS** **DEL** **H. C****ONGRESO** **DE** **LA** **U****NIÓN** |
-| Secretaría General |
-| Secretaría de Servicios Parlamentarios |
-| _Última Reforma DOF 09-04-2026_ |
-
-PAGE
-
-PAGE1 de NUMPAGES377
