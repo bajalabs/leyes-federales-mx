@@ -8,8 +8,10 @@ import tempfile
 import threading
 import unittest
 from pathlib import Path
+from unittest import mock
 
 from tests import REPO  # noqa: F401
+import fetch
 from fetch import candidates, fetch_file, fetch_law
 
 OLE = b"\xd0\xcf\x11\xe0\xa1\xb1\x1a\xe1"
@@ -37,6 +39,11 @@ class PinnedDownloads(unittest.TestCase):
         cls.www.cleanup()
 
     def setUp(self):
+        # The fallback ladder must stay on the local server: a failed download would otherwise
+        # try the real Cámara URLs, which can hang for minutes from a CI runner.
+        patcher = mock.patch.object(fetch, "BASE", self.base)
+        patcher.start()
+        self.addCleanup(patcher.stop)
         self.data = Path(tempfile.mkdtemp())
         self.addCleanup(shutil.rmtree, self.data)
         self.pinned = OLE + b"texto original"

@@ -51,8 +51,9 @@ UA = os.environ.get("LEYES_USER_AGENT",
 MAGIC = {"pdf": b"%PDF", "doc": b"\xd0\xcf\x11\xe0"}   # OLE2 compound file for .doc
 
 
-def candidates(rec: dict, kind: str, base: str = BASE) -> list[str]:
+def candidates(rec: dict, kind: str, base: str | None = None) -> list[str]:
     """Fallback ladder of URLs for one law and edition. First valid answer wins."""
+    base = (base or BASE).rstrip("/")
     f = rec["files"].get(kind) or {}
     code, short = rec["codigo_archivo"], rec["nombre_corto"]
     out = [f.get("resolved_url"), f.get("index_url"),
