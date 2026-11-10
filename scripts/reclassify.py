@@ -42,35 +42,38 @@ def main() -> int:
     man = load_manifest(a.data)
     report, moved = [], 0
     for rec in select(man["laws"], parse_only(a.only)):
-        d = law_dir(a.data, rec["slug"])
-        code = rec["codigo_archivo"]
-        bl, cj = d / f"{code}.blocks.jsonl", d / "convert.json"
-        if not bl.exists() or not cj.exists():
-            continue
-        with bl.open(encoding="utf-8") as f:
-            blocks = [json.loads(l) for l in f]
-        before = Counter(b["kind"] for b in blocks)
-        changed = 0
-        for b in blocks:
-            k = reclassify_block(b)
-            if k != b["kind"]:
-                b["kind"] = k
-                changed += 1
-        if changed == 0:
-            continue
-        after = Counter(b["kind"] for b in blocks)
-        moved += 1
-        delta = {k: after.get(k, 0) - before.get(k, 0) for k in sorted(set(before) | set(after))}
-        report.append({"slug": rec["slug"], "changed_blocks": changed,
-                       "delta": {k: v for k, v in delta.items() if v},
-                       "articles": [before.get("article", 0), after.get("article", 0)]})
-        if not a.dry_run:
-            with bl.open("w", encoding="utf-8") as f:
-                for b in blocks:
-                    f.write(json.dumps(b, ensure_ascii=False) + "\n")
-            conv = json.loads(cj.read_text(encoding="utf-8"))
-            conv["kinds"] = dict(after)
-            cj.write_text(json.dumps(conv, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        d0 = law_dir(a.data, rec["slug"])
+        # the current capture and every earlier one kept under history/<date>/
+        for d, tag in [(d0, rec["slug"])] + [(d0 / prev["history"], f"{rec['slug']} ({prev['history']})")
+                                              for prev in rec.get("previous_captures") or []]:
+            code = rec["codigo_archivo"]
+            bl, cj = d / f"{code}.blocks.jsonl", d / "convert.json"
+            if not bl.exists() or not cj.exists():
+                continue
+            with bl.open(encoding="utf-8") as f:
+                blocks = [json.loads(l) for l in f]
+            before = Counter(b["kind"] for b in blocks)
+            changed = 0
+            for b in blocks:
+                k = reclassify_block(b)
+                if k != b["kind"]:
+                    b["kind"] = k
+                    changed += 1
+            if changed == 0:
+                continue
+            after = Counter(b["kind"] for b in blocks)
+            moved += 1
+            delta = {k: after.get(k, 0) - before.get(k, 0) for k in sorted(set(before) | set(after))}
+            report.append({"slug": tag, "changed_blocks": changed,
+                           "delta": {k: v for k, v in delta.items() if v},
+                           "articles": [before.get("article", 0), after.get("article", 0)]})
+            if not a.dry_run:
+                with bl.open("w", encoding="utf-8") as f:
+                    for b in blocks:
+                        f.write(json.dumps(b, ensure_ascii=False) + "\n")
+                conv = json.loads(cj.read_text(encoding="utf-8"))
+                conv["kinds"] = dict(after)
+                cj.write_text(json.dumps(conv, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(f"laws with classification changes: {moved}" + ("  (dry run)" if a.dry_run else ""))
     for r in sorted(report, key=lambda r: -(r["articles"][1] - r["articles"][0])):

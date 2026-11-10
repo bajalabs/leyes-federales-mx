@@ -24,12 +24,16 @@ from corpus import DEFAULT_DB  # noqa: E402
 
 
 def load(con, version_id: int) -> list[dict]:
-    return [dict(r) for r in con.execute(
-        "SELECT id,article_key,label,seq,text,text_sha256 FROM articles "
-        "WHERE law_version_id=? ORDER BY seq", (version_id,))]
+    cur = con.execute("SELECT id,article_key,label,seq,text,text_sha256 FROM articles "
+                      "WHERE law_version_id=? ORDER BY seq", (version_id,))
+    cols = [c[0] for c in cur.description]
+    return [dict(zip(cols, r)) for r in cur]
 
 
-def diff_versions(con: sqlite3.Connection, v_from: int, v_to: int, ctx: int = 2) -> dict:
+def diff_versions(con: sqlite3.Connection, v_from: int, v_to: int, ctx: int = 2,
+                  computed_at: str | None = None) -> dict:
+    """Diff two versions into version_diffs/article_changes. computed_at defaults to
+    now; build_db.py passes the newer capture's timestamp so builds are reproducible."""
     A, B = load(con, v_from), load(con, v_to)
     by_key_a = {a["article_key"]: a for a in A}
     by_key_b = {b["article_key"]: b for b in B}
@@ -75,11 +79,13 @@ def diff_versions(con: sqlite3.Connection, v_from: int, v_to: int, ctx: int = 2)
 
     law_id = con.execute("SELECT law_id FROM law_versions WHERE id=?", (v_to,)).fetchone()[0]
     cur = con.cursor()
+    cur.execute("""DELETE FROM article_changes WHERE version_diff_id IN
+                   (SELECT id FROM version_diffs WHERE from_version_id=? AND to_version_id=?)""", (v_from, v_to))
     cur.execute("DELETE FROM version_diffs WHERE from_version_id=? AND to_version_id=?", (v_from, v_to))
     cur.execute("""INSERT INTO version_diffs(law_id,from_version_id,to_version_id,computed_at,
                      n_added,n_removed,n_modified,n_unchanged)
                    VALUES(?,?,?,?,?,?,?,?)""",
-                (law_id, v_from, v_to, time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                (law_id, v_from, v_to, computed_at or time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                  n["added"], n["removed"], n["modified"] + n["renumbered"], n["unchanged"]))
     did = cur.lastrowid
     cur.executemany("""INSERT INTO article_changes(version_diff_id,article_key,change_type,

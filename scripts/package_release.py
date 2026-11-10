@@ -8,7 +8,7 @@ GitHub Release.
 Run build_db.py and verify_db.py first. Writes:
 
     leyes-federales-mx.sqlite.zip         the database (one file inside)
-    leyes-federales-mx-blocks.zip         every law's <CODE>.blocks.jsonl, at its path under data/leyes/
+    leyes-federales-mx-blocks.zip         every capture's <CODE>.blocks.jsonl, at its path under data/leyes/
     leyes-federales-mx-laws.csv           one row per law
     leyes-federales-mx-articles.csv.zip   one row per article (the CSV inside)
     SHA256SUMS                            `sha256sum -c SHA256SUMS` checks the lot
@@ -69,13 +69,18 @@ def main() -> int:
     db_zip = a.dist / f"{DB_BASENAME}.sqlite.zip"
     zip_files(db_zip, [(a.db, f"{DB_BASENAME}.sqlite")], when)
 
-    blocks = []
+    blocks, expected = [], 0
     for rec in man["laws"]:
-        p = law_dir(a.data, rec["slug"]) / f"{rec['codigo_archivo']}.blocks.jsonl"
-        if p.exists():
-            blocks.append((p, f"data/leyes/{rec['slug']}/{p.name}"))
-    if len(blocks) != len(man["laws"]):
-        print(f"warning: blocks found for {len(blocks)} of {len(man['laws'])} laws", file=sys.stderr)
+        d = law_dir(a.data, rec["slug"])
+        name = f"{rec['codigo_archivo']}.blocks.jsonl"
+        for sub_dir in [""] + [prev["history"] for prev in rec.get("previous_captures") or []]:
+            expected += 1
+            p = d / sub_dir / name
+            if p.exists():
+                rel = f"{sub_dir}/{name}" if sub_dir else name
+                blocks.append((p, f"data/leyes/{rec['slug']}/{rel}"))
+    if len(blocks) != expected:
+        print(f"warning: blocks found for {len(blocks)} of {expected} captures", file=sys.stderr)
     zip_files(a.dist / f"{DB_BASENAME}-blocks.zip", blocks, when)
 
     rows = export(a.db, a.dist)

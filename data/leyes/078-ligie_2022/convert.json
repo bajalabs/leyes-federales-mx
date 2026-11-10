@@ -1,20 +1,20 @@
 {
   "title": "LEY de los Impuestos Generales de Importación y de Exportación",
-  "blocks": 4569,
+  "blocks": 4598,
   "kinds": {
-    "body": 4276,
-    "heading": 175,
-    "article_ordinal": 26,
+    "body": 4288,
+    "heading": 189,
+    "article_ordinal": 27,
     "article": 2,
     "annotation": 18,
-    "transitorio_heading": 19,
-    "ordinal_lead": 53
+    "transitorio_heading": 20,
+    "ordinal_lead": 54
   },
-  "md_chars": 1763615,
+  "md_chars": 1765216,
   "slug": "078-ligie_2022",
   "ok": true,
   "source_kind": "pdf",
   "mojibake_per_1k": 0.0,
-  "fallback_reason": "doc mojibake 1.36/1k > 1.0",
-  "secs": 5.66
+  "fallback_reason": "doc mojibake 1.34/1k > 1.0",
+  "secs": 4.94
 }

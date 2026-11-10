@@ -19,8 +19,12 @@ ends in one of these states:
     failed     no candidate URL answered with a valid file
 
 With --recapture a changed file is kept and becomes the new pin: meta.json and
-manifest.json are rewritten with its resolved URL, size and sha256. Convert,
-build and verify after a recapture (see CONTRIBUTING.md).
+manifest.json are rewritten with its resolved URL, size and sha256, and the
+previous capture is not lost. Its pins move to `previous_captures` in
+meta.json, and its blocks and convert.json move to
+data/leyes/<slug>/history/<capture date>/, so build_db.py keeps both versions
+and diffs them. Convert the recaptured laws, then build and verify (see
+CONTRIBUTING.md); until they are converted, verify_db.py fails on purpose.
 
 The Cámara overwrites a law's file in place at every reform, and abrogated laws
 move under /abro/. Every download therefore walks a fallback ladder (pinned URL,
@@ -33,7 +37,7 @@ Needs `curl`. The base URL and the User-Agent can be overridden:
     LEYES_USER_AGENT  default leyes-federales-mx/<version> (+<repository URL>)
 """
 from __future__ import annotations
-import argparse, hashlib, json, os, subprocess, sys, time
+import argparse, copy, hashlib, json, os, subprocess, sys, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
@@ -138,15 +142,35 @@ def fetch_file(rec: dict, kind: str, data: Path, recapture: bool, force: bool) -
     return "failed", {**pinned, "last_http_code": last}
 
 
+def archive_capture(rec: dict, data: Path) -> dict:
+    """Keep the capture being replaced: its pins go to rec["previous_captures"]
+    (oldest first) and its blocks + convert.json move to history/<date>/."""
+    date = (rec.get("fetched_at") or "undated")[:10]
+    d = law_dir(data, rec["slug"])
+    hist = d / "history" / date
+    prev = {"fetched_at": rec.get("fetched_at"), "ultima_reforma": rec.get("ultima_reforma"),
+            "files": copy.deepcopy(rec["files"]), "history": f"history/{date}"}
+    for name in (f"{rec['codigo_archivo']}.blocks.jsonl", "convert.json"):
+        if (d / name).exists():
+            hist.mkdir(parents=True, exist_ok=True)
+            (d / name).replace(hist / name)
+    if not (hist / f"{rec['codigo_archivo']}.blocks.jsonl").exists():
+        print(f"  !! {rec['slug']}: no blocks on disk for the capture of {date}; "
+              "unpack the release's blocks first or that version will be missing", file=sys.stderr)
+    rec.setdefault("previous_captures", []).append(prev)
+    return prev
+
+
 def fetch_law(rec: dict, data: Path, kinds: list[str], recapture: bool, force: bool) -> tuple[dict, dict]:
-    states, changed = {}, False
+    states, new = {}, {}
     for kind in kinds:
         state, entry = fetch_file(rec, kind, data, recapture, force)
         states[kind] = state
         if recapture and state == "changed":
-            rec["files"][kind] = entry
-            changed = True
-    if changed:
+            new[kind] = entry
+    if new:
+        archive_capture(rec, data)
+        rec["files"].update(new)
         rec["fetched_at"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
         (law_dir(data, rec["slug"]) / "meta.json").write_text(
             json.dumps(rec, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

@@ -13,20 +13,43 @@ Cada artículo sabe a qué ley pertenece, su lugar en la estructura (libro, tít
 
 ## Qué contiene
 
-Captura del 26 de agosto de 2026, desde [diputados.gob.mx/LeyesBiblio](https://www.diputados.gob.mx/LeyesBiblio/index.htm):
+Captura del 26 de agosto de 2026 desde [diputados.gob.mx/LeyesBiblio](https://www.diputados.gob.mx/LeyesBiblio/index.htm), con las dos leyes que se volvieron a publicar desde entonces (la Constitución y la LIGIE) capturadas de nuevo el 10 de noviembre de 2026. Los conteos corresponden al texto vigente de cada ley:
 
 | | |
 |---|---|
 | leyes | **319**: 310 vigentes, 4 abrogadas, 5 invalidadas por la Suprema Corte |
 | tipos | 1 constitución, 9 códigos, 301 leyes, 3 reglamentos, 1 estatuto y 4 más (los presupuestos de egresos 2025 y 2026, la Ordenanza General de la Armada y una ley de impuestos) |
-| archivos fuente | 638 (un .doc y un .pdf por ley), 417 MB, cada uno anclado por URL y sha256 |
-| artículos | **59,540**: 42,721 artículos ordinarios y 16,819 transitorios |
-| partes de artículo | 205,939 párrafos, fracciones, incisos y numerales |
-| divisiones | 10,264 libros, títulos, capítulos, secciones y apartados |
-| notas de reforma | 37,483 ("Artículo reformado DOF 14-08-2001"); el 99.82 % se descompone en acción y fechas ISO |
-| citas | 30,029 referencias entre artículos y leyes; el 99.95 % resuelto a su destino |
-| bloques | 287,779 párrafos clasificados: el registro sin pérdida del que se deriva todo lo demás |
+| archivos fuente | 638 (un .doc y un .pdf por ley), 417 MB, cada uno anclado por URL y sha256; los 4 archivos de la captura anterior de las dos leyes recapturadas siguen anclados |
+| artículos | **59,549**: 42,721 artículos ordinarios y 16,828 transitorios |
+| partes de artículo | 205,957 párrafos, fracciones, incisos y numerales |
+| divisiones | 10,278 libros, títulos, capítulos, secciones y apartados |
+| notas de reforma | 37,487 ("Artículo reformado DOF 14-08-2001"); el 99.82 % se descompone en acción y fechas ISO |
+| citas | 30,031 referencias entre artículos y leyes; el 99.95 % resuelto a su destino |
+| bloques | 287,829 párrafos clasificados: el registro sin pérdida del que se deriva todo lo demás |
 | texto normativo | 46.6 millones de caracteres |
+
+## Qué cambió desde la captura anterior
+
+La base guarda cada captura de una ley como su propia `law_version` y compara capturas consecutivas artículo por artículo en `version_diffs` y `article_changes`. Al 10 de noviembre de 2026, la Cámara había vuelto a publicar dos leyes capturadas el 26 de agosto:
+
+| Ley | Última reforma, antes → después | Agregados | Modificados | Eliminados | Sin cambio |
+|---|---|---|---|---|---|
+| Constitución (`001-cpeum`) | DOF 02/06/2026 → DOF 07/10/2026 | 7 | 4 | 0 | 924 |
+| LIGIE 2022 (`078-ligie_2022`) | DOF 29/12/2025 → DOF 29/12/2025 | 2 | 0 | 0 | 81 |
+
+La reforma constitucional del 7 de octubre de 2026 (nacionalidad única para la titularidad de los Poderes Ejecutivos Federal y locales) modifica los artículos 82, 116 y 122 y agrega su decreto: un artículo y seis transitorios. El cuarto artículo modificado es el último transitorio del decreto de junio de 2026, que cerraba el texto anterior y arrastraba los encabezados de página del archivo Word (ver Limitaciones conocidas). La LIGIE sumó un decreto que modifica temporalmente el arancel de importación de una fracción arancelaria: un artículo y un transitorio.
+
+```sql
+-- cada artículo de la Constitución que cambió entre sus dos capturas
+SELECT c.change_type, c.article_key, round(c.similarity, 3) AS similarity, substr(c.diff, 1, 300) AS diff
+FROM article_changes c
+JOIN version_diffs d ON d.id = c.version_diff_id
+JOIN laws l         ON l.id = d.law_id
+WHERE l.slug = '001-cpeum' AND c.change_type <> 'unchanged'
+ORDER BY c.change_type, c.id;
+```
+
+El Markdown de `data/leyes/` muestra siempre el texto vigente; el historial de git y los bloques de la captura anterior (en `data/leyes/<slug>/history/<fecha>/` y en el archivo de bloques) conservan el previo.
 
 ## Inicio rápido
 
@@ -63,10 +86,10 @@ python3 scripts/verify_db.py                          # PASS, con un recibo JSON
 
 | Archivo | Qué es |
 |---|---|
-| `leyes-federales-mx.sqlite.zip` | la base de datos (282 MB desempacada) |
-| `leyes-federales-mx-blocks.zip` | el `<CODE>.blocks.jsonl` de cada ley, en su ruta bajo `data/leyes/` |
+| `leyes-federales-mx.sqlite.zip` | la base de datos (291 MB desempacada) |
+| `leyes-federales-mx-blocks.zip` | el `<CODE>.blocks.jsonl` de cada captura, en su ruta bajo `data/leyes/` (las capturas anteriores bajo `history/<fecha>/`) |
 | `leyes-federales-mx-laws.csv` | una fila por ley: nombres, vigencia, fechas, URL y sha256 de la fuente, conteos |
-| `leyes-federales-mx-articles.csv.zip` | una fila por artículo: ley, clave, etiqueta, estructura, última reforma, texto completo |
+| `leyes-federales-mx-articles.csv.zip` | una fila por artículo del texto vigente de cada ley: ley, clave, etiqueta, estructura, última reforma, texto completo |
 | `SHA256SUMS` | verifica las descargas con `sha256sum -c SHA256SUMS` (o `shasum -a 256 -c`) |
 
 Los CSV están en UTF-8 con entrecomillado estándar; los textos conservan sus saltos de párrafo dentro de campos entre comillas. En Excel, ábrelos con Datos > Desde texto/CSV y elige UTF-8.
@@ -81,9 +104,10 @@ leyes-federales-mx/
 │   ├── sample.txt               las 6 leyes cuyos bloques van en git, para la CI
 │   └── leyes/<numero>-<nombre_corto>/       p. ej. 001-cpeum, 035-lce, 314a-pef_2025
 │       ├── <CODE>.md            la ley en Markdown, con un encabezado de procedencia
-│       ├── meta.json            la entrada de esta ley en el manifiesto
+│       ├── meta.json            la entrada de esta ley en el manifiesto, con previous_captures si se volvió a capturar
 │       ├── convert.json         edición usada, conteo de bloques, índice de mojibake
 │       ├── <CODE>.blocks.jsonl  párrafos clasificados (archivo de la versión; fuera de git)
+│       ├── history/<fecha>/     bloques y convert.json de una captura anterior, si la hay
 │       └── source/              el .doc y el .pdf oficiales (se descargan a pedido; fuera de git)
 ├── db/schema.sql                el esquema SQLite: tablas, vistas, índice de texto completo
 ├── scripts/                     el proceso, en Python de biblioteca estándar
@@ -172,11 +196,10 @@ GROUP BY t.id ORDER BY citations DESC LIMIT 10;
 -- leyes que ya no están vigentes
 SELECT slug, nombre, estado_vigencia, ultima_reforma FROM v_laws WHERE estado_vigencia <> 'vigente';
 
--- qué cambió entre dos capturas (tras una segunda captura; ver CONTRIBUTING.md)
-SELECT article_key, change_type, round(similarity, 3), substr(diff, 1, 200)
-FROM article_changes c JOIN version_diffs d ON d.id = c.version_diff_id
-WHERE d.law_id = (SELECT id FROM laws WHERE slug = '001-cpeum')
-  AND change_type IN ('modified', 'added', 'removed');
+-- cada captura de una ley y los conteos de cambio entre capturas consecutivas
+SELECT v.captured_at, v.ultima_reforma, v.source_sha256, d.n_added, d.n_modified, d.n_removed
+FROM law_versions v LEFT JOIN version_diffs d ON d.to_version_id = v.id
+WHERE v.law_id = (SELECT id FROM laws WHERE slug = '001-cpeum') ORDER BY v.captured_at;
 ```
 
 `sqlite3 -json` o `-csv` convierten cualquiera de estas consultas en JSON o CSV. [Datasette](https://datasette.io) y [DB Browser for SQLite](https://sqlitebrowser.org) abren el archivo tal cual.
@@ -189,10 +212,10 @@ fetch.py ──> source/<CODE>.doc, .pdf ──> convert_all.py ──> <CODE>.b
                                           pdf_to_md.py)
 ```
 
-1. **Descarga.** [`scripts/fetch.py`](scripts/fetch.py) baja el `.doc` y el `.pdf` de cada ley desde la Cámara de Diputados y los compara con el sha256 de `data/manifest.json`. La Cámara sobrescribe el archivo en cada reforma y mueve las leyes abrogadas a `/abro/`, así que cada descarga recorre una escalera de URL conocidas y registra la que respondió.
+1. **Descarga.** [`scripts/fetch.py`](scripts/fetch.py) baja el `.doc` y el `.pdf` de cada ley desde la Cámara de Diputados y los compara con el sha256 de `data/manifest.json`. La Cámara sobrescribe el archivo en cada reforma y mueve las leyes abrogadas a `/abro/`, así que cada descarga recorre una escalera de URL conocidas y registra la que respondió. `--recapture` adopta un archivo que cambió y mueve la captura anterior a `previous_captures` y a `history/<fecha>/`.
 2. **Conversión.** [`scripts/convert_all.py`](scripts/convert_all.py) convierte cada `.doc` a HTML con `textutil` de macOS y clasifica cada párrafo ([`doc_to_md.py`](scripts/doc_to_md.py)): inicio de artículo, inicio de transitorio, encabezado, nota de reforma, nota, tabla o cuerpo. Un control de salud mide el mojibake de cada conversión y recurre al PDF ([`pdf_to_md.py`](scripts/pdf_to_md.py), `pdftotext -layout`) cuando el Word no se puede leer.
-3. **Construcción.** [`scripts/build_db.py`](scripts/build_db.py) recorre una vez los bloques de cada ley: mantiene la pila de divisiones, abre un artículo en cada inicio, separa el cuerpo en partes, adjunta las notas, descompone sus fechas DOF y extrae las citas. Una sola gramática, [`scripts/patterns.py`](scripts/patterns.py), sirve a todas las etapas: números de artículo con sufijos sucesivos (`8 Bis`, `195-Z-1`, `77 Bis 35 A`, `26-LL`, `257 Quintus`), transitorios ordinales (`DÉCIMO PRIMERO`), fronteras de decreto dentro de las zonas transitorias.
-4. **Verificación.** [`scripts/verify_db.py`](scripts/verify_db.py) es la compuerta de regresión: integridad referencial, ninguna clave de artículo repetida entre artículos ordinarios, una alarma que confirma que cada encabezado de artículo del Markdown se volvió artículo, huecos de numeración, al menos 99 % de notas descompuestas, paridad del índice de texto completo, totales contra el manifiesto y pisos de artículos para leyes que alguna vez retrocedieron.
+3. **Construcción.** [`scripts/build_db.py`](scripts/build_db.py) construye cada captura de cada ley como una versión y compara capturas consecutivas. Recorre una vez los bloques de cada captura: mantiene la pila de divisiones, abre un artículo en cada inicio, separa el cuerpo en partes, adjunta las notas, descompone sus fechas DOF y extrae las citas. Una sola gramática, [`scripts/patterns.py`](scripts/patterns.py), sirve a todas las etapas: números de artículo con sufijos sucesivos (`8 Bis`, `195-Z-1`, `77 Bis 35 A`, `26-LL`, `257 Quintus`), transitorios ordinales (`DÉCIMO PRIMERO`), fronteras de decreto dentro de las zonas transitorias.
+4. **Verificación.** [`scripts/verify_db.py`](scripts/verify_db.py) es la compuerta de regresión: integridad referencial, ninguna clave de artículo repetida entre artículos ordinarios, una alarma que confirma que cada encabezado de artículo del Markdown se volvió artículo, huecos de numeración, al menos 99 % de notas descompuestas, paridad del índice de texto completo, totales contra el manifiesto, pisos de artículos para leyes que alguna vez retrocedieron, y que la versión vigente de cada ley sea la captura que ancla su manifiesto.
 
 Cuando la gramática mejora, [`reclassify.py`](scripts/reclassify.py) vuelve a clasificar los bloques guardados y [`blocks_to_md.py`](scripts/blocks_to_md.py) regenera el Markdown: sin conversión, sin red, en cualquier sistema operativo. [`diff_versions.py`](scripts/diff_versions.py) compara dos capturas artículo por artículo y [`package_release.py`](scripts/package_release.py) escribe los archivos de la versión.
 
@@ -212,7 +235,7 @@ En el Word, la Cámara compone las notas de reforma en letra pequeña azul aline
 
 ## Limitaciones conocidas
 
-- **Una fotografía, no una transmisión en vivo.** Los textos son la captura del 26 de agosto de 2026. El 10 de noviembre de 2026, 317 de los 319 `.doc` del sitio de la Cámara seguían idénticos a sus anclajes; la Constitución y la LIGIE se habían vuelto a publicar. `python3 scripts/fetch.py` muestra el estado actual; las notas de cada versión dan su fecha de captura.
+- **Una fotografía, no una transmisión en vivo.** El 10 de noviembre de 2026 los 638 archivos anclados coincidían con el sitio de la Cámara: 634 de la captura del 26 de agosto y los 4 recapturados ese día. La Cámara vuelve a publicar una ley en cada reforma; `python3 scripts/fetch.py` muestra qué ha cambiado desde entonces.
 - **Las leyes nuevas no se agregan solas.** La lista de leyes viene del índice de la Cámara leído el 8 de marzo de 2026. Las leyes reformadas se actualizan con `fetch.py --recapture`; una ley publicada después de esa fecha necesita una entrada manual en el manifiesto hasta que exista un lector del índice.
 - **Dos fechas de última reforma.** `law_versions.ultima_reforma` es la fecha que imprime la propia edición ("Últimas reformas publicadas DOF 02-06-2026") en las 250 leyes que la imprimen, y la del índice en las demás; `ultima_reforma_indice` conserva la del índice. Difieren en 31 leyes porque el índice se rezaga. `articles.last_reform_date` sale de las notas de cada artículo.
 - **La conversión requiere macOS.** `textutil` solo viene con macOS. Reconstruir la base, regenerar el Markdown y volver a aplicar la gramática funcionan en cualquier sistema a partir de los bloques guardados.
@@ -221,8 +244,9 @@ En el Word, la Cámara compone las notas de reforma en letra pequeña azul aline
 - **Las partes de artículo se etiquetan por patrón.** Las fracciones en romanos y los incisos con letra son confiables; las listas muy anidadas o dentro de tablas quedan como `parrafo`.
 - **Claves repetidas en zonas transitorias.** Quedan 333 grupos de `article_key` repetida dentro de zonas transitorias, donde las resoluciones de invalidez de la Suprema Corte repiten PRIMERO/SEGUNDO/TERCERO bajo un mismo encabezado sin frontera de decreto. Los artículos ordinarios no tienen ninguna (una compuerta de `verify_db.py`); `diff_versions.py` empareja el residuo por posición.
 - **Los huecos de numeración de la OGA** (290) son renumeraciones de la propia fuente, verificadas contra el archivo oficial.
-- **Las citas se hallan por patrón**: referencias a un artículo de la misma ley, a la Constitución y a otras leyes nombradas completas. Las abreviaturas y referencias vagas ("la Ley", "el Reglamento") no se resuelven; 14 de las 30,029 referencias halladas nombran un número de artículo que la ley no tiene.
-- **Por ahora, una captura por ley**, así que `version_diffs` está vacía. El motor de comparación funciona (comparar las ediciones DOC y PDF de la LCE da 33 artículos modificados y 104 sin cambio); el seguimiento real de cambios empieza con la segunda captura.
+- **Las citas se hallan por patrón**: referencias a un artículo de la misma ley, a la Constitución y a otras leyes nombradas completas. Las abreviaturas y referencias vagas ("la Ley", "el Reglamento") no se resuelven; 14 de las 30,031 referencias halladas nombran un número de artículo que la ley no tiene.
+- **Encabezados de página al final de una ley.** `textutil` emite el encabezado de página y los códigos de campo del archivo Word (`EMBED Word.Picture.8`, `PAGE`, `NUMPAGES`) después del cuerpo, así que en 311 leyes el texto del último artículo termina con unas líneas de ellos. Todavía no se quitan; cuando una ley gana un nuevo último artículo, el anterior aparece como modificado.
+- **El seguimiento de cambios apenas empieza.** Dos leyes tienen dos capturas; las otras 317 tienen una, así que `article_changes` solo cubre lo que cambió en esas dos.
 - **No es una publicación oficial ni asesoría legal.** El texto con validez es el publicado en el [Diario Oficial de la Federación](https://www.dof.gob.mx). Revisa el archivo oficial antes de apoyarte en cualquier texto de aquí; su URL y su sha256 están en el encabezado de cada ley.
 
 ## Licencia
@@ -235,7 +259,7 @@ Los textos de las leyes mexicanas no son objeto de derecho de autor: el artícul
 
 Cita la ley misma por su nombre oficial y su publicación en el DOF. Para citar este conjunto de datos, usa los metadatos de [CITATION.cff](CITATION.cff) (GitHub muestra el botón "Cite this repository"), por ejemplo:
 
-> Baja Labs (2026). *leyes-federales-mx: the Mexican federal laws as structured data* (versión 1.0.0, captura del 2026-08-26) [Conjunto de datos]. https://github.com/bajalabs/leyes-federales-mx
+> Baja Labs (2026). *leyes-federales-mx: the Mexican federal laws as structured data* (versión 1.0.0, capturas del 2026-08-26 y del 2026-11-10) [Conjunto de datos]. https://github.com/bajalabs/leyes-federales-mx
 
 ## Cómo contribuir
 

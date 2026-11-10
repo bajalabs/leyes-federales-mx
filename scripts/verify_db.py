@@ -18,8 +18,12 @@ Checks
   4. numbering gaps among regular articles, beyond the known renumberings
   5. reform annotations: at least 99% parsed into an action
   6. full-text index has one row per article
-  7. totals: one law per manifest entry, each with at least one version
+  7. totals: one law per manifest entry, and one version per capture
+     (meta.json's previous_captures plus the current one)
   8. floors: article counts for laws that once regressed never drop again
+  9. currency: each law's current version was converted from the file its
+     manifest entry pins now (catches a recapture that was never converted),
+     and every pair of consecutive captures has been diffed
 """
 from __future__ import annotations
 import argparse, json, re, sqlite3, sys
@@ -125,8 +129,12 @@ def verify(data: Path, db: Path, want: set[str] | None = None) -> dict:
     unversioned = one("SELECT count(*) FROM laws l WHERE NOT EXISTS (SELECT 1 FROM law_versions v WHERE v.law_id=l.id)")
     if unversioned:
         problems.append(f"{unversioned} laws have no version (no blocks were found for them)")
-    if n_lv > n_laws:
-        notes.append(f"{n_lv - n_laws} extra versions: this database holds more than one capture of some laws")
+    expected_versions = sum(1 + len(r.get("previous_captures") or []) for r in laws)
+    if n_lv < expected_versions:
+        problems.append(f"law_versions {n_lv} < captures in the manifest {expected_versions}: blocks are "
+                        "missing for a capture (convert after --recapture, or unpack the release's blocks)")
+    elif n_lv > expected_versions:
+        notes.append(f"{n_lv - expected_versions} versions beyond the manifest's captures (an --append build)")
 
     # 8 — floors
     floors = {}
@@ -135,6 +143,39 @@ def verify(data: Path, db: Path, want: set[str] | None = None) -> dict:
             floors[slug] = {"floor": floor, "regular_articles": counts.get(slug, 0)}
             if counts.get(slug, 0) < floor:
                 problems.append(f"{slug}: {counts.get(slug, 0)} regular articles < floor {floor}")
+
+    # 9 — currency: the current version is the current capture, and captures are diffed
+    current = {slug: (kind, sha) for slug, kind, sha in q("SELECT slug, source_kind, source_sha256 FROM v_laws")}
+    stale = []
+    for rec in laws:
+        kind, sha = current.get(rec["slug"], (None, None))
+        if kind and sha != (rec["files"].get(kind) or {}).get("sha256"):
+            stale.append(rec["slug"])
+    if stale:
+        problems.append(f"current version is not the pinned capture (convert after --recapture): {stale[:10]}")
+    multi = one("SELECT count(*) FROM (SELECT law_id FROM law_versions GROUP BY law_id HAVING count(*) > 1)")
+    pairs = one("SELECT coalesce(sum(n - 1), 0) FROM (SELECT count(*) n FROM law_versions GROUP BY law_id)")
+    n_diffs = one("SELECT count(*) FROM version_diffs")
+    if n_diffs < pairs:
+        problems.append(f"version_diffs {n_diffs} < consecutive capture pairs {pairs}")
+    changes = dict(q("SELECT change_type, count(*) FROM article_changes GROUP BY 1 ORDER BY 1"))
+
+    cur_v = "SELECT law_version_id FROM v_laws"
+    counts_current = {
+        "laws": one("SELECT count(*) FROM v_laws"),
+        "divisions": one(f"SELECT count(*) FROM divisions WHERE law_version_id IN ({cur_v})"),
+        "articles": one(f"SELECT count(*) FROM articles WHERE law_version_id IN ({cur_v})"),
+        "articles_regular": one(f"SELECT count(*) FROM articles WHERE is_transitorio=0 AND law_version_id IN ({cur_v})"),
+        "articles_transitorio": one(f"SELECT count(*) FROM articles WHERE is_transitorio=1 AND law_version_id IN ({cur_v})"),
+        "article_parts": one(f"""SELECT count(*) FROM article_parts p JOIN articles a ON a.id=p.article_id
+                                 WHERE a.law_version_id IN ({cur_v})"""),
+        "annotations": one(f"SELECT count(*) FROM annotations WHERE law_version_id IN ({cur_v})"),
+        "annotations_parsed": one(f"SELECT count(*) FROM annotations WHERE action IS NOT NULL AND law_version_id IN ({cur_v})"),
+        "blocks": one(f"SELECT count(*) FROM blocks WHERE law_version_id IN ({cur_v})"),
+        "cross_references": one(f"SELECT count(*) FROM cross_references WHERE law_version_id IN ({cur_v})"),
+        "cross_references_resolved": one(f"SELECT count(*) FROM cross_references WHERE resolved=1 AND law_version_id IN ({cur_v})"),
+        "characters": one(f"SELECT coalesce(sum(char_count), 0) FROM articles WHERE law_version_id IN ({cur_v})"),
+    }
 
     counts_summary = {
         "laws": n_laws, "law_versions": n_lv,
@@ -149,11 +190,15 @@ def verify(data: Path, db: Path, want: set[str] | None = None) -> dict:
         "blocks": one("SELECT count(*) FROM blocks"),
         "cross_references": one("SELECT count(*) FROM cross_references"),
         "cross_references_resolved": one("SELECT count(*) FROM cross_references WHERE resolved=1"),
+        "laws_with_several_captures": multi,
+        "version_diffs": n_diffs,
+        "article_changes": changes,
     }
     con.close()
     return {
         "status": "FAIL" if problems else "PASS",
         "db": str(db),
+        "counts_current": counts_current,
         "counts": counts_summary,
         "checks": {
             "foreign_key_violations": fk,
@@ -166,6 +211,7 @@ def verify(data: Path, db: Path, want: set[str] | None = None) -> dict:
             "fts_parity": {"articles": n_art, "fts_rows": n_fts},
             "manifest_totals": {"manifest_laws": len(laws), "laws": n_laws, "law_versions": n_lv},
             "floors": floors,
+            "current_is_pinned": {"stale": stale},
         },
         "notes": notes,
         "problems": problems,

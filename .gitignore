@@ -6,8 +6,9 @@
 # in data/manifest.json. Never committed.
 /data/leyes/*/source/
 
-# Blocks are a release asset (leyes-federales-mx-blocks.zip), except the CI
-# sample listed in data/sample.txt, which is committed so CI can build offline.
+# Blocks, current and of earlier captures (history/<date>/), are a release asset
+# (leyes-federales-mx-blocks.zip), except the CI sample listed in data/sample.txt,
+# which is committed so CI can build offline.
 /data/leyes/*/*.blocks.jsonl
 !/data/leyes/001-cpeum/*.blocks.jsonl
 !/data/leyes/020-lamni/*.blocks.jsonl
@@ -15,6 +16,8 @@
 !/data/leyes/224-lgsmime/*.blocks.jsonl
 !/data/leyes/309-levct/*.blocks.jsonl
 !/data/leyes/316-reg_senado/*.blocks.jsonl
+/data/leyes/*/history/*/*.blocks.jsonl
+!/data/leyes/001-cpeum/history/*/*.blocks.jsonl
 
 # Downloaded release archives, when unpacked at the repository root
 /*.zip

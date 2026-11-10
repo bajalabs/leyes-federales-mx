@@ -17,8 +17,8 @@
       "http_code": 200,
       "fallback_rank": 0,
       "content_type": "application/pdf",
-      "bytes": 19154404,
-      "sha256": "a7688a47c8283f327b943e06ed948782feba2f5a0e16fe796d50d8340ce40ece",
+      "bytes": 19158939,
+      "sha256": "955510d7ea82cf42d18c72e3146f999af254c0fda5eda3f12a1fd1c10e9864ce",
       "path": "leyes/078-ligie_2022/source/LIGIE_2022.pdf"
     },
     "doc": {
@@ -29,10 +29,43 @@
       "http_code": 200,
       "fallback_rank": 0,
       "content_type": "application/msword",
-      "bytes": 26266112,
-      "sha256": "91fe9434863e7c87dcb1c98be4d0de5b8de589fd69708b3f488b0eff1843dc10",
+      "bytes": 26289152,
+      "sha256": "d61045132412e188f65323099de479170464382a13fc06add849b20cdf253112",
       "path": "leyes/078-ligie_2022/source/LIGIE_2022.doc"
     }
   },
-  "fetched_at": "2026-08-26T06:27:13Z"
+  "fetched_at": "2026-11-10T08:51:43Z",
+  "previous_captures": [
+    {
+      "fetched_at": "2026-08-26T06:27:13Z",
+      "ultima_reforma": "DOF 31/12/2025",
+      "files": {
+        "pdf": {
+          "kind": "pdf",
+          "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIGIE_2022.pdf",
+          "status": "ok",
+          "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIGIE_2022.pdf",
+          "http_code": 200,
+          "fallback_rank": 0,
+          "content_type": "application/pdf",
+          "bytes": 19154404,
+          "sha256": "a7688a47c8283f327b943e06ed948782feba2f5a0e16fe796d50d8340ce40ece",
+          "path": "leyes/078-ligie_2022/source/LIGIE_2022.pdf"
+        },
+        "doc": {
+          "kind": "doc",
+          "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LIGIE_2022.doc",
+          "status": "ok",
+          "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LIGIE_2022.doc",
+          "http_code": 200,
+          "fallback_rank": 0,
+          "content_type": "application/msword",
+          "bytes": 26266112,
+          "sha256": "91fe9434863e7c87dcb1c98be4d0de5b8de589fd69708b3f488b0eff1843dc10",
+          "path": "leyes/078-ligie_2022/source/LIGIE_2022.doc"
+        }
+      },
+      "history": "history/2026-08-26"
+    }
+  ]
 }

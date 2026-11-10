@@ -13,20 +13,43 @@ Every article knows its law, its place in the hierarchy (libro, título, capítu
 
 ## What is inside
 
-Capture of 26 August 2026, from [diputados.gob.mx/LeyesBiblio](https://www.diputados.gob.mx/LeyesBiblio/index.htm):
+Capture of 26 August 2026 from [diputados.gob.mx/LeyesBiblio](https://www.diputados.gob.mx/LeyesBiblio/index.htm), with the two laws republished since (the Constitution and the LIGIE) captured again on 10 November 2026. Counts are for the current text of each law:
 
 | | |
 |---|---|
 | laws | **319**: 310 in force (vigentes), 4 repealed (abrogadas), 5 struck down by the Supreme Court (invalidadas) |
 | kinds | 1 constitution, 9 codes, 301 laws, 3 regulations, 1 statute and 4 others (the 2025 and 2026 federal budgets, the Navy's general ordinance, a tax law) |
-| source files | 638 (one .doc and one .pdf per law), 417 MB, every one pinned by URL and sha256 |
-| articles | **59,540**: 42,721 regular articles and 16,819 transitory (transitorio) articles |
-| article parts | 205,939 párrafos, fracciones, incisos and numerales |
-| divisions | 10,264 libros, títulos, capítulos, secciones and apartados |
-| reform annotations | 37,483 ("Artículo reformado DOF 14-08-2001"), 99.82% parsed into an action and ISO dates |
-| citations | 30,029 cross-references between articles and laws, 99.95% resolved to their target |
-| blocks | 287,779 classified paragraphs: the lossless record everything else is derived from |
+| source files | 638 (one .doc and one .pdf per law), 417 MB, every one pinned by URL and sha256; the 4 files of the earlier capture of the two recaptured laws stay pinned too |
+| articles | **59,549**: 42,721 regular articles and 16,828 transitory (transitorio) articles |
+| article parts | 205,957 párrafos, fracciones, incisos and numerales |
+| divisions | 10,278 libros, títulos, capítulos, secciones and apartados |
+| reform annotations | 37,487 ("Artículo reformado DOF 14-08-2001"), 99.82% parsed into an action and ISO dates |
+| citations | 30,031 cross-references between articles and laws, 99.95% resolved to their target |
+| blocks | 287,829 classified paragraphs: the lossless record everything else is derived from |
 | normative text | 46.6 million characters |
+
+## What changed since the previous capture
+
+The database keeps every capture of a law as its own `law_version` and compares consecutive captures article by article into `version_diffs` and `article_changes`. By 10 November 2026 the Cámara had republished two laws captured on 26 August:
+
+| Law | Last reform, before → after | Added | Modified | Removed | Unchanged |
+|---|---|---|---|---|---|
+| Constitution (`001-cpeum`) | DOF 02/06/2026 → DOF 07/10/2026 | 7 | 4 | 0 | 924 |
+| LIGIE 2022 (`078-ligie_2022`) | DOF 29/12/2025 → DOF 29/12/2025 | 2 | 0 | 0 | 81 |
+
+The Constitution's reform of 7 October 2026 (single nationality for the heads of the federal and state executives) amends articles 82, 116 and 122 and adds its decree: one article and six transitorios. The fourth modified article is the last transitorio of the June 2026 decree, which was the end of the previous text and carried the Word file's page furniture (see Known issues). The LIGIE gained a decree that temporarily changes the import tariff of one tariff line, as one article and one transitorio.
+
+```sql
+-- every article that changed in the Constitution between its two captures
+SELECT c.change_type, c.article_key, round(c.similarity, 3) AS similarity, substr(c.diff, 1, 300) AS diff
+FROM article_changes c
+JOIN version_diffs d ON d.id = c.version_diff_id
+JOIN laws l         ON l.id = d.law_id
+WHERE l.slug = '001-cpeum' AND c.change_type <> 'unchanged'
+ORDER BY c.change_type, c.id;
+```
+
+The Markdown in `data/leyes/` always shows the current text; git history and the earlier capture's blocks (in `data/leyes/<slug>/history/<date>/` and in the blocks archive) keep the previous one.
 
 ## Quick start
 
@@ -63,10 +86,10 @@ python3 scripts/verify_db.py                          # PASS, with a JSON receip
 
 | File | What it is |
 |---|---|
-| `leyes-federales-mx.sqlite.zip` | the database (282 MB unpacked) |
-| `leyes-federales-mx-blocks.zip` | every law's `<CODE>.blocks.jsonl`, at its path under `data/leyes/` |
+| `leyes-federales-mx.sqlite.zip` | the database (291 MB unpacked) |
+| `leyes-federales-mx-blocks.zip` | every capture's `<CODE>.blocks.jsonl`, at its path under `data/leyes/` (earlier captures under `history/<date>/`) |
 | `leyes-federales-mx-laws.csv` | one row per law: names, status, dates, source URL and sha256, counts |
-| `leyes-federales-mx-articles.csv.zip` | one row per article: law, key, label, hierarchy, last reform date, full text |
+| `leyes-federales-mx-articles.csv.zip` | one row per article of the current text of each law: law, key, label, hierarchy, last reform date, full text |
 | `SHA256SUMS` | check the downloads with `sha256sum -c SHA256SUMS` (or `shasum -a 256 -c`) |
 
 The CSV files are UTF-8 with standard quoting; article texts keep their paragraph breaks inside quoted fields.
@@ -81,9 +104,10 @@ leyes-federales-mx/
 │   ├── sample.txt               the 6 laws whose blocks are committed, for CI
 │   └── leyes/<numero>-<nombre_corto>/       e.g. 001-cpeum, 035-lce, 314a-pef_2025
 │       ├── <CODE>.md            the law in Markdown, with a provenance header
-│       ├── meta.json            this law's manifest entry
+│       ├── meta.json            this law's manifest entry, with previous_captures when it was captured again
 │       ├── convert.json         edition used, block counts, mojibake score
 │       ├── <CODE>.blocks.jsonl  classified paragraphs (release asset; gitignored)
+│       ├── history/<date>/      blocks and convert.json of an earlier capture, when there is one
 │       └── source/              the official .doc and .pdf (fetched on demand; gitignored)
 ├── db/schema.sql                the SQLite schema: tables, views, full-text index
 ├── scripts/                     the pipeline, standard-library Python
@@ -172,11 +196,10 @@ GROUP BY t.id ORDER BY citations DESC LIMIT 10;
 -- laws no longer in force
 SELECT slug, nombre, estado_vigencia, ultima_reforma FROM v_laws WHERE estado_vigencia <> 'vigente';
 
--- what changed between two captures (after a second capture; see CONTRIBUTING.md)
-SELECT article_key, change_type, round(similarity, 3), substr(diff, 1, 200)
-FROM article_changes c JOIN version_diffs d ON d.id = c.version_diff_id
-WHERE d.law_id = (SELECT id FROM laws WHERE slug = '001-cpeum')
-  AND change_type IN ('modified', 'added', 'removed');
+-- every capture of a law, and the change counts between consecutive ones
+SELECT v.captured_at, v.ultima_reforma, v.source_sha256, d.n_added, d.n_modified, d.n_removed
+FROM law_versions v LEFT JOIN version_diffs d ON d.to_version_id = v.id
+WHERE v.law_id = (SELECT id FROM laws WHERE slug = '001-cpeum') ORDER BY v.captured_at;
 ```
 
 `sqlite3 -json` or `-csv` turns any of these into JSON or CSV. [Datasette](https://datasette.io) and [DB Browser for SQLite](https://sqlitebrowser.org) open the file as it is.
@@ -189,10 +212,10 @@ fetch.py ──> source/<CODE>.doc, .pdf ──> convert_all.py ──> <CODE>.b
                                           pdf_to_md.py fallback)
 ```
 
-1. **Fetch.** [`scripts/fetch.py`](scripts/fetch.py) downloads each law's `.doc` and `.pdf` from the Cámara de Diputados and checks it against the sha256 in `data/manifest.json`. The Cámara overwrites a file in place at every reform and moves repealed laws under `/abro/`, so each download walks a ladder of known URL spellings and records the one that answered.
+1. **Fetch.** [`scripts/fetch.py`](scripts/fetch.py) downloads each law's `.doc` and `.pdf` from the Cámara de Diputados and checks it against the sha256 in `data/manifest.json`. The Cámara overwrites a file in place at every reform and moves repealed laws under `/abro/`, so each download walks a ladder of known URL spellings and records the one that answered. `--recapture` adopts a changed file and moves the previous capture to `previous_captures` and `history/<date>/`.
 2. **Convert.** [`scripts/convert_all.py`](scripts/convert_all.py) turns each `.doc` into HTML with macOS `textutil` and classifies every paragraph ([`doc_to_md.py`](scripts/doc_to_md.py)): article lead, transitory lead, heading, reform annotation, note, table or body. A health gate scores each conversion for mojibake and falls back to the PDF ([`pdf_to_md.py`](scripts/pdf_to_md.py), `pdftotext -layout`) when the Word file cannot be read.
-3. **Build.** [`scripts/build_db.py`](scripts/build_db.py) makes one forward pass over each law's blocks: it keeps the division stack, opens a new article at each lead, splits article bodies into parts, attaches annotations, parses their DOF dates, and extracts citations. One grammar, [`scripts/patterns.py`](scripts/patterns.py), serves every stage: article numbers with suffix chains (`8 Bis`, `195-Z-1`, `77 Bis 35 A`, `26-LL`, `257 Quintus`), ordinal transitorios (`DÉCIMO PRIMERO`), decree boundaries inside transitory zones.
-4. **Verify.** [`scripts/verify_db.py`](scripts/verify_db.py) is the regression gate: referential integrity, no duplicate article keys among regular articles, a tripwire that every article header in the Markdown became an article, numbering gaps, annotation parse rate at least 99%, full-text parity, totals against the manifest, and article-count floors for laws that once regressed.
+3. **Build.** [`scripts/build_db.py`](scripts/build_db.py) builds every capture of each law as a version and diffs consecutive captures. It makes one forward pass over each capture's blocks: it keeps the division stack, opens a new article at each lead, splits article bodies into parts, attaches annotations, parses their DOF dates, and extracts citations. One grammar, [`scripts/patterns.py`](scripts/patterns.py), serves every stage: article numbers with suffix chains (`8 Bis`, `195-Z-1`, `77 Bis 35 A`, `26-LL`, `257 Quintus`), ordinal transitorios (`DÉCIMO PRIMERO`), decree boundaries inside transitory zones.
+4. **Verify.** [`scripts/verify_db.py`](scripts/verify_db.py) is the regression gate: referential integrity, no duplicate article keys among regular articles, a tripwire that every article header in the Markdown became an article, numbering gaps, annotation parse rate at least 99%, full-text parity, totals against the manifest, article-count floors for laws that once regressed, and that each law's current version is the capture its manifest pins.
 
 When the grammar improves, [`reclassify.py`](scripts/reclassify.py) replays classification over the stored blocks and [`blocks_to_md.py`](scripts/blocks_to_md.py) regenerates the Markdown: no conversion, no network, any operating system. [`diff_versions.py`](scripts/diff_versions.py) compares two captures article by article, and [`package_release.py`](scripts/package_release.py) writes the release assets.
 
@@ -212,7 +235,7 @@ In the Word file the Cámara sets reform notes in small blue right-aligned type 
 
 ## Known issues
 
-- **A snapshot, not a live feed.** The texts are the 26 August 2026 capture. On 10 November 2026, 317 of the 319 `.doc` files on the Cámara's site were still byte-identical to the pins; the Constitution and the LIGIE had been republished since. Run `python3 scripts/fetch.py` to see the current state; the release notes of each version give its capture date.
+- **A snapshot, not a live feed.** On 10 November 2026 all 638 pinned files matched the Cámara's site: 634 from the 26 August capture and the 4 recaptured that day. The Cámara republishes a law at every reform; run `python3 scripts/fetch.py` to see what has moved since.
 - **New laws are not picked up automatically.** The list of laws comes from the Cámara's index as read on 8 March 2026. Reformed laws are refreshed by `fetch.py --recapture`; a law published after that date needs an entry in the manifest by hand until an index reader is written.
 - **Two dates of last reform.** `law_versions.ultima_reforma` is the date the edition itself prints ("Últimas reformas publicadas DOF 02-06-2026") for the 250 laws that print one, and the index value otherwise; `ultima_reforma_indice` keeps the index value. They differ for 31 laws because the index lags. `articles.last_reform_date` comes from the annotations of each article.
 - **Conversion needs macOS.** `textutil` ships only with macOS. Rebuilding the database, regenerating Markdown and replaying the grammar run anywhere from the stored blocks.
@@ -221,8 +244,9 @@ In the Word file the Cámara sets reform notes in small blue right-aligned type 
 - **Article parts are labelled by pattern.** Roman-numeral fracciones and lettered incisos are reliable; deeply nested or table-embedded lists fall back to `parrafo`.
 - **Duplicate keys in transitory zones.** 333 groups of repeated `article_key` remain inside transitory zones, where Supreme Court invalidation resolutions repeat PRIMERO/SEGUNDO/TERCERO under one heading with no decree boundary. Regular articles have none (a gate in `verify_db.py`); `diff_versions.py` matches the residue by position.
 - **Numbering holes in the OGA** (290) are renumberings in the source itself, checked against the official file.
-- **Citations are found by pattern**: references to an article of the same law, to the Constitution, and to other laws named in full. Abbreviations and loose references ("la Ley", "el Reglamento") are not resolved; 14 of the 30,029 references found name an article number the law does not have.
-- **One capture per law so far**, so `version_diffs` is empty. The diff engine works (comparing the DOC and PDF editions of the LCE gives 33 modified and 104 unchanged articles); real change tracking starts with the second capture.
+- **Citations are found by pattern**: references to an article of the same law, to the Constitution, and to other laws named in full. Abbreviations and loose references ("la Ley", "el Reglamento") are not resolved; 14 of the 30,031 references found name an article number the law does not have.
+- **Page furniture at the end of a law.** `textutil` emits the Word file's running header and field codes (`EMBED Word.Picture.8`, `PAGE`, `NUMPAGES`) after the body, so in 311 laws the last article's text ends with a few lines of them. They are not stripped yet; when a law gains a new last article, the old one shows up as modified.
+- **Change tracking has just started.** Two laws have two captures; the other 317 have one, so `article_changes` covers only what changed in those two.
 - **Not an official publication, not legal advice.** The authoritative text is the one published in the [Diario Oficial de la Federación](https://www.dof.gob.mx). Check the official file before relying on any text here; its URL and sha256 are in the header of every law.
 
 ## Licence
@@ -235,7 +259,7 @@ The texts of Mexican laws are not subject to copyright: article 14, fracción VI
 
 Cite the law itself by its official name and DOF publication. To cite this dataset, use the metadata in [CITATION.cff](CITATION.cff) (GitHub shows a "Cite this repository" button), for example:
 
-> Baja Labs (2026). *leyes-federales-mx: the Mexican federal laws as structured data* (version 1.0.0, capture of 2026-08-26) [Data set]. https://github.com/bajalabs/leyes-federales-mx
+> Baja Labs (2026). *leyes-federales-mx: the Mexican federal laws as structured data* (version 1.0.0, captures of 2026-08-26 and 2026-11-10) [Data set]. https://github.com/bajalabs/leyes-federales-mx
 
 ## Contributing
 

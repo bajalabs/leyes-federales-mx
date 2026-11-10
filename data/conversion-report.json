@@ -7,7 +7,7 @@
   "pdf_fallbacks": [
     {
       "slug": "078-ligie_2022",
-      "reason": "doc mojibake 1.36/1k > 1.0"
+      "reason": "doc mojibake 1.34/1k > 1.0"
     },
     {
       "slug": "314-pef_2026",
@@ -19,7 +19,7 @@
     }
   ],
   "failures": [],
-  "total_blocks": 287779,
-  "total_articles": 42363,
-  "total_annotations": 37484
+  "total_blocks": 287829,
+  "total_articles": 42790,
+  "total_annotations": 37487
 }

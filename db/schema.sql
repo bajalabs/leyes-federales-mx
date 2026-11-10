@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS law_versions (
   text_sha256       TEXT,                -- hash of the full converted text
   UNIQUE (law_id, source_kind, source_sha256)
 );
-CREATE INDEX IF NOT EXISTS ix_lv_law ON law_versions(law_id, reforma_date);
+CREATE INDEX IF NOT EXISTS ix_lv_law ON law_versions(law_id, captured_at);
 
 -- Libro / Título / Capítulo / Sección / Apartado — a self-referencing tree.
 CREATE TABLE IF NOT EXISTS divisions (
@@ -214,7 +214,7 @@ END;
 
 -- ── views: the one-hop surface for queries, GUIs and BI ────────────────────
 -- The normalised truth stays articles -> law_versions -> laws. "Current" is
--- the latest law_version per law (reforma_date desc, id desc).
+-- the latest capture of each law (captured_at desc, id desc).
 DROP VIEW IF EXISTS v_laws;
 CREATE VIEW v_laws AS
 SELECT l.id, l.slug, l.numero, l.nombre, l.nombre_corto, l.codigo_archivo,
@@ -230,7 +230,7 @@ FROM laws l
 JOIN corpora c ON c.id = l.corpus_id
 JOIN law_versions v ON v.id = (
   SELECT v2.id FROM law_versions v2 WHERE v2.law_id = l.id
-  ORDER BY v2.reforma_date DESC, v2.id DESC LIMIT 1);
+  ORDER BY v2.captured_at DESC, v2.id DESC LIMIT 1);
 
 DROP VIEW IF EXISTS v_articles;
 CREATE VIEW v_articles AS

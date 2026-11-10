@@ -11,8 +11,11 @@ search.
 Input : data/manifest.json + data/leyes/<slug>/<CODE>.blocks.jsonl
 Output: build/leyes-federales-mx.sqlite (override with --db or LEYES_DB)
 
-Writes a fresh file (the schema is not migrated in place); the full corpus
-builds in about 20 seconds. With --append it adds versions to an existing
+Every capture of a law becomes a law_version: the current one from the law's
+folder, earlier ones from history/<date>/ (see fetch.py --recapture), and
+consecutive captures are diffed into version_diffs/article_changes. Writes a
+fresh file (the schema is not migrated in place); the full corpus builds in
+about 20 seconds. With --append it adds versions to an existing
 database instead, which is how two captures of a law end up side by side for
 diff_versions.py (see CONTRIBUTING.md). The extractor is a single forward pass over
 the block stream. It works because the converters already classified every
@@ -25,6 +28,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from corpus import DEFAULT_DATA, DEFAULT_DB, SCHEMA, law_dir, load_manifest, parse_only, select  # noqa: E402
+from diff_versions import diff_versions  # noqa: E402
 # One pattern vocabulary for the whole pipeline -- see patterns.py.
 from patterns import (ART_RE, ART_ORD_RE, DIV_RE, FRAC_RE, INC_RE, NUM_RE,  # noqa: E402
                       DOF_DATE, ACTION_RE, TARGET_RE, MULTA_TARGET_RE, DIV_KIND,
@@ -433,6 +437,20 @@ def ingest_law(con: sqlite3.Connection, law_id: int, rec: dict, data: Path, sour
             "blocks": len(blocks), "cross_references": len(xrefs)}
 
 
+def captures(rec: dict, data: Path) -> list[tuple[dict, Path]]:
+    """Every capture of a law, oldest first, with the folder holding its blocks:
+    each entry of meta.json's previous_captures (history/<date>/), then the
+    current capture (the law's own folder)."""
+    d = law_dir(data, rec["slug"])
+    out = []
+    for prev in rec.get("previous_captures") or []:
+        cap = {**rec, "files": prev["files"], "fetched_at": prev.get("fetched_at"),
+               "ultima_reforma": prev.get("ultima_reforma", rec.get("ultima_reforma"))}
+        out.append((cap, d / prev["history"]))
+    out.append((rec, d))
+    return out
+
+
 def build(data: Path, db: Path, want: set[str] | None = None, source_kind: str = "doc",
           force_kind: str | None = None, md_dir: Path | None = None, quiet: bool = False,
           append: bool = False) -> dict:
@@ -467,24 +485,37 @@ def build(data: Path, db: Path, want: set[str] | None = None, source_kind: str =
                for rec in recs]
     extractor = CitationExtractor(catalog)
 
-    tot = {"laws": 0, "articles": 0, "divisions": 0, "annotations": 0,
-           "cross_references": 0, "skipped": 0, "errors": 0}
+    tot = {"laws": 0, "versions": 0, "articles": 0, "divisions": 0, "annotations": 0,
+           "cross_references": 0, "skipped": 0, "errors": 0, "version_diffs": 0}
     for rec in recs:
-        try:
-            r = ingest_law(con, law_ids[rec["slug"]], rec, data, source_kind, extractor,
-                           force_kind=force_kind, md_dir=md_dir)
-        except Exception as e:
-            print(f"  !! {rec['slug']}: {type(e).__name__}: {e}", file=sys.stderr)
-            tot["errors"] += 1
-            continue
-        if not r:
-            if not quiet:
-                print(f"  -- {rec['slug']}: no blocks on disk, skipped", file=sys.stderr)
-            tot["skipped"] += 1
-            continue
-        tot["laws"] += 1
-        for k in ("articles", "divisions", "annotations", "cross_references"):
-            tot[k] += r[k]
+        built = 0
+        # oldest capture first, so the current one gets the highest version id
+        for cap, cap_dir in ([(rec, md_dir)] if md_dir else captures(rec, data)):
+            label = f"{rec['slug']} ({cap.get('fetched_at', '')[:10]})"
+            try:
+                r = ingest_law(con, law_ids[rec["slug"]], cap, data, source_kind, extractor,
+                               force_kind=force_kind, md_dir=cap_dir)
+            except Exception as e:
+                print(f"  !! {label}: {type(e).__name__}: {e}", file=sys.stderr)
+                tot["errors"] += 1
+                continue
+            if not r:
+                if not quiet:
+                    print(f"  -- {label}: no blocks on disk, skipped", file=sys.stderr)
+                tot["skipped"] += 1
+                continue
+            built += 1
+            tot["versions"] += 1
+            for k in ("articles", "divisions", "annotations", "cross_references"):
+                tot[k] += r[k]
+        tot["laws"] += 1 if built else 0
+    # change tracking: diff every pair of consecutive captures of a law
+    for (law_id,) in con.execute("SELECT law_id FROM law_versions GROUP BY law_id HAVING count(*) > 1").fetchall():
+        vs = con.execute("SELECT id, captured_at FROM law_versions WHERE law_id=? ORDER BY captured_at, id",
+                         (law_id,)).fetchall()
+        for (v_from, _), (v_to, at) in zip(vs, vs[1:]):
+            diff_versions(con, v_from, v_to, computed_at=at)
+            tot["version_diffs"] += 1
     con.execute("INSERT INTO articles_fts(articles_fts) VALUES('rebuild')")
     con.commit()
     con.execute("ANALYZE")

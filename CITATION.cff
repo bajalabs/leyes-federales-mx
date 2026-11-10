@@ -4,10 +4,12 @@ type: dataset
 title: "leyes-federales-mx: the Mexican federal laws as structured data"
 abstract: >-
   The 319 Mexican federal laws published by the Cámara de Diputados (capture of
-  26 August 2026), converted from the official Word files into Markdown, a
-  SQLite database with full-text search, and CSV: 59,540 articles with their
-  hierarchy, parts, reform annotations with DOF dates, and a citation graph.
-  Every law is pinned by sha256 to the official file it was converted from.
+  26 August 2026, with the two laws republished since captured again on 10
+  November 2026), converted from the official Word files into Markdown, a
+  SQLite database with full-text search, and CSV: 59,549 articles with their
+  hierarchy, parts, reform annotations with DOF dates, a citation graph, and
+  article-level changes between captures. Every law is pinned by sha256 to the
+  official file it was converted from.
 authors:
   - name: "Baja Labs"
 version: "1.0.0"

@@ -10,7 +10,7 @@ import unittest
 from pathlib import Path
 
 from tests import REPO  # noqa: F401
-from fetch import candidates, fetch_file
+from fetch import candidates, fetch_file, fetch_law
 
 OLE = b"\xd0\xcf\x11\xe0\xa1\xb1\x1a\xe1"
 
@@ -68,6 +68,24 @@ class PinnedDownloads(unittest.TestCase):
         self.assertEqual(entry["sha256"], hashlib.sha256(new).hexdigest())
         self.assertEqual(entry["path"], "leyes/999-x/source/X.doc")
         self.assertEqual(self.dest.read_bytes(), new)
+
+    def test_recapture_keeps_the_previous_capture(self):
+        law = self.data / "leyes" / "999-x"
+        law.mkdir(parents=True)
+        (law / "X.blocks.jsonl").write_text('{"i": 1}\n', encoding="utf-8")
+        (law / "convert.json").write_text('{"source_kind": "doc"}\n', encoding="utf-8")
+        old_sha = self.rec["files"]["doc"]["sha256"]
+        self.rec["fetched_at"] = "2026-08-26T06:29:04Z"
+        (Path(self.www.name) / "X.doc").write_bytes(OLE + b"texto reformado")
+        rec, states = fetch_law(self.rec, self.data, ["doc"], recapture=True, force=False)
+        self.assertEqual(states, {"doc": "changed"})
+        prev = rec["previous_captures"][-1]
+        self.assertEqual(prev["files"]["doc"]["sha256"], old_sha)
+        self.assertEqual(prev["history"], "history/2026-08-26")
+        self.assertTrue((law / "history" / "2026-08-26" / "X.blocks.jsonl").exists())
+        self.assertFalse((law / "X.blocks.jsonl").exists())   # until the new edition is converted
+        self.assertNotEqual(rec["files"]["doc"]["sha256"], old_sha)
+        self.assertTrue((law / "meta.json").exists())
 
     def test_not_a_word_file_fails(self):
         (Path(self.www.name) / "X.doc").write_bytes(b"<html>not found</html>")

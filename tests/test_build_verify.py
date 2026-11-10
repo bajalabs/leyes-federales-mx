@@ -86,11 +86,32 @@ class SampleDatabase(unittest.TestCase):
         n = self.one("SELECT count(*) FROM v_reformas WHERE law_slug='001-cpeum' AND action LIKE 'reformad%'")
         self.assertGreater(n, 100)
 
+    def test_two_captures_of_the_constitution_are_diffed(self):
+        versions = self.one("""SELECT count(*) FROM law_versions v JOIN laws l ON l.id = v.law_id
+                               WHERE l.slug = '001-cpeum'""")
+        self.assertEqual(versions, 2)
+        changes = dict(self.con.execute("""
+            SELECT c.change_type, count(*) FROM article_changes c
+            JOIN version_diffs d ON d.id = c.version_diff_id JOIN laws l ON l.id = d.law_id
+            WHERE l.slug = '001-cpeum' GROUP BY 1""").fetchall())
+        self.assertGreater(changes.get("added", 0), 0)
+        self.assertNotIn("removed", changes)
+        art82 = self.one("""SELECT c.change_type FROM article_changes c
+                            JOIN version_diffs d ON d.id = c.version_diff_id JOIN laws l ON l.id = d.law_id
+                            WHERE l.slug = '001-cpeum' AND c.article_key = '82'""")
+        self.assertEqual(art82, "modified")
+
+    def test_current_version_is_the_latest_capture(self):
+        latest = self.one("""SELECT max(v.captured_at) FROM law_versions v JOIN laws l ON l.id = v.law_id
+                             WHERE l.slug = '001-cpeum'""")
+        self.assertEqual(self.one("SELECT captured_at FROM v_laws WHERE slug = '001-cpeum'"), latest)
+
     def test_csv_export(self):
         out = Path(self.tmp.name) / "csv"
         rows = export(self.db, out)
         self.assertEqual(rows["laws"], len(sample_slugs()))
-        self.assertEqual(rows["articles"], self.one("SELECT count(*) FROM articles"))
+        current = self.one("SELECT count(*) FROM articles WHERE law_version_id IN (SELECT law_version_id FROM v_laws)")
+        self.assertEqual(rows["articles"], current)   # the export holds the current version of each law
         header = (out / "leyes-federales-mx-laws.csv").read_text(encoding="utf-8").splitlines()[0]
         self.assertTrue(header.startswith("slug,numero,nombre"))
 

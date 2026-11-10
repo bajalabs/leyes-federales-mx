@@ -4,11 +4,11 @@
     "corpus": "leyes-federales",
     "source": "https://www.diputados.gob.mx/LeyesBiblio/index.htm",
     "index_scraped_at": "2026-03-08T02:07:44.560Z",
-    "generated_at": "2026-08-26T06:37:20Z",
+    "generated_at": "2026-11-10T08:51:43Z",
     "laws": 319,
     "files_ok": 638,
     "files_failed": 0,
-    "total_bytes": 417185244
+    "total_bytes": 417225969
   },
   "laws": [
     {
@@ -30,8 +30,8 @@
           "http_code": 200,
           "fallback_rank": 0,
           "content_type": "application/pdf",
-          "bytes": 3141703,
-          "sha256": "ca63a23a4b7444ebdbdad93759fbf46bd14c069e587c5878decf89fc9c12ca8e",
+          "bytes": 3146661,
+          "sha256": "cefb525ae8dfc97a7da40597d2ee918fe254d4bfce88301ff3c9959ced9e6e65",
           "path": "leyes/001-cpeum/source/CPEUM.pdf"
         },
         "doc": {
@@ -42,12 +42,45 @@
           "http_code": 200,
           "fallback_rank": 0,
           "content_type": "application/msword",
-          "bytes": 1865216,
-          "sha256": "b976c0d9705f274511325ea18c1719ec60b9112da3a240fd2f694f88485a219f",
+          "bytes": 1873408,
+          "sha256": "59575113f930213aa9060a868232e0aabfb024e105529d2998ce377c1bc317aa",
           "path": "leyes/001-cpeum/source/CPEUM.doc"
         }
       },
-      "fetched_at": "2026-08-26T06:29:04Z"
+      "fetched_at": "2026-11-10T08:51:35Z",
+      "previous_captures": [
+        {
+          "fetched_at": "2026-08-26T06:29:04Z",
+          "ultima_reforma": "DOF 03/03/2026",
+          "files": {
+            "pdf": {
+              "kind": "pdf",
+              "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf",
+              "status": "ok",
+              "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf",
+              "http_code": 200,
+              "fallback_rank": 0,
+              "content_type": "application/pdf",
+              "bytes": 3141703,
+              "sha256": "ca63a23a4b7444ebdbdad93759fbf46bd14c069e587c5878decf89fc9c12ca8e",
+              "path": "leyes/001-cpeum/source/CPEUM.pdf"
+            },
+            "doc": {
+              "kind": "doc",
+              "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/CPEUM.doc",
+              "status": "ok",
+              "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/CPEUM.doc",
+              "http_code": 200,
+              "fallback_rank": 0,
+              "content_type": "application/msword",
+              "bytes": 1865216,
+              "sha256": "b976c0d9705f274511325ea18c1719ec60b9112da3a240fd2f694f88485a219f",
+              "path": "leyes/001-cpeum/source/CPEUM.doc"
+            }
+          },
+          "history": "history/2026-08-26"
+        }
+      ]
     },
     {
       "slug": "002-ccf",
@@ -2994,8 +3027,8 @@
           "http_code": 200,
           "fallback_rank": 0,
           "content_type": "application/pdf",
-          "bytes": 19154404,
-          "sha256": "a7688a47c8283f327b943e06ed948782feba2f5a0e16fe796d50d8340ce40ece",
+          "bytes": 19158939,
+          "sha256": "955510d7ea82cf42d18c72e3146f999af254c0fda5eda3f12a1fd1c10e9864ce",
           "path": "leyes/078-ligie_2022/source/LIGIE_2022.pdf"
         },
         "doc": {
@@ -3006,12 +3039,45 @@
           "http_code": 200,
           "fallback_rank": 0,
           "content_type": "application/msword",
-          "bytes": 26266112,
-          "sha256": "91fe9434863e7c87dcb1c98be4d0de5b8de589fd69708b3f488b0eff1843dc10",
+          "bytes": 26289152,
+          "sha256": "d61045132412e188f65323099de479170464382a13fc06add849b20cdf253112",
           "path": "leyes/078-ligie_2022/source/LIGIE_2022.doc"
         }
       },
-      "fetched_at": "2026-08-26T06:27:13Z"
+      "fetched_at": "2026-11-10T08:51:43Z",
+      "previous_captures": [
+        {
+          "fetched_at": "2026-08-26T06:27:13Z",
+          "ultima_reforma": "DOF 31/12/2025",
+          "files": {
+            "pdf": {
+              "kind": "pdf",
+              "index_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIGIE_2022.pdf",
+              "status": "ok",
+              "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LIGIE_2022.pdf",
+              "http_code": 200,
+              "fallback_rank": 0,
+              "content_type": "application/pdf",
+              "bytes": 19154404,
+              "sha256": "a7688a47c8283f327b943e06ed948782feba2f5a0e16fe796d50d8340ce40ece",
+              "path": "leyes/078-ligie_2022/source/LIGIE_2022.pdf"
+            },
+            "doc": {
+              "kind": "doc",
+              "index_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LIGIE_2022.doc",
+              "status": "ok",
+              "resolved_url": "https://www.diputados.gob.mx/LeyesBiblio/doc/LIGIE_2022.doc",
+              "http_code": 200,
+              "fallback_rank": 0,
+              "content_type": "application/msword",
+              "bytes": 26266112,
+              "sha256": "91fe9434863e7c87dcb1c98be4d0de5b8de589fd69708b3f488b0eff1843dc10",
+              "path": "leyes/078-ligie_2022/source/LIGIE_2022.doc"
+            }
+          },
+          "history": "history/2026-08-26"
+        }
+      ]
     },
     {
       "slug": "079-lins",

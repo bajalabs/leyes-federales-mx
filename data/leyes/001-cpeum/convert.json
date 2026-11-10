@@ -1,22 +1,22 @@
 {
   "title": "Constitución Política de los Estados Unidos Mexicanos",
-  "blocks": 5088,
+  "blocks": 5109,
   "kinds": {
     "note": 3,
     "heading": 48,
-    "body": 2956,
-    "annotation": 975,
+    "body": 2965,
+    "annotation": 979,
     "article": 136,
-    "transitorio_heading": 160,
-    "article_ordinal": 230,
-    "ordinal_lead": 562,
+    "transitorio_heading": 161,
+    "article_ordinal": 231,
+    "ordinal_lead": 568,
     "table": 18
   },
-  "md_chars": 1117231,
+  "md_chars": 1122590,
   "slug": "001-cpeum",
   "ok": true,
   "source_kind": "doc",
   "mojibake_per_1k": 0.012,
   "fallback_reason": null,
-  "secs": 0.48
+  "secs": 0.59
 }

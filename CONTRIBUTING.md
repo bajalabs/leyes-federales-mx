@@ -50,29 +50,23 @@ python3 scripts/build_db.py && python3 scripts/verify_db.py
 ## Refresh the corpus
 
 The Cámara de Diputados overwrites a law's file at every reform. To bring
-the corpus up to date (macOS):
+the corpus up to date (macOS), with the release's blocks unpacked first so
+the previous capture can be kept:
 
 ```bash
-python3 scripts/fetch.py                       # which pinned files still match upstream
-python3 scripts/fetch.py --recapture           # adopt the changed files: re-pins meta.json + manifest.json
-python3 scripts/convert_all.py --only cpeum    # convert the laws that changed
+python3 scripts/fetch.py                       # which pinned files still match; exits 1 if any changed
+python3 scripts/fetch.py --recapture           # adopt the changed files and re-pin them
+python3 scripts/convert_all.py --only cpeum    # convert every law that was recaptured
 python3 scripts/build_db.py && python3 scripts/verify_db.py
 ```
 
-`fetch.py` exits non-zero while any file differs from its pin. After a
-recapture, `git diff data/` shows exactly which laws changed and how.
-
-To keep two captures of a law side by side and compare them, build the old
-capture first and append the new one:
-
-```bash
-python3 scripts/build_db.py --data /path/to/old/data --db build/history.sqlite
-python3 scripts/build_db.py --data data --db build/history.sqlite --append
-python3 scripts/diff_versions.py --db build/history.sqlite --law 001-cpeum
-```
-
-(An old `data/` folder is the repository at that release's tag plus that
-release's blocks archive.)
+A recapture never loses the previous capture: its pins move to
+`previous_captures` in the law's `meta.json`, and its blocks and
+`convert.json` move to `data/leyes/<slug>/history/<date>/`. `build_db.py`
+builds every capture as a `law_version` and diffs consecutive ones into
+`version_diffs` and `article_changes`. Until a recaptured law is converted,
+`verify_db.py` fails on purpose. After the conversion, `git diff data/`
+shows exactly which laws changed and how.
 
 ## Cut a release
 
